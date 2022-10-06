@@ -3,7 +3,6 @@ import java.util.Comparator;
 import java.util.List;
 
 import java.util.Optional;
-
 import java.util.stream.Stream;
 
 
@@ -154,6 +153,17 @@ public class Simple extends TaskSelection{
 	void taskSeven() {
 		// TODO Auto-generated method stub
 		super.taskSeven();
+		
+		Point [] point = new Point[3];
+		for (int i = 0; i < point.length; i++) {			
+			point[i] = new Point((Math.random() * 10)-10, (Math.random() * 10)-10);				
+		}
+		
+		Triangle triangle = new Triangle(point[0], point[1], point[2]);
+		System.out.println(triangle.toString());
+		
+		Calculation.setTriangle(triangle);
+		Arrays.stream(Calculation.values()).forEach(t -> System.out.print(t.calculation()+" "));		
 	}
 
 	@Override
