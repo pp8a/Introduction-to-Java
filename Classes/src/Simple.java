@@ -156,7 +156,11 @@ public class Simple extends TaskSelection{
 		
 		Point [] point = new Point[3];
 		for (int i = 0; i < point.length; i++) {			
-			point[i] = new Point((Math.random() * 10)-10, (Math.random() * 10)-10);				
+			point[i] = new Point((Math.random() * 10)-10, (Math.random() * 10));				
+		}
+		
+		for (Point coordinate : point) {
+			System.out.println(coordinate.toString());
 		}
 		
 		Triangle triangle = new Triangle(point[0], point[1], point[2]);
