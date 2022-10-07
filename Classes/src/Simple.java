@@ -1,7 +1,6 @@
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
-
 import java.util.Optional;
 import java.util.stream.Stream;
 
@@ -174,6 +173,26 @@ public class Simple extends TaskSelection{
 	void taskEight() {
 		// TODO Auto-generated method stub
 		super.taskEight();
+		
+		System.out.println("Database customers ->");
+		Customer[] customer = CustomerData.createCustomer();		
+		Stream.of(customer).forEach(System.out::println);
+		
+		System.out.println("Sorted by surname ->");
+		Arrays.sort(customer);
+		Stream.of(customer).forEach(System.out::println);
+		
+		System.out.print("Credit card number input range from ");
+		String rangeFrom = Customer.input();
+		System.out.print("to ");
+		String rangeTo = Customer.input();
+	    
+		Stream.of(customer).forEach(t -> {			
+			if(Customer.rangeCard(rangeFrom, rangeTo, t.getCreditCard())) {
+				System.out.println(t.toString());
+			}
+		});
+		
 	}
 
 	@Override
