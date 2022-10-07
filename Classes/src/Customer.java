@@ -20,8 +20,7 @@ public class Customer implements Comparable<Customer>{
 		this.name = name;
 		this.surname = surname;
 		this.patronymic = patronymic;
-		this.address = address;
-		setCreditCard(creditCard);
+		this.address = address;		
 		this.creditCard = creditCard;
 		this.bankAccount = bankAccount;
 	}
