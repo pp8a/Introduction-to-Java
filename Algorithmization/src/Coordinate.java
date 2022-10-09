@@ -1,4 +1,3 @@
-
 public class Coordinate {
 	private double x;
 	private double y;
@@ -34,7 +33,7 @@ public class Coordinate {
 		
 	public static double scale(double point) {
 		/*
-		 * количество знаков после запятой
+		 * РєРѕР»РёС‡РµСЃС‚РІРѕ Р·РЅР°РєРѕРІ РїРѕСЃР»Рµ Р·Р°РїСЏС‚РѕР№
 		 */
 		double scale = Math.pow(10, 2);
 		double result = Math.ceil(point * scale) / scale;
