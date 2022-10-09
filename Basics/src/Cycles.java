@@ -37,8 +37,8 @@ public class Cycles extends TaskSelection{
 	@Override	
 	public void taskOne() {
 		/*
-		 * Íàïèøèòå ïðîãðàììó, ãäå ïîëüçîâàòåëü ââîäèò ëþáîå öåëîå ïîëîæèòåëüíîå ÷èñëî. 
-		 * À ïðîãðàììà ñóììèðóåò âñå ÷èñëà îò 1 äî ââåäåííîãî ïîëüçîâàòåëåì ÷èñëà.
+		 * ÐÐ°Ð¿Ð¸ÑˆÐ¸Ñ‚Ðµ Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼Ñƒ, Ð³Ð´Ðµ Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»ÑŒ Ð²Ð²Ð¾Ð´Ð¸Ñ‚ Ð»ÑŽÐ±Ð¾Ðµ Ñ†ÐµÐ»Ð¾Ðµ Ð¿Ð¾Ð»Ð¾Ð¶Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾. 
+		 * Ð Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼Ð° ÑÑƒÐ¼Ð¼Ð¸Ñ€ÑƒÐµÑ‚ Ð²ÑÐµ Ñ‡Ð¸ÑÐ»Ð° Ð¾Ñ‚ 1 Ð´Ð¾ Ð²Ð²ÐµÐ´ÐµÐ½Ð½Ð¾Ð³Ð¾ Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»ÐµÐ¼ Ñ‡Ð¸ÑÐ»Ð°.
 		 */
 		System.out.println("Input a positive integer: ");
 		int x = input();
@@ -53,7 +53,7 @@ public class Cycles extends TaskSelection{
 	@Override	
 	public void taskTwo() {
 		/*
-		 * Âû÷èñëèòü çíà÷åíèÿ ôóíêöèè íà îòðåçêå [à,b] c øàãîì h:
+		 * Ð’Ñ‹Ñ‡Ð¸ÑÐ»Ð¸Ñ‚ÑŒ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ñ Ñ„ÑƒÐ½ÐºÑ†Ð¸Ð¸ Ð½Ð° Ð¾Ñ‚Ñ€ÐµÐ·ÐºÐµ [Ð°,b] c ÑˆÐ°Ð³Ð¾Ð¼ h:
 		 * y= x, x>2 = -x, x<=2
 		 */
 		System.out.print("Input the beginning of the segment: ");
@@ -92,7 +92,7 @@ public class Cycles extends TaskSelection{
 	@Override	
 	public void taskThree() {
 		/*
-		 * Íàéòè ñóììó êâàäðàòîâ ïåðâûõ ñòà ÷èñåë
+		 * ÐÐ°Ð¹Ñ‚Ð¸ ÑÑƒÐ¼Ð¼Ñƒ ÐºÐ²Ð°Ð´Ñ€Ð°Ñ‚Ð¾Ð² Ð¿ÐµÑ€Ð²Ñ‹Ñ… ÑÑ‚Ð° Ñ‡Ð¸ÑÐµÐ»
 		 */
 		int sum = 0;
 		for(int i = 1; i<=100; i++) {
@@ -104,7 +104,7 @@ public class Cycles extends TaskSelection{
 	@Override	
 	public void taskFour() {
 		/*
-		 * Ñîñòàâèòü ïðîãðàììó íàõîæäåíèÿ ïðîèçâåäåíèÿ êâàäðàòîâ ïåðâûõ äâóõñîò ÷èñåë.
+		 * Ð¡Ð¾ÑÑ‚Ð°Ð²Ð¸Ñ‚ÑŒ Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼Ñƒ Ð½Ð°Ñ…Ð¾Ð¶Ð´ÐµÐ½Ð¸Ñ Ð¿Ñ€Ð¾Ð¸Ð·Ð²ÐµÐ´ÐµÐ½Ð¸Ñ ÐºÐ²Ð°Ð´Ñ€Ð°Ñ‚Ð¾Ð² Ð¿ÐµÑ€Ð²Ñ‹Ñ… Ð´Ð²ÑƒÑ…ÑÐ¾Ñ‚ Ñ‡Ð¸ÑÐµÐ».
 		 */
 		long sum = 1;
 		for(int i = 1; i<=200; i++) {
@@ -116,8 +116,8 @@ public class Cycles extends TaskSelection{
 	@Override	
 	public void taskFive() {
 		/*
-		 * Äàíû ÷èñëîâîé ðÿä è íåêîòîðîå ÷èñëî å. 
-		 * Íàéòè ñóììó òåõ ÷ëåíîâ ðÿäà, ìîäóëü êîòîðûõ áîëüøå èëè ðàâåí çàäàííîìó å. Îáùèé ÷ëåí ðÿäà èìååò âèä:
+		 * Ð”Ð°Ð½Ñ‹ Ñ‡Ð¸ÑÐ»Ð¾Ð²Ð¾Ð¹ Ñ€ÑÐ´ Ð¸ Ð½ÐµÐºÐ¾Ñ‚Ð¾Ñ€Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾ Ðµ. 
+		 * ÐÐ°Ð¹Ñ‚Ð¸ ÑÑƒÐ¼Ð¼Ñƒ Ñ‚ÐµÑ… Ñ‡Ð»ÐµÐ½Ð¾Ð² Ñ€ÑÐ´Ð°, Ð¼Ð¾Ð´ÑƒÐ»ÑŒ ÐºÐ¾Ñ‚Ð¾Ñ€Ñ‹Ñ… Ð±Ð¾Ð»ÑŒÑˆÐµ Ð¸Ð»Ð¸ Ñ€Ð°Ð²ÐµÐ½ Ð·Ð°Ð´Ð°Ð½Ð½Ð¾Ð¼Ñƒ Ðµ. ÐžÐ±Ñ‰Ð¸Ð¹ Ñ‡Ð»ÐµÐ½ Ñ€ÑÐ´Ð° Ð¸Ð¼ÐµÐµÑ‚ Ð²Ð¸Ð´:
 		 * an = 1/2^n+1/3^n
 		 */
 		System.out.print("Input the number: ");//0 or 0.2 or 0.3 :)
@@ -137,7 +137,7 @@ public class Cycles extends TaskSelection{
 	@Override	
 	public void taskSix() {
 		/*
-		 * Âûâåñòè íà ýêðàí ñîîòâåòñòâèé ìåæäó ñèìâîëàìè è èõ ÷èñëåííûìè îáîçíà÷åíèÿìè â ïàìÿòè êîìïüþòåðà.
+		 * Ð’Ñ‹Ð²ÐµÑÑ‚Ð¸ Ð½Ð° ÑÐºÑ€Ð°Ð½ ÑÐ¾Ð¾Ñ‚Ð²ÐµÑ‚ÑÑ‚Ð²Ð¸Ð¹ Ð¼ÐµÐ¶Ð´Ñƒ ÑÐ¸Ð¼Ð²Ð¾Ð»Ð°Ð¼Ð¸ Ð¸ Ð¸Ñ… Ñ‡Ð¸ÑÐ»ÐµÐ½Ð½Ñ‹Ð¼Ð¸ Ð¾Ð±Ð¾Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸ÑÐ¼Ð¸ Ð² Ð¿Ð°Ð¼ÑÑ‚Ð¸ ÐºÐ¾Ð¼Ð¿ÑŒÑŽÑ‚ÐµÑ€Ð°.
 		 */
 		for (int i = 33; i <=183; i++) {
             System.out.println("Number " + i + " corresponds to the symbol " + (char) i);
@@ -147,8 +147,8 @@ public class Cycles extends TaskSelection{
 	@Override	
 	public void taskSeven() {
 		/*
-		 * Äëÿ êàæäîãî íàòóðàëüíîãî ÷èñëà â ïðîìåæóòêå îò m äî n âûâåñòè âñå äåëèòåëè, êðîìå åäèíèöû è ñàìîãî ÷èñëà.
-		 * m è n ââîäÿòñÿ ñ êëàâèàòóðû.
+		 * Ð”Ð»Ñ ÐºÐ°Ð¶Ð´Ð¾Ð³Ð¾ Ð½Ð°Ñ‚ÑƒÑ€Ð°Ð»ÑŒÐ½Ð¾Ð³Ð¾ Ñ‡Ð¸ÑÐ»Ð° Ð² Ð¿Ñ€Ð¾Ð¼ÐµÐ¶ÑƒÑ‚ÐºÐµ Ð¾Ñ‚ m Ð´Ð¾ n Ð²Ñ‹Ð²ÐµÑÑ‚Ð¸ Ð²ÑÐµ Ð´ÐµÐ»Ð¸Ñ‚ÐµÐ»Ð¸, ÐºÑ€Ð¾Ð¼Ðµ ÐµÐ´Ð¸Ð½Ð¸Ñ†Ñ‹ Ð¸ ÑÐ°Ð¼Ð¾Ð³Ð¾ Ñ‡Ð¸ÑÐ»Ð°.
+		 * m Ð¸ n Ð²Ð²Ð¾Ð´ÑÑ‚ÑÑ Ñ ÐºÐ»Ð°Ð²Ð¸Ð°Ñ‚ÑƒÑ€Ñ‹.
 		 */
 		
 		System.out.println("Input a range of numbers from n to m.");
@@ -164,7 +164,7 @@ public class Cycles extends TaskSelection{
 		}while(m<=n);
 		
 		for(int i=n; i<=m; i++) {
-			int count = 1;//åñëè äåëèòåëåé áîëüøå 1-ãî...
+			int count = 1;//ÐµÑÐ»Ð¸ Ð´ÐµÐ»Ð¸Ñ‚ÐµÐ»ÐµÐ¹ Ð±Ð¾Ð»ÑŒÑˆÐµ 1-Ð³Ð¾...
 			for(int j=2; j<m; j++) {				
 				if(i%j==0 && j!=i) {
 					if(count==1) {
@@ -180,7 +180,7 @@ public class Cycles extends TaskSelection{
 	@Override	
 	public void taskEight() {
 		/*
-		 * Äàíû äâà ÷èñëà. Îïðåäåëèòü öèôðû, âõîäÿùèå â çàïèñü êàê ïåðâîãî òàê è âòîðîãî ÷èñëà.
+		 * Ð”Ð°Ð½Ñ‹ Ð´Ð²Ð° Ñ‡Ð¸ÑÐ»Ð°. ÐžÐ¿Ñ€ÐµÐ´ÐµÐ»Ð¸Ñ‚ÑŒ Ñ†Ð¸Ñ„Ñ€Ñ‹, Ð²Ñ…Ð¾Ð´ÑÑ‰Ð¸Ðµ Ð² Ð·Ð°Ð¿Ð¸ÑÑŒ ÐºÐ°Ðº Ð¿ÐµÑ€Ð²Ð¾Ð³Ð¾ Ñ‚Ð°Ðº Ð¸ Ð²Ñ‚Ð¾Ñ€Ð¾Ð³Ð¾ Ñ‡Ð¸ÑÐ»Ð°.
 		 */
 		int x = (int)(Math.random() * 100000)-30000;	
 		int y = (int)(Math.random() * 100000)-30000;
@@ -203,7 +203,7 @@ public class Cycles extends TaskSelection{
 		}
 	}
 	
-	public static int count (int n) {//êîëè÷åñòâî öèôð â ÷èñëå
+	public static int count (int n) {//ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ñ†Ð¸Ñ„Ñ€ Ð² Ñ‡Ð¸ÑÐ»Ðµ
 		
 		int count = 0;
 		while(n!=0) {			
@@ -214,7 +214,7 @@ public class Cycles extends TaskSelection{
 		return count;
 	}
 	
-	public static boolean equal(int x, int y) {//ñóììà öèôð ÷èñëà		
+	public static boolean equal(int x, int y) {//ÑÑƒÐ¼Ð¼Ð° Ñ†Ð¸Ñ„Ñ€ Ñ‡Ð¸ÑÐ»Ð°		
 		boolean num = false;
 		
 		if(Math.abs(x)==Math.abs(y)) {

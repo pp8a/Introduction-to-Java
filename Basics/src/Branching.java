@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Branching extends TaskSelection{
@@ -24,11 +23,11 @@ public class Branching extends TaskSelection{
 	@Override	
 	public void taskOne() {
 		/*
-		 * Даны два угла треугольника (в градусах). 
-		 * Определить, существует ли такой треугольник, и если да, то будет ли он прямоугольным.
+		 * Р”Р°РЅС‹ РґРІР° СѓРіР»Р° С‚СЂРµСѓРіРѕР»СЊРЅРёРєР° (РІ РіСЂР°РґСѓСЃР°С…). 
+		 * РћРїСЂРµРґРµР»РёС‚СЊ, СЃСѓС‰РµСЃС‚РІСѓРµС‚ Р»Рё С‚Р°РєРѕР№ С‚СЂРµСѓРіРѕР»СЊРЅРёРє, Рё РµСЃР»Рё РґР°, С‚Рѕ Р±СѓРґРµС‚ Р»Рё РѕРЅ РїСЂСЏРјРѕСѓРіРѕР»СЊРЅС‹Рј.
 		 */
 		
-		int a, b, c;
+		int a, b;
 		System.out.println("Input the values of the two angles of the triangle in degrees: ");
 		System.out.println("angles 1: ");
 		a = input();
@@ -49,7 +48,7 @@ public class Branching extends TaskSelection{
 	@Override	
 	public void taskTwo() {
 		/*
-		 * Найти max{min(a, b), min(c, d)}.
+		 * РќР°Р№С‚Рё max{min(a, b), min(c, d)}.
 		 */
 		
 		enum Coordinate {
@@ -93,7 +92,7 @@ public class Branching extends TaskSelection{
 	@Override	
 	public void taskThree() {
 		/*
-		 * Даны три точки А(х1,у1), В(х2,у2) и С(х3,у3). Определить, будут ли они расположены на одной прямой.
+		 * Р”Р°РЅС‹ С‚СЂРё С‚РѕС‡РєРё Рђ(С…1,Сѓ1), Р’(С…2,Сѓ2) Рё РЎ(С…3,Сѓ3). РћРїСЂРµРґРµР»РёС‚СЊ, Р±СѓРґСѓС‚ Р»Рё РѕРЅРё СЂР°СЃРїРѕР»РѕР¶РµРЅС‹ РЅР° РѕРґРЅРѕР№ РїСЂСЏРјРѕР№.
 		 */		
 		enum Point {
 			A, B, C;
@@ -117,7 +116,7 @@ public class Branching extends TaskSelection{
 			System.out.print((points.y= (int)(Math.random() * 10)-10)+") ");
 		}
 		
-		//Данные точки расположены на одной прямой
+		//Р”Р°РЅРЅС‹Рµ С‚РѕС‡РєРё СЂР°СЃРїРѕР»РѕР¶РµРЅС‹ РЅР° РѕРґРЅРѕР№ РїСЂСЏРјРѕР№
 		//Point.A.x= -2; Point.A.y= 1; Point.B.x= 0; Point.B.y= 3; Point.C.x= -7; Point.C.y= -4;
 		//https://belmathematics.by/stati/3533-kogda-3-tochki-lezhat-na-odnoj-pryamoj
 		
@@ -132,8 +131,8 @@ public class Branching extends TaskSelection{
 	@Override	
 	public void taskFour() {
 		/*
-		 * Заданы размеры А, В прямоугольного отверстия и размеры х, у, z кирпича. 
-		 * Определить, пройдет ли кирпич через отверстие.
+		 * Р—Р°РґР°РЅС‹ СЂР°Р·РјРµСЂС‹ Рђ, Р’ РїСЂСЏРјРѕСѓРіРѕР»СЊРЅРѕРіРѕ РѕС‚РІРµСЂСЃС‚РёСЏ Рё СЂР°Р·РјРµСЂС‹ С…, Сѓ, z РєРёСЂРїРёС‡Р°. 
+		 * РћРїСЂРµРґРµР»РёС‚СЊ, РїСЂРѕР№РґРµС‚ Р»Рё РєРёСЂРїРёС‡ С‡РµСЂРµР· РѕС‚РІРµСЂСЃС‚РёРµ.
 		 */
 		System.out.println("Input the the hole dimensions: ");
 		System.out.print("height: ");
@@ -163,7 +162,7 @@ public class Branching extends TaskSelection{
 	@Override	
 	public void taskFive() {
 		/*
-		 * Вычислить значение функции: F(x) = pow(x, 2)-3x+9, если x<=3; = 1/((pow(x,3)+6), x>3
+		 * Р’С‹С‡РёСЃР»РёС‚СЊ Р·РЅР°С‡РµРЅРёРµ С„СѓРЅРєС†РёРё: F(x) = pow(x, 2)-3x+9, РµСЃР»Рё x<=3; = 1/((pow(x,3)+6), x>3
 		 */
 		int x = (int)(Math.random()*20)-10;
 		
@@ -179,7 +178,7 @@ public class Branching extends TaskSelection{
 	
 	public static double scale(double f) {
 		/*
-		 * количество знаков после запятой
+		 * РєРѕР»РёС‡РµСЃС‚РІРѕ Р·РЅР°РєРѕРІ РїРѕСЃР»Рµ Р·Р°РїСЏС‚РѕР№
 		 */
 		double scale = Math.pow(10, 3);
 		double result = Math.ceil(f * scale) / scale;
