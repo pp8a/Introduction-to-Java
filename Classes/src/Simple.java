@@ -199,6 +199,25 @@ public class Simple extends TaskSelection{
 	void taskNine() {
 		// TODO Auto-generated method stub
 		super.taskNine();
+		
+		System.out.println("Database books ->");			
+		BookData bookData =  BookData.initData();				
+		Stream.of(bookData.getBooks()).forEach(System.out::println);
+		
+		String author = "Василий Верещагин";
+		System.out.println("\nList of books by the author -> "+author);
+		//String author = BookData.input(); 		
+		Stream.of(bookData.getBooks()).filter(t -> t.getAuthor().equals(author)).forEach(System.out::println);
+		
+		String publishing = "Алгоритм";
+		System.out.println("\nList of books by the publishing -> "+publishing);
+		//String publishing = BookData.input();		
+		Stream.of(bookData.getBooks()).filter(t -> t.getPublishing().equals(publishing)).forEach(System.out::println);
+		
+		int year = 2018;
+		System.out.println("\nList of books published by the publisher after the year -> "+year);
+		//int year = BookData.inputNumber();		
+		Stream.of(bookData.getBooks()).filter(t -> t.getYear()>year).forEach(System.out::println);
 	}
 
 	@Override
