@@ -1,3 +1,5 @@
+import java.time.DayOfWeek;
+import java.time.LocalTime;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
@@ -176,7 +178,8 @@ public class Simple extends TaskSelection{
 		
 		System.out.println("Database customers ->");
 		Customer[] customer = CustomerData.createCustomer();		
-		Stream.of(customer).forEach(System.out::println);
+		//Stream.of(customer).forEach(System.out::println);
+		Arrays.stream(customer).forEach(System.out::println);
 		
 		System.out.println("Sorted by surname ->");
 		Arrays.sort(customer);
@@ -207,23 +210,52 @@ public class Simple extends TaskSelection{
 		String author = "Василий Верещагин";
 		System.out.println("\nList of books by the author -> "+author);
 		//String author = BookData.input(); 		
-		Stream.of(bookData.getBooks()).filter(t -> t.getAuthor().equals(author)).forEach(System.out::println);
+		Stream.of(bookData.getBooks())
+			.filter(t -> t.getAuthor().equals(author))
+			.forEach(System.out::println);
 		
 		String publishing = "Алгоритм";
 		System.out.println("\nList of books by the publishing -> "+publishing);
 		//String publishing = BookData.input();		
-		Stream.of(bookData.getBooks()).filter(t -> t.getPublishing().equals(publishing)).forEach(System.out::println);
+		Stream.of(bookData.getBooks())
+			.filter(t -> t.getPublishing().equals(publishing))
+			.forEach(System.out::println);
 		
 		int year = 2018;
 		System.out.println("\nList of books published by the publisher after the year -> "+year);
 		//int year = BookData.inputNumber();		
-		Stream.of(bookData.getBooks()).filter(t -> t.getYear()>year).forEach(System.out::println);
+		Stream.of(bookData.getBooks())
+			.filter(t -> t.getYear()>year)
+			.forEach(System.out::println);
 	}
 
 	@Override
 	void taskTen() {
 		// TODO Auto-generated method stub
 		super.taskTen();
+		
+		System.out.println("Database airline ->");
+		AirlineData airlineData = new AirlineData();
+		airlineData.initData();
+		Stream.of(airlineData.getAirlines()).forEach(System.out::println);
+		
+		String destination = "Newcastle";
+		System.out.println("\nList of flights for the destination -> "+destination);
+		Stream.of(airlineData.getAirlines())
+			.filter(t -> t.getDestination().equals(destination))
+			.forEach(System.out::println);		
+		
+		System.out.println("\nList of flights for a given day of the week - > "+DayOfWeek.WEDNESDAY);		
+		Stream.of(airlineData.getAirlines())
+			.filter(t -> t.getDayOfWeek().equals(DayOfWeek.WEDNESDAY))
+			.forEach(System.out::println);
+		
+		LocalTime localTime = LocalTime.of(9, 35);
+		System.out.println("\nList of flights for a given day of the week - > "+DayOfWeek.MONDAY+" and the departure time is longer -> "+localTime);		
+		Stream.of(airlineData.getAirlines())
+			.filter(t -> t.getDayOfWeek().equals(DayOfWeek.MONDAY))
+			.filter(t -> localTime.isBefore(t.getLocalTime()))
+			.forEach(System.out::println);
 	}
 	
 	

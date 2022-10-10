@@ -51,7 +51,6 @@ public class BookData {
 		int number;
 		@SuppressWarnings("resource")
 		Scanner in = new Scanner(System.in);	
-		
 					
 		while (!in.hasNextInt()) {
 			System.err.println("It's not an integer number! ... Input:");
