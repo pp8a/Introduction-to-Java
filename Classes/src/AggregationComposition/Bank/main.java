@@ -28,6 +28,9 @@ public class main {
 		Arrays.sort(bank.getAccounts());
 		Stream.of(bank.getAccounts()).forEach(System.out::println);
 		
+		System.out.println("Sorted by money ->");
+		bank.sortOfMoney();
+		
 		//sum of money
 		bank.sumMoney();
 		bank.sumPositiveMoney();

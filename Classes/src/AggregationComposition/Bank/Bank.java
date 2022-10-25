@@ -1,6 +1,7 @@
 package Bank;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -103,7 +104,13 @@ public class Bank {
 				.filter(t -> t.getMoney()<0)
 				.map(t -> t.getMoney())				
 				.collect(Collectors.summingDouble(Double::doubleValue));		
-		System.out.println("Sum of money on all accounts, having a negative balance: "+money+"$");	
-		
+		System.out.println("Sum of money on all accounts, having a negative balance: "+money+"$");		
+	}
+	
+	public void sortOfMoney() {
+		Comparator<Account> comparatorMoney = ((o1, o2) -> o1.getMoney().compareTo(o2.getMoney()));
+		Stream.of(getAccounts())
+			.sorted(comparatorMoney)
+			.forEach(System.out::println);
 	}
 }
