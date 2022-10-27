@@ -1,6 +1,5 @@
 package Bank;
 
-import java.util.Arrays;
 import java.util.Comparator;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -37,7 +36,10 @@ public class Bank {
 	@Override
 	public String toString() {
 		System.out.println("Bank -> ");
-		return Arrays.toString(customers);
+		for (Customer customer : customers) {
+			System.out.println(customer);
+		}
+		return "";
 	}
 	
 	public void init() {
