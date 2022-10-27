@@ -6,8 +6,6 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.stream.Stream;
 
-import Bank.Account;
-
 public class Tourist {
 	
 	Voucher[] vouchers;
@@ -76,9 +74,9 @@ public class Tourist {
 				});		
 	}
 		
-	public void selectionÑountry(String country) {
+	public void selectionÃ‘ountry(String country) {
 		
-		System.out.println("\nÑhoosing travel packages to "+country+":");
+		System.out.println("\nÃ‘hoosing travel packages to "+country+":");
 		Stream.of(getVouchers())
 			.filter(t -> t.getCountryType().getFullTitle().equals(country))
 			.forEach(System.out::println);	
@@ -87,7 +85,7 @@ public class Tourist {
 	
 	public void selectionTransport(String transport) {
 		
-		System.out.println("\nÑhoosing travel packages to "+transport+":");
+		System.out.println("\nÃ‘hoosing travel packages to "+transport+":");
 		Stream.of(getVouchers())
 			.filter(t -> t.getTransportType().getType().equals(transport))
 			.forEach(System.out::println);		
