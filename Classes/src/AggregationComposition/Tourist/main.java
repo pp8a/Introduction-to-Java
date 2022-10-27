@@ -11,8 +11,8 @@ public class main {
 		Stream.of(tourist).forEach(System.out::println);		
 		
 		//country
-		tourist.selection—ountry("Canada");		
-		tourist.selection—ountry("Ukraine");
+		tourist.selectionCountry("Canada");		
+		tourist.selectionCountry("Ukraine");
 		
 		//transport
 		tourist.selectionTransport("Plane");
