@@ -74,7 +74,7 @@ public class Tourist {
 				});		
 	}
 		
-	public void selectionÑountry(String country) {
+	public void selectionCountry(String country) {
 		
 		System.out.println("\nÑhoosing travel packages to "+country+":");
 		Stream.of(getVouchers())
