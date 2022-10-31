@@ -67,25 +67,30 @@ public class Tourist {
 				LocalDate.of(2023, Month.AUGUST, 15), LocalDate.of(2023, Month.SEPTEMBER, 3),  0);
 		
 		Voucher voucher_12 = new Voucher(CountryType.UA, "Odessa", VoucherType.TREATMENT, TransportType.RAILWAY, FoodType.HB_PLUS, 
-				LocalDate.of(2023, Month.JUNE, 23), LocalDate.of(2023, Month.JULY, 12),  0);
+				LocalDate.of(2023, Month.JUNE, 23), LocalDate.of(2023, Month.JULY, 20),  0);
+		Voucher voucher_13 = new Voucher(CountryType.UA, "Odessa", VoucherType.TREATMENT, TransportType.RAILWAY, FoodType.HB_PLUS, 
+				LocalDate.of(2023, Month.JUNE, 23), LocalDate.of(2023, Month.JULY, 10),  0);
+		Voucher voucher_14 = new Voucher(CountryType.UA, "Odessa", VoucherType.TREATMENT, TransportType.RAILWAY, FoodType.HB_PLUS, 
+				LocalDate.of(2023, Month.JUNE, 23), LocalDate.of(2023, Month.JULY, 15),  0);
 		
 		setVouchers(new Voucher [] {voucher_1, voucher_2, voucher_3, voucher_4, voucher_5, voucher_6,
-				voucher_7, voucher_8, voucher_9, voucher_10, voucher_11, voucher_12
+				voucher_7, voucher_8, voucher_9, voucher_10, voucher_11, voucher_12, voucher_13, voucher_14
 				});		
+//		vouchers = new Voucher[] {voucher_1, voucher_2, voucher_3, voucher_4, voucher_5, voucher_6,
+//				voucher_7, voucher_8, voucher_9, voucher_10, voucher_11, voucher_12};
 	}
 		
 	public void selectionCountry(String country) {
 		
-		System.out.println("\nÃ‘hoosing travel packages to "+country+":");
+		System.out.println("\nÑhoosing travel packages to "+country+":");
 		Stream.of(getVouchers())
 			.filter(t -> t.getCountryType().getFullTitle().equals(country))
-			.forEach(System.out::println);	
-		
+			.forEach(System.out::println);			
 	}
 	
 	public void selectionTransport(String transport) {
 		
-		System.out.println("\nÃ‘hoosing travel packages to "+transport+":");
+		System.out.println("\nÑhoosing travel packages to "+transport+":");
 		Stream.of(getVouchers())
 			.filter(t -> t.getTransportType().getType().equals(transport))
 			.forEach(System.out::println);		
@@ -114,8 +119,9 @@ public class Tourist {
 	}
 	
 	public void sortCity() {
-		System.out.println("\nSorted by city ->");
+		System.out.println("\nSorted by city, then days ->");
 		Comparator<Voucher> comparator = ((o1, o2) -> o1.getCity().compareTo(o2.getCity()));
+		comparator = comparator.thenComparing(t -> t.getDays());
 		Stream.of(getVouchers())
 			.sorted(comparator)
 			.forEach(System.out::println);
