@@ -8,7 +8,7 @@ import java.util.stream.Stream;
 
 public class Tourist {
 	
-	Voucher[] vouchers;
+	private Voucher[] vouchers;
 
 	public Tourist() {
 		super();
