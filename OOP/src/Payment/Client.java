@@ -56,10 +56,5 @@ public class Client {
 			return false;
 		Client other = (Client) obj;
 		return Objects.equals(accountID, other.accountID);
-	}
-	
-	
-
-	
-	
+	}	
 }
