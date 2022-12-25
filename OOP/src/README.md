@@ -1,25 +1,24 @@
 [Practice (tasks) (5).pdf](https://github.com/pp8a/Introduction-to-Java/files/10300529/Practice.tasks.5.pdf)
 
-5. Basics of OOP
-
+# 5. Basics of OOP
 Для закрепления навыков по данной теме решите следующие задачи. 
 
-Задача 1. 
+## Задача 1. [MyFile](https://github.com/pp8a/Introduction-to-Java/tree/main/OOP/src/MyFile)
 
 Создать объект класса Текстовый файл, используя классы Файл, Директория. Методы: создать, переименовать, 
 вывести на консоль содержимое, дополнить, удалить.
 
-Задача 2. 
+## Задача 2. [Payment](https://github.com/pp8a/Introduction-to-Java/tree/main/OOP/src/Payment)
 
 Создать класс Payment с внутренним классом, с помощью объектов которого можно сформировать покупку из 
 нескольких товаров.
 
-Задача 3.
+## Задача 3. [Calendar](https://github.com/pp8a/Introduction-to-Java/tree/main/OOP/src/Calendar)
 
 Создать класс Календарь с внутренним классом, с помощью объектов которого можно хранить информацию о 
 выходных и праздничных днях.
 
-Задача 4.
+## Задача 4. [Treasures](https://github.com/pp8a/Introduction-to-Java/tree/main/OOP/src/Treasures)
 
 Создать консольное приложение, удовлетворяющее следующим требованиям: 
 
@@ -41,7 +40,7 @@
 дракона. Реализовать возможность просмотра сокровищ, выбора самого дорогого по стоимости сокровища и 
 выбора сокровищ на заданную сумму.
 
-Задача 5.
+## Задача 5. [composition](https://github.com/pp8a/Introduction-to-Java/tree/main/OOP/src/composition)
 
 Создать консольное приложение, удовлетворяющее следующим требованиям: 
 
