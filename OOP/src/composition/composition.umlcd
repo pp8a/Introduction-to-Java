@@ -1,0 +1,1114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_szYMwIIoEe22-4sQOm0zjQ">
+  <modelElement href="composition.uml#_sxjAwIIoEe22-4sQOm0zjQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0YHJgIIoEe22-4sQOm0zjQ" sourceAnchor="141.0,0.0" targetAnchor="107.0,97.0" target="_0YSvs4IoEe22-4sQOm0zjQ" source="_0YHJiYIoEe22-4sQOm0zjQ">
+    <modelElement href="composition.uml#_tMX7lIIoEe22-4sQOm0zjQ"/>
+    <stereotypes xmi:id="_0YHJgYIoEe22-4sQOm0zjQ" name="Reference">
+      <modelElement href="composition.uml#_tMX7loIoEe22-4sQOm0zjQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0YHJgoIoEe22-4sQOm0zjQ" text="">
+      <visualProperties xmi:id="_0cO0gIIoEe22-4sQOm0zjQ" position="-41.0,-15.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0YHJg4IoEe22-4sQOm0zjQ" aggregationKind="NONE" name="">
+      <modelElement href="composition.uml#_tMX7lYIoEe22-4sQOm0zjQ"/>
+      <visualProperties xmi:id="_0cONcYIoEe22-4sQOm0zjQ" position="-56.0,-50.0"/>
+      <visibility xmi:id="_0YHJhIIoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0YHJhYIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0YHJhoIoEe22-4sQOm0zjQ" aggregationKind="NONE" name="composition" navigable="true">
+      <modelElement href="composition.uml#_tLyswIIoEe22-4sQOm0zjQ"/>
+      <visualProperties xmi:id="_0cO0gYIoEe22-4sQOm0zjQ" position="2.0,9.0"/>
+      <visibility xmi:id="_0YHJh4IoEe22-4sQOm0zjQ" label="~"/>
+      <cardinality xmi:id="_0YHJiIIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0YJlwIIoEe22-4sQOm0zjQ" sourceAnchor="380.0,0.0" targetAnchor="178.0,117.0" target="_0YHJiYIoEe22-4sQOm0zjQ" source="_0YLa8IIoEe22-4sQOm0zjQ">
+    <modelElement href="composition.uml#_tMYipIIoEe22-4sQOm0zjQ"/>
+    <stereotypes xmi:id="_0YKM04IoEe22-4sQOm0zjQ" name="Reference">
+      <modelElement href="composition.uml#_tMZJsIIoEe22-4sQOm0zjQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0YKM0IIoEe22-4sQOm0zjQ" text="">
+      <visualProperties xmi:id="_0cPbkIIoEe22-4sQOm0zjQ" position="-46.0,-18.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0YKM0YIoEe22-4sQOm0zjQ" aggregationKind="NONE" name="">
+      <modelElement href="composition.uml#_tMYipYIoEe22-4sQOm0zjQ"/>
+      <visualProperties xmi:id="_0cO0goIoEe22-4sQOm0zjQ" position="-17.0,-88.0"/>
+      <visibility xmi:id="_0YKz4YIoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0YKz4IIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0YKM0oIoEe22-4sQOm0zjQ" aggregationKind="NONE" name="buildCompositions" navigable="true">
+      <modelElement href="composition.uml#_tLz64IIoEe22-4sQOm0zjQ"/>
+      <visualProperties xmi:id="_0cPbkYIoEe22-4sQOm0zjQ" position="6.999999999999986,37.99999999999997"/>
+      <visibility xmi:id="_0YKz44IoEe22-4sQOm0zjQ" label="~"/>
+      <cardinality xmi:id="_0YKz4oIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_0YN3MIIoEe22-4sQOm0zjQ" sourceAnchor="180.0,0.0" targetAnchor="208.0,117.0" superClass="_0YHJiYIoEe22-4sQOm0zjQ" subClass="_0YPFUIIoEe22-4sQOm0zjQ">
+    <modelElement href="composition.uml#_tK1qhoIoEe22-4sQOm0zjQ"/>
+    <bendpoints xmi:id="_LYet0IIpEe22-4sQOm0zjQ" sourceY="-28" targetX="385" targetY="253"/>
+    <bendpoints xmi:id="_LYet0YIpEe22-4sQOm0zjQ" sourceX="-385" sourceY="-28" targetY="253"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0YRhkIIoEe22-4sQOm0zjQ" sourceAnchor="214.0,48.0" targetAnchor="0.0,92.0" target="_0Ye88IIoEe22-4sQOm0zjQ" source="_0YSvs4IoEe22-4sQOm0zjQ">
+    <modelElement href="composition.uml#_tMX7l4IoEe22-4sQOm0zjQ"/>
+    <stereotypes xmi:id="_0YSIo4IoEe22-4sQOm0zjQ" name="Reference">
+      <modelElement href="composition.uml#_tMYioIIoEe22-4sQOm0zjQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0YSIoIIoEe22-4sQOm0zjQ" text="">
+      <visualProperties xmi:id="_0cQCoYIoEe22-4sQOm0zjQ" position="-3.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0YSIoYIoEe22-4sQOm0zjQ" aggregationKind="NONE" name="">
+      <modelElement href="composition.uml#_tMX7mIIoEe22-4sQOm0zjQ"/>
+      <visualProperties xmi:id="_0cQCoIIoEe22-4sQOm0zjQ" position="14.000000000000004,-51.0"/>
+      <visibility xmi:id="_0YSIqYIoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0YSIqIIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0YSIooIoEe22-4sQOm0zjQ" aggregationKind="NONE" name="flower" navigable="true">
+      <modelElement href="composition.uml#_tLyswoIoEe22-4sQOm0zjQ"/>
+      <visualProperties xmi:id="_0cQCooIoEe22-4sQOm0zjQ" position="-93.0,-51.0"/>
+      <visibility xmi:id="_0YSIq4IoEe22-4sQOm0zjQ" label="~"/>
+      <cardinality xmi:id="_0YSIqoIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0YRhkYIoEe22-4sQOm0zjQ" sourceAnchor="0.0,48.0" targetAnchor="222.0,72.0" target="_0Y07MIIoEe22-4sQOm0zjQ" source="_0YSvs4IoEe22-4sQOm0zjQ">
+    <modelElement href="composition.uml#_tMYioYIoEe22-4sQOm0zjQ"/>
+    <stereotypes xmi:id="_0YSIp4IoEe22-4sQOm0zjQ" name="Reference">
+      <modelElement href="composition.uml#_tMYio4IoEe22-4sQOm0zjQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0YSIpIIoEe22-4sQOm0zjQ" text="">
+      <visualProperties xmi:id="_0cQpsYIoEe22-4sQOm0zjQ" position="-20.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0YSIpYIoEe22-4sQOm0zjQ" aggregationKind="NONE" name="">
+      <modelElement href="composition.uml#_tMYiooIoEe22-4sQOm0zjQ"/>
+      <visualProperties xmi:id="_0cQpsIIoEe22-4sQOm0zjQ" position="-30.0,-51.0"/>
+      <visibility xmi:id="_0YSIroIoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0YSIrYIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0YSIpoIoEe22-4sQOm0zjQ" aggregationKind="NONE" name="pack" navigable="true">
+      <modelElement href="composition.uml#_tLzT0YIoEe22-4sQOm0zjQ"/>
+      <visualProperties xmi:id="_0cQpsoIoEe22-4sQOm0zjQ" position="30.0,-51.0"/>
+      <visibility xmi:id="_0YSvsYIoEe22-4sQOm0zjQ" label="~"/>
+      <cardinality xmi:id="_0YSvsIIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0YiAQIIoEe22-4sQOm0zjQ" sourceAnchor="287.0,69.0" targetAnchor="121.0,184.0" target="_0Ye88IIoEe22-4sQOm0zjQ" source="_0YjOYYIoEe22-4sQOm0zjQ">
+    <modelElement href="composition.uml#_tMZJsYIoEe22-4sQOm0zjQ"/>
+    <bendpoints xmi:id="_LYeGwIIpEe22-4sQOm0zjQ" sourceX="138" targetY="75"/>
+    <stereotypes xmi:id="_0YinUIIoEe22-4sQOm0zjQ" name="Reference">
+      <modelElement href="composition.uml#_tMZJs4IoEe22-4sQOm0zjQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0YiAQYIoEe22-4sQOm0zjQ" text="">
+      <visualProperties xmi:id="_0cRQwYIoEe22-4sQOm0zjQ" position="-40.0,-61.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0YiAQoIoEe22-4sQOm0zjQ" aggregationKind="NONE" name="">
+      <modelElement href="composition.uml#_tMZJsoIoEe22-4sQOm0zjQ"/>
+      <visualProperties xmi:id="_0cRQwIIoEe22-4sQOm0zjQ" position="13.0,-52.0"/>
+      <visibility xmi:id="_0YinUoIoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0YinUYIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0YiAQ4IoEe22-4sQOm0zjQ" aggregationKind="NONE" name="flower" navigable="true">
+      <modelElement href="composition.uml#_tLz64oIoEe22-4sQOm0zjQ"/>
+      <visualProperties xmi:id="_0cRQwoIoEe22-4sQOm0zjQ" position="-92.0,24.0"/>
+      <visibility xmi:id="_0YinVIIoEe22-4sQOm0zjQ" label="~"/>
+      <cardinality xmi:id="_0YinU4IoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_0YlqoIIoEe22-4sQOm0zjQ" sourceAnchor="173.0,0.0" targetAnchor="287.0,99.0" superClass="_0YjOYYIoEe22-4sQOm0zjQ" subClass="_0YmRsIIoEe22-4sQOm0zjQ">
+    <modelElement href="composition.uml#_tK5U44IoEe22-4sQOm0zjQ"/>
+    <bendpoints xmi:id="_LYeGwYIpEe22-4sQOm0zjQ" sourceY="-58" targetX="168"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0YoG4IIoEe22-4sQOm0zjQ" sourceAnchor="197.0,0.0" targetAnchor="143.0,137.0" target="_0YjOYYIoEe22-4sQOm0zjQ" source="_0YpVBYIoEe22-4sQOm0zjQ">
+    <modelElement href="composition.uml#_tMZJtIIoEe22-4sQOm0zjQ"/>
+    <stereotypes xmi:id="_0Yot84IoEe22-4sQOm0zjQ" name="Reference">
+      <modelElement href="composition.uml#_tMZwwIIoEe22-4sQOm0zjQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0Yot8IIoEe22-4sQOm0zjQ" text="">
+      <visualProperties xmi:id="_0cR30YIoEe22-4sQOm0zjQ" position="2.0,-39.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0Yot8YIoEe22-4sQOm0zjQ" aggregationKind="NONE" name="">
+      <modelElement href="composition.uml#_tMZJtYIoEe22-4sQOm0zjQ"/>
+      <visualProperties xmi:id="_0cR30IIoEe22-4sQOm0zjQ" position="2.0,-80.0"/>
+      <visibility xmi:id="_0YpVAYIoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0YpVAIIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0Yot8oIoEe22-4sQOm0zjQ" aggregationKind="NONE" name="buildFlowers" navigable="true">
+      <modelElement href="composition.uml#_tL0h8YIoEe22-4sQOm0zjQ"/>
+      <visualProperties xmi:id="_0cSe4IIoEe22-4sQOm0zjQ" position="-90.0,30.0"/>
+      <visibility xmi:id="_0YpVA4IoEe22-4sQOm0zjQ" label="~"/>
+      <cardinality xmi:id="_0YpVAoIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0YuNgIIoEe22-4sQOm0zjQ" sourceAnchor="146.0,0.0" targetAnchor="128.0,117.0" target="_0Y5MoIIoEe22-4sQOm0zjQ" source="_0YuNiYIoEe22-4sQOm0zjQ">
+    <modelElement href="composition.uml#_tMZwxIIoEe22-4sQOm0zjQ"/>
+    <stereotypes xmi:id="_0YuNgYIoEe22-4sQOm0zjQ" name="Reference">
+      <modelElement href="composition.uml#_tMaX0IIoEe22-4sQOm0zjQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0YuNgoIoEe22-4sQOm0zjQ" text="">
+      <visualProperties xmi:id="_0cTF8IIoEe22-4sQOm0zjQ" position="-41.0,-36.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0YuNg4IoEe22-4sQOm0zjQ" aggregationKind="NONE" name="">
+      <modelElement href="composition.uml#_tMZwxYIoEe22-4sQOm0zjQ"/>
+      <visualProperties xmi:id="_0cSe4YIoEe22-4sQOm0zjQ" position="-17.0,-67.0"/>
+      <visibility xmi:id="_0YuNhIIoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0YuNhYIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0YuNhoIoEe22-4sQOm0zjQ" aggregationKind="NONE" name="buildPacks" navigable="true">
+      <modelElement href="composition.uml#_tL2-MYIoEe22-4sQOm0zjQ"/>
+      <visualProperties xmi:id="_0cTF8YIoEe22-4sQOm0zjQ" position="2.0,17.0"/>
+      <visibility xmi:id="_0YuNh4IoEe22-4sQOm0zjQ" label="~"/>
+      <cardinality xmi:id="_0YuNiIIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0YztEIIoEe22-4sQOm0zjQ" sourceAnchor="95.0,0.0" targetAnchor="111.0,144.0" target="_0Y07MIIoEe22-4sQOm0zjQ" source="_0Y5MoIIoEe22-4sQOm0zjQ">
+    <modelElement href="composition.uml#_tMZwwYIoEe22-4sQOm0zjQ"/>
+    <stereotypes xmi:id="_0Y0UI4IoEe22-4sQOm0zjQ" name="Reference">
+      <modelElement href="composition.uml#_tMZww4IoEe22-4sQOm0zjQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0Y0UIIIoEe22-4sQOm0zjQ" text="">
+      <visualProperties xmi:id="_0cTtAIIoEe22-4sQOm0zjQ" position="-46.0,-35.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0Y0UIYIoEe22-4sQOm0zjQ" aggregationKind="NONE" name="">
+      <modelElement href="composition.uml#_tMZwwoIoEe22-4sQOm0zjQ"/>
+      <visualProperties xmi:id="_0cTF8oIoEe22-4sQOm0zjQ" position="-56.0,-50.0"/>
+      <visibility xmi:id="_0Y0UJYIoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0Y0UJIIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0Y0UIoIoEe22-4sQOm0zjQ" aggregationKind="NONE" name="pack" navigable="true">
+      <modelElement href="composition.uml#_tL2XIoIoEe22-4sQOm0zjQ"/>
+      <visualProperties xmi:id="_0cTtAYIoEe22-4sQOm0zjQ" position="2.0,11.0"/>
+      <stereotypes xmi:id="_0Y0UKIIoEe22-4sQOm0zjQ" name="LegacyStyledElement">
+        <modelElement href="composition.uml#_tL2-MIIoEe22-4sQOm0zjQ"/>
+      </stereotypes>
+      <visibility xmi:id="_0Y0UJ4IoEe22-4sQOm0zjQ" label="~"/>
+      <cardinality xmi:id="_0Y0UJoIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_0Y2wYIIoEe22-4sQOm0zjQ" sourceAnchor="107.0,0.0" targetAnchor="256.0,59.0" superClass="_0Y5MoIIoEe22-4sQOm0zjQ" subClass="_0Y3-gIIoEe22-4sQOm0zjQ">
+    <modelElement href="composition.uml#_tK8_QoIoEe22-4sQOm0zjQ"/>
+    <bendpoints xmi:id="_LYeGwoIpEe22-4sQOm0zjQ" sourceY="-66" targetX="123"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0Ye88IIoEe22-4sQOm0zjQ" name="Flower" associationsIn="_0YRhkIIoEe22-4sQOm0zjQ _0YiAQIIoEe22-4sQOm0zjQ">
+    <modelElement href="composition.uml#_tGAN0IIoEe22-4sQOm0zjQ"/>
+    <visualProperties xmi:id="_0Ye88YIoEe22-4sQOm0zjQ" position="375.0,-436.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0Ye88oIoEe22-4sQOm0zjQ" label="+"/>
+    <attributes xmi:id="_0Ye884IoEe22-4sQOm0zjQ" name="count">
+      <modelElement href="composition.uml#_tL1JAYIoEe22-4sQOm0zjQ"/>
+      <stereotypes xmi:id="_0Ye89IIoEe22-4sQOm0zjQ" name="LegacyStyledElement">
+        <modelElement href="composition.uml#_tL1wEIIoEe22-4sQOm0zjQ"/>
+      </stereotypes>
+      <visibility xmi:id="_0Ye89YIoEe22-4sQOm0zjQ" label="-"/>
+      <cardinality xmi:id="_0Ye89oIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <type xmi:id="_0Ye894IoEe22-4sQOm0zjQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0Ye8-IIoEe22-4sQOm0zjQ" name="color">
+      <modelElement href="composition.uml#_tL1wEYIoEe22-4sQOm0zjQ"/>
+      <stereotypes xmi:id="_0Ye8-YIoEe22-4sQOm0zjQ" name="LegacyStyledElement">
+        <modelElement href="composition.uml#_tL1wEoIoEe22-4sQOm0zjQ"/>
+      </stereotypes>
+      <visibility xmi:id="_0Ye8-oIoEe22-4sQOm0zjQ" label="-"/>
+      <cardinality xmi:id="_0Ye8-4IoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <type xmi:id="_0Ye8_IIoEe22-4sQOm0zjQ" name="FlowerColor">
+        <modelElement href="composition.uml#_tGCqEIIoEe22-4sQOm0zjQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0Ye8_YIoEe22-4sQOm0zjQ" name="name">
+      <modelElement href="composition.uml#_tL2XIIIoEe22-4sQOm0zjQ"/>
+      <stereotypes xmi:id="_0Ye8_oIoEe22-4sQOm0zjQ" name="LegacyStyledElement">
+        <modelElement href="composition.uml#_tL2XIYIoEe22-4sQOm0zjQ"/>
+      </stereotypes>
+      <visibility xmi:id="_0Ye8_4IoEe22-4sQOm0zjQ" label="-"/>
+      <cardinality xmi:id="_0Ye9AIIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <type xmi:id="_0Ye9AYIoEe22-4sQOm0zjQ" name="FlowerName">
+        <modelElement href="composition.uml#_tGD4NoIoEe22-4sQOm0zjQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_0Ye9AoIoEe22-4sQOm0zjQ" name="setCount">
+      <modelElement href="composition.uml#_tGA04IIoEe22-4sQOm0zjQ"/>
+      <visibility xmi:id="_0Ye9A4IoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0Ye9BIIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0Ye9BYIoEe22-4sQOm0zjQ" name="count">
+        <modelElement href="composition.uml#_tGA04YIoEe22-4sQOm0zjQ"/>
+        <cardinality xmi:id="_0Ye9BoIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+        <type xmi:id="_0Ye9B4IoEe22-4sQOm0zjQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0Ye9CIIoEe22-4sQOm0zjQ" name="toString">
+      <modelElement href="composition.uml#_tGBb8IIoEe22-4sQOm0zjQ"/>
+      <stereotypes xmi:id="_0Ye9CYIoEe22-4sQOm0zjQ" name="LegacyStyledElement">
+        <modelElement href="composition.uml#_tGBb8oIoEe22-4sQOm0zjQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0Ye9CoIoEe22-4sQOm0zjQ" name="Annotations">
+        <modelElement href="composition.uml#_tGBb84IoEe22-4sQOm0zjQ"/>
+      </stereotypes>
+      <visibility xmi:id="_0Ye9C4IoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0Ye9DIIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0Ye9DYIoEe22-4sQOm0zjQ">
+        <modelElement href="composition.uml#_tGBb8YIoEe22-4sQOm0zjQ"/>
+        <type xmi:id="_0Ye9DoIoEe22-4sQOm0zjQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_0Ye9D4IoEe22-4sQOm0zjQ" name="setColor">
+      <modelElement href="composition.uml#_tK3fsoIoEe22-4sQOm0zjQ"/>
+      <visibility xmi:id="_0Ye9EIIoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0Ye9EYIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0Ye9EoIoEe22-4sQOm0zjQ" name="color">
+        <modelElement href="composition.uml#_tK3fs4IoEe22-4sQOm0zjQ"/>
+        <cardinality xmi:id="_0Ye9E4IoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+        <type xmi:id="_0Ye9FIIoEe22-4sQOm0zjQ" name="FlowerColor">
+          <modelElement href="composition.uml#_tGCqEIIoEe22-4sQOm0zjQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0Ye9FYIoEe22-4sQOm0zjQ" name="setName">
+      <modelElement href="composition.uml#_tK4GwIIoEe22-4sQOm0zjQ"/>
+      <visibility xmi:id="_0Ye9FoIoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0Ye9F4IoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0Ye9GIIoEe22-4sQOm0zjQ" name="name">
+        <modelElement href="composition.uml#_tK4GwYIoEe22-4sQOm0zjQ"/>
+        <cardinality xmi:id="_0Ye9GYIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+        <type xmi:id="_0Ye9GoIoEe22-4sQOm0zjQ" name="FlowerName">
+          <modelElement href="composition.uml#_tGD4NoIoEe22-4sQOm0zjQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0Y07MIIoEe22-4sQOm0zjQ" name="Pack" associationsIn="_0YRhkYIoEe22-4sQOm0zjQ _0YztEIIoEe22-4sQOm0zjQ">
+    <modelElement href="composition.uml#_tGKl4IIoEe22-4sQOm0zjQ"/>
+    <visualProperties xmi:id="_0Y07MYIoEe22-4sQOm0zjQ" position="-703.0,-416.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0Y07MoIoEe22-4sQOm0zjQ" label="+"/>
+    <attributes xmi:id="_0Y07M4IoEe22-4sQOm0zjQ" name="color">
+      <modelElement href="composition.uml#_tL2-M4IoEe22-4sQOm0zjQ"/>
+      <stereotypes xmi:id="_0Y07NIIoEe22-4sQOm0zjQ" name="LegacyStyledElement">
+        <modelElement href="composition.uml#_tL3lQIIoEe22-4sQOm0zjQ"/>
+      </stereotypes>
+      <visibility xmi:id="_0Y07NYIoEe22-4sQOm0zjQ" label="-"/>
+      <cardinality xmi:id="_0Y07NoIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <type xmi:id="_0Y07N4IoEe22-4sQOm0zjQ" name="PackColor">
+        <modelElement href="composition.uml#_tGNCIIIoEe22-4sQOm0zjQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0Y07OIIoEe22-4sQOm0zjQ" name="type">
+      <modelElement href="composition.uml#_tL3lQYIoEe22-4sQOm0zjQ"/>
+      <stereotypes xmi:id="_0Y07OYIoEe22-4sQOm0zjQ" name="LegacyStyledElement">
+        <modelElement href="composition.uml#_tL3lQoIoEe22-4sQOm0zjQ"/>
+      </stereotypes>
+      <visibility xmi:id="_0Y07OoIoEe22-4sQOm0zjQ" label="-"/>
+      <cardinality xmi:id="_0Y07O4IoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <type xmi:id="_0Y07PIIoEe22-4sQOm0zjQ" name="PackType">
+        <modelElement href="composition.uml#_tGOQQIIoEe22-4sQOm0zjQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_0Y07PYIoEe22-4sQOm0zjQ" name="toString">
+      <modelElement href="composition.uml#_tGLM8IIoEe22-4sQOm0zjQ"/>
+      <stereotypes xmi:id="_0Y07PoIoEe22-4sQOm0zjQ" name="LegacyStyledElement">
+        <modelElement href="composition.uml#_tGL0AIIoEe22-4sQOm0zjQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0Y07P4IoEe22-4sQOm0zjQ" name="Annotations">
+        <modelElement href="composition.uml#_tGL0AYIoEe22-4sQOm0zjQ"/>
+      </stereotypes>
+      <visibility xmi:id="_0Y07QIIoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0Y07QYIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0Y07QoIoEe22-4sQOm0zjQ">
+        <modelElement href="composition.uml#_tGLM8YIoEe22-4sQOm0zjQ"/>
+        <type xmi:id="_0Y07Q4IoEe22-4sQOm0zjQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_0Y07RIIoEe22-4sQOm0zjQ" name="setColor">
+      <modelElement href="composition.uml#_tK7KEYIoEe22-4sQOm0zjQ"/>
+      <visibility xmi:id="_0Y07RYIoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0Y07RoIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0Y07R4IoEe22-4sQOm0zjQ" name="color">
+        <modelElement href="composition.uml#_tK7KEoIoEe22-4sQOm0zjQ"/>
+        <cardinality xmi:id="_0Y07SIIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+        <type xmi:id="_0Y07SYIoEe22-4sQOm0zjQ" name="PackColor">
+          <modelElement href="composition.uml#_tGNCIIIoEe22-4sQOm0zjQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0Y07SoIoEe22-4sQOm0zjQ" name="setType">
+      <modelElement href="composition.uml#_tK7KE4IoEe22-4sQOm0zjQ"/>
+      <visibility xmi:id="_0Y07S4IoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0Y07TIIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0Y07TYIoEe22-4sQOm0zjQ" name="type">
+        <modelElement href="composition.uml#_tK7KFIIoEe22-4sQOm0zjQ"/>
+        <cardinality xmi:id="_0Y07ToIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+        <type xmi:id="_0Y07T4IoEe22-4sQOm0zjQ" name="PackType">
+          <modelElement href="composition.uml#_tGOQQIIoEe22-4sQOm0zjQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0YSvs4IoEe22-4sQOm0zjQ" name="Composition" associationsIn="_0YHJgIIoEe22-4sQOm0zjQ" associationsOut="_0YRhkIIoEe22-4sQOm0zjQ _0YRhkYIoEe22-4sQOm0zjQ">
+    <modelElement href="composition.uml#_tF3D4IIoEe22-4sQOm0zjQ"/>
+    <visualProperties xmi:id="_0YSvtIIoEe22-4sQOm0zjQ" position="-259.0,-392.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0YSvtYIoEe22-4sQOm0zjQ" label="+"/>
+    <attributes xmi:id="_0YSvtoIoEe22-4sQOm0zjQ" name="flower">
+      <modelElement href="composition.uml#_tLyswoIoEe22-4sQOm0zjQ"/>
+      <stereotypes xmi:id="_0YSvt4IoEe22-4sQOm0zjQ" name="LegacyStyledElement">
+        <modelElement href="composition.uml#_tLzT0IIoEe22-4sQOm0zjQ"/>
+      </stereotypes>
+      <visibility xmi:id="_0YSvuIIoEe22-4sQOm0zjQ" label="~"/>
+      <cardinality xmi:id="_0YSvuYIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <type xmi:id="_0YSvuoIoEe22-4sQOm0zjQ" name="Flower">
+        <modelElement href="composition.uml#_tGAN0IIoEe22-4sQOm0zjQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0YSvu4IoEe22-4sQOm0zjQ" name="pack">
+      <modelElement href="composition.uml#_tLzT0YIoEe22-4sQOm0zjQ"/>
+      <stereotypes xmi:id="_0YSvvIIoEe22-4sQOm0zjQ" name="LegacyStyledElement">
+        <modelElement href="composition.uml#_tLzT0oIoEe22-4sQOm0zjQ"/>
+      </stereotypes>
+      <visibility xmi:id="_0YSvvYIoEe22-4sQOm0zjQ" label="~"/>
+      <cardinality xmi:id="_0YSvvoIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <type xmi:id="_0YSvv4IoEe22-4sQOm0zjQ" name="Pack">
+        <modelElement href="composition.uml#_tGKl4IIoEe22-4sQOm0zjQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_0YSvwIIoEe22-4sQOm0zjQ" name="toString">
+      <modelElement href="composition.uml#_tF3q8IIoEe22-4sQOm0zjQ"/>
+      <stereotypes xmi:id="_0YSvwYIoEe22-4sQOm0zjQ" name="LegacyStyledElement">
+        <modelElement href="composition.uml#_tF3q8oIoEe22-4sQOm0zjQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0YSvwoIoEe22-4sQOm0zjQ" name="Annotations">
+        <modelElement href="composition.uml#_tF4SAIIoEe22-4sQOm0zjQ"/>
+      </stereotypes>
+      <visibility xmi:id="_0YSvw4IoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0YSvxIIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0YSvxYIoEe22-4sQOm0zjQ">
+        <modelElement href="composition.uml#_tF3q8YIoEe22-4sQOm0zjQ"/>
+        <type xmi:id="_0YSvxoIoEe22-4sQOm0zjQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_0YSvx4IoEe22-4sQOm0zjQ" name="setFlower">
+      <modelElement href="composition.uml#_tKzOQYIoEe22-4sQOm0zjQ"/>
+      <visibility xmi:id="_0YSvyIIoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0YSvyYIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0YSvyoIoEe22-4sQOm0zjQ" name="flower">
+        <modelElement href="composition.uml#_tKzOQoIoEe22-4sQOm0zjQ"/>
+        <cardinality xmi:id="_0YSvy4IoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+        <type xmi:id="_0YSvzIIoEe22-4sQOm0zjQ" name="Flower">
+          <modelElement href="composition.uml#_tGAN0IIoEe22-4sQOm0zjQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0YSvzYIoEe22-4sQOm0zjQ" name="setPack">
+      <modelElement href="composition.uml#_tKzOQ4IoEe22-4sQOm0zjQ"/>
+      <visibility xmi:id="_0YSvzoIoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0YSvz4IoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0YSv0IIoEe22-4sQOm0zjQ" name="pack">
+        <modelElement href="composition.uml#_tKz1UIIoEe22-4sQOm0zjQ"/>
+        <cardinality xmi:id="_0YSv0YIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+        <type xmi:id="_0YSv0oIoEe22-4sQOm0zjQ" name="Pack">
+          <modelElement href="composition.uml#_tGKl4IIoEe22-4sQOm0zjQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0Y5MoIIoEe22-4sQOm0zjQ" name="BuildPacks" abstractClass="true" associationsIn="_0YuNgIIoEe22-4sQOm0zjQ" associationsOut="_0YztEIIoEe22-4sQOm0zjQ" subclassedBy="_0Y2wYIIoEe22-4sQOm0zjQ">
+    <modelElement href="composition.uml#_tGHikIIoEe22-4sQOm0zjQ"/>
+    <visualProperties xmi:id="_0Y5MoYIoEe22-4sQOm0zjQ" position="-687.0,-191.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0Y5MooIoEe22-4sQOm0zjQ" label="+"/>
+    <attributes xmi:id="_0Y5Mo4IoEe22-4sQOm0zjQ" name="pack">
+      <modelElement href="composition.uml#_tL2XIoIoEe22-4sQOm0zjQ"/>
+      <visibility xmi:id="_0Y5MpIIoEe22-4sQOm0zjQ" label="~"/>
+      <cardinality xmi:id="_0Y5MpYIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <type xmi:id="_0Y5MpoIoEe22-4sQOm0zjQ" name="Pack">
+        <modelElement href="composition.uml#_tGKl4IIoEe22-4sQOm0zjQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_0Y5Mp4IoEe22-4sQOm0zjQ" name="createPack">
+      <modelElement href="composition.uml#_tGIJoIIoEe22-4sQOm0zjQ"/>
+      <visibility xmi:id="_0Y5MqIIoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0Y5MqYIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_0Y5MqoIoEe22-4sQOm0zjQ" name="getPack">
+      <modelElement href="composition.uml#_tGIJoYIoEe22-4sQOm0zjQ"/>
+      <visibility xmi:id="_0Y5Mq4IoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0Y5MrIIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0Y5MrYIoEe22-4sQOm0zjQ">
+        <modelElement href="composition.uml#_tK579IIoEe22-4sQOm0zjQ"/>
+        <type xmi:id="_0Y5MroIoEe22-4sQOm0zjQ" name="Pack">
+          <modelElement href="composition.uml#_tGKl4IIoEe22-4sQOm0zjQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_0Y5Mr4IoEe22-4sQOm0zjQ" abstractOperation="true" name="buildPackColor">
+      <modelElement href="composition.uml#_tK578IIoEe22-4sQOm0zjQ"/>
+      <visibility xmi:id="_0Y5MsIIoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0Y5MsYIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0Y5MsoIoEe22-4sQOm0zjQ" name="color">
+        <modelElement href="composition.uml#_tK578YIoEe22-4sQOm0zjQ"/>
+        <cardinality xmi:id="_0Y5Ms4IoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+        <type xmi:id="_0Y5MtIIoEe22-4sQOm0zjQ" name="PackColor">
+          <modelElement href="composition.uml#_tGNCIIIoEe22-4sQOm0zjQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0Y5MtYIoEe22-4sQOm0zjQ" abstractOperation="true" name="buildPackType">
+      <modelElement href="composition.uml#_tK578oIoEe22-4sQOm0zjQ"/>
+      <visibility xmi:id="_0Y5MtoIoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0Y5Mt4IoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0Y5MuIIoEe22-4sQOm0zjQ" name="type">
+        <modelElement href="composition.uml#_tK5784IoEe22-4sQOm0zjQ"/>
+        <cardinality xmi:id="_0Y5MuYIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+        <type xmi:id="_0Y5MuoIoEe22-4sQOm0zjQ" name="PackType">
+          <modelElement href="composition.uml#_tGOQQIIoEe22-4sQOm0zjQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0YuNiYIoEe22-4sQOm0zjQ" name="DirectorPacks" associationsOut="_0YuNgIIoEe22-4sQOm0zjQ">
+    <modelElement href="composition.uml#_tGJXwIIoEe22-4sQOm0zjQ"/>
+    <visualProperties xmi:id="_0YuNioIoEe22-4sQOm0zjQ" position="-705.0,27.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0YuNi4IoEe22-4sQOm0zjQ" label="+"/>
+    <attributes xmi:id="_0YuNjIIoEe22-4sQOm0zjQ" name="buildPacks">
+      <modelElement href="composition.uml#_tL2-MYIoEe22-4sQOm0zjQ"/>
+      <stereotypes xmi:id="_0YuNjYIoEe22-4sQOm0zjQ" name="LegacyStyledElement">
+        <modelElement href="composition.uml#_tL2-MoIoEe22-4sQOm0zjQ"/>
+      </stereotypes>
+      <visibility xmi:id="_0YuNjoIoEe22-4sQOm0zjQ" label="~"/>
+      <cardinality xmi:id="_0YuNj4IoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <type xmi:id="_0YuNkIIoEe22-4sQOm0zjQ" name="BuildPacks">
+        <modelElement href="composition.uml#_tGHikIIoEe22-4sQOm0zjQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_0YuNkYIoEe22-4sQOm0zjQ" name="setBuildPacks">
+      <modelElement href="composition.uml#_tK6jAIIoEe22-4sQOm0zjQ"/>
+      <visibility xmi:id="_0YuNkoIoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0YuNk4IoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0YuNlIIoEe22-4sQOm0zjQ">
+        <modelElement href="composition.uml#_tK6jAoIoEe22-4sQOm0zjQ"/>
+        <type xmi:id="_0YuNlYIoEe22-4sQOm0zjQ" name="DirectorPacks">
+          <modelElement href="composition.uml#_tGJXwIIoEe22-4sQOm0zjQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0YuNloIoEe22-4sQOm0zjQ" name="buildPacks">
+        <modelElement href="composition.uml#_tK6jAYIoEe22-4sQOm0zjQ"/>
+        <cardinality xmi:id="_0YuNl4IoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+        <type xmi:id="_0YuNmIIoEe22-4sQOm0zjQ" name="BuildPacks">
+          <modelElement href="composition.uml#_tGHikIIoEe22-4sQOm0zjQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0YuNmYIoEe22-4sQOm0zjQ" name="buildPacks">
+      <modelElement href="composition.uml#_tK6jA4IoEe22-4sQOm0zjQ"/>
+      <visibility xmi:id="_0YuNmoIoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0YuNm4IoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0YuNnIIoEe22-4sQOm0zjQ">
+        <modelElement href="composition.uml#_tK7KEIIoEe22-4sQOm0zjQ"/>
+        <type xmi:id="_0YuNnYIoEe22-4sQOm0zjQ" name="Pack">
+          <modelElement href="composition.uml#_tGKl4IIoEe22-4sQOm0zjQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0YuNnoIoEe22-4sQOm0zjQ" name="color">
+        <modelElement href="composition.uml#_tK6jBIIoEe22-4sQOm0zjQ"/>
+        <cardinality xmi:id="_0YuNn4IoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+        <type xmi:id="_0YuNoIIoEe22-4sQOm0zjQ" name="PackColor">
+          <modelElement href="composition.uml#_tGNCIIIoEe22-4sQOm0zjQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YuNoYIoEe22-4sQOm0zjQ" name="type">
+        <modelElement href="composition.uml#_tK6jBYIoEe22-4sQOm0zjQ"/>
+        <cardinality xmi:id="_0YuNooIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+        <type xmi:id="_0YuNo4IoEe22-4sQOm0zjQ" name="PackType">
+          <modelElement href="composition.uml#_tGOQQIIoEe22-4sQOm0zjQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0YjOYYIoEe22-4sQOm0zjQ" name="BuildFlowers" abstractClass="true" associationsIn="_0YoG4IIoEe22-4sQOm0zjQ" associationsOut="_0YiAQIIoEe22-4sQOm0zjQ" subclassedBy="_0YlqoIIoEe22-4sQOm0zjQ">
+    <modelElement href="composition.uml#_tF8jcIIoEe22-4sQOm0zjQ"/>
+    <visualProperties xmi:id="_0YjOYoIoEe22-4sQOm0zjQ" position="71.0,-246.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0YjOY4IoEe22-4sQOm0zjQ" label="+"/>
+    <attributes xmi:id="_0YjOZIIoEe22-4sQOm0zjQ" name="flower">
+      <modelElement href="composition.uml#_tLz64oIoEe22-4sQOm0zjQ"/>
+      <stereotypes xmi:id="_0YjOZYIoEe22-4sQOm0zjQ" name="LegacyStyledElement">
+        <modelElement href="composition.uml#_tL0h8IIoEe22-4sQOm0zjQ"/>
+      </stereotypes>
+      <visibility xmi:id="_0YjOZoIoEe22-4sQOm0zjQ" label="~"/>
+      <cardinality xmi:id="_0YjOZ4IoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <type xmi:id="_0YjOaIIoEe22-4sQOm0zjQ" name="Flower">
+        <modelElement href="composition.uml#_tGAN0IIoEe22-4sQOm0zjQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_0YjOaYIoEe22-4sQOm0zjQ" name="cresteFlower">
+      <modelElement href="composition.uml#_tF9KgIIoEe22-4sQOm0zjQ"/>
+      <visibility xmi:id="_0YjOaoIoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0YjOa4IoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_0YjObIIoEe22-4sQOm0zjQ" abstractOperation="true" name="buildFlowerCount">
+      <modelElement href="composition.uml#_tF9KgYIoEe22-4sQOm0zjQ"/>
+      <visibility xmi:id="_0YjObYIoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0YjOboIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0YjOb4IoEe22-4sQOm0zjQ" name="count">
+        <modelElement href="composition.uml#_tF9KgoIoEe22-4sQOm0zjQ"/>
+        <cardinality xmi:id="_0YjOcIIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+        <type xmi:id="_0YjOcYIoEe22-4sQOm0zjQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0YjOcoIoEe22-4sQOm0zjQ" name="getFlower">
+      <modelElement href="composition.uml#_tF9xkIIoEe22-4sQOm0zjQ"/>
+      <visibility xmi:id="_0YjOc4IoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0YjOdIIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0YjOdYIoEe22-4sQOm0zjQ">
+        <modelElement href="composition.uml#_tK24oIIoEe22-4sQOm0zjQ"/>
+        <type xmi:id="_0YjOdoIoEe22-4sQOm0zjQ" name="Flower">
+          <modelElement href="composition.uml#_tGAN0IIoEe22-4sQOm0zjQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_0YjOd4IoEe22-4sQOm0zjQ" abstractOperation="true" name="buildFlowerColor">
+      <modelElement href="composition.uml#_tK2RkIIoEe22-4sQOm0zjQ"/>
+      <visibility xmi:id="_0YjOeIIoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0YjOeYIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0YjOeoIoEe22-4sQOm0zjQ" name="color">
+        <modelElement href="composition.uml#_tK2RkYIoEe22-4sQOm0zjQ"/>
+        <cardinality xmi:id="_0YjOe4IoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+        <type xmi:id="_0YjOfIIoEe22-4sQOm0zjQ" name="FlowerColor">
+          <modelElement href="composition.uml#_tGCqEIIoEe22-4sQOm0zjQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0YjOfYIoEe22-4sQOm0zjQ" abstractOperation="true" name="buildFlowerName">
+      <modelElement href="composition.uml#_tK2RkoIoEe22-4sQOm0zjQ"/>
+      <visibility xmi:id="_0YjOfoIoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0YjOf4IoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0YjOgIIoEe22-4sQOm0zjQ" name="name">
+        <modelElement href="composition.uml#_tK2Rk4IoEe22-4sQOm0zjQ"/>
+        <cardinality xmi:id="_0YjOgYIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+        <type xmi:id="_0YjOgoIoEe22-4sQOm0zjQ" name="FlowerName">
+          <modelElement href="composition.uml#_tGD4NoIoEe22-4sQOm0zjQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0YmRsIIoEe22-4sQOm0zjQ" name="SetFlowers" generalizations="_0YlqoIIoEe22-4sQOm0zjQ">
+    <modelElement href="composition.uml#_tGFtYIIoEe22-4sQOm0zjQ"/>
+    <visualProperties xmi:id="_0YmRsYIoEe22-4sQOm0zjQ" position="353.0,-89.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0YmRsoIoEe22-4sQOm0zjQ" label="+"/>
+    <operations xmi:id="_0YmRs4IoEe22-4sQOm0zjQ" name="buildFlowerCount">
+      <modelElement href="composition.uml#_tGFtYYIoEe22-4sQOm0zjQ"/>
+      <stereotypes xmi:id="_0YmRtIIoEe22-4sQOm0zjQ" name="LegacyStyledElement">
+        <modelElement href="composition.uml#_tGGUcIIoEe22-4sQOm0zjQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0YmRtYIoEe22-4sQOm0zjQ" name="Annotations">
+        <modelElement href="composition.uml#_tGGUcYIoEe22-4sQOm0zjQ"/>
+      </stereotypes>
+      <visibility xmi:id="_0YmRtoIoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0YmRt4IoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0YmRuIIoEe22-4sQOm0zjQ" name="count">
+        <modelElement href="composition.uml#_tGFtYoIoEe22-4sQOm0zjQ"/>
+        <cardinality xmi:id="_0YmRuYIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+        <type xmi:id="_0YmRuoIoEe22-4sQOm0zjQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0YmRu4IoEe22-4sQOm0zjQ" name="buildFlowerColor">
+      <modelElement href="composition.uml#_tK4GwoIoEe22-4sQOm0zjQ"/>
+      <stereotypes xmi:id="_0YmRvIIoEe22-4sQOm0zjQ" name="LegacyStyledElement">
+        <modelElement href="composition.uml#_tK4t0IIoEe22-4sQOm0zjQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0YmRvYIoEe22-4sQOm0zjQ" name="Annotations">
+        <modelElement href="composition.uml#_tK4t0YIoEe22-4sQOm0zjQ"/>
+      </stereotypes>
+      <visibility xmi:id="_0YmRvoIoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0YmRv4IoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0YmRwIIoEe22-4sQOm0zjQ" name="color">
+        <modelElement href="composition.uml#_tK4Gw4IoEe22-4sQOm0zjQ"/>
+        <cardinality xmi:id="_0YmRwYIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+        <type xmi:id="_0YmRwoIoEe22-4sQOm0zjQ" name="FlowerColor">
+          <modelElement href="composition.uml#_tGCqEIIoEe22-4sQOm0zjQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0YmRw4IoEe22-4sQOm0zjQ" name="buildFlowerName">
+      <modelElement href="composition.uml#_tK4t04IoEe22-4sQOm0zjQ"/>
+      <stereotypes xmi:id="_0YmRxIIoEe22-4sQOm0zjQ" name="LegacyStyledElement">
+        <modelElement href="composition.uml#_tK5U4IIoEe22-4sQOm0zjQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0YmRxYIoEe22-4sQOm0zjQ" name="Annotations">
+        <modelElement href="composition.uml#_tK5U4YIoEe22-4sQOm0zjQ"/>
+      </stereotypes>
+      <visibility xmi:id="_0YmRxoIoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0YmRx4IoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0YmRyIIoEe22-4sQOm0zjQ" name="name">
+        <modelElement href="composition.uml#_tK4t1IIoEe22-4sQOm0zjQ"/>
+        <cardinality xmi:id="_0YmRyYIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+        <type xmi:id="_0YmRyoIoEe22-4sQOm0zjQ" name="FlowerName">
+          <modelElement href="composition.uml#_tGD4NoIoEe22-4sQOm0zjQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0YpVBYIoEe22-4sQOm0zjQ" name="DirectorFlowers" associationsOut="_0YoG4IIoEe22-4sQOm0zjQ">
+    <modelElement href="composition.uml#_tF-YoIIoEe22-4sQOm0zjQ"/>
+    <visualProperties xmi:id="_0YpVBoIoEe22-4sQOm0zjQ" position="17.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0YpVB4IoEe22-4sQOm0zjQ" label="+"/>
+    <attributes xmi:id="_0YpVCIIoEe22-4sQOm0zjQ" name="buildFlowers">
+      <modelElement href="composition.uml#_tL0h8YIoEe22-4sQOm0zjQ"/>
+      <stereotypes xmi:id="_0YpVCYIoEe22-4sQOm0zjQ" name="LegacyStyledElement">
+        <modelElement href="composition.uml#_tL1JAIIoEe22-4sQOm0zjQ"/>
+      </stereotypes>
+      <visibility xmi:id="_0YpVCoIoEe22-4sQOm0zjQ" label="~"/>
+      <cardinality xmi:id="_0YpVC4IoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <type xmi:id="_0YpVDIIoEe22-4sQOm0zjQ" name="BuildFlowers">
+        <modelElement href="composition.uml#_tF8jcIIoEe22-4sQOm0zjQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_0YpVDYIoEe22-4sQOm0zjQ" name="setBuildFlowers">
+      <modelElement href="composition.uml#_tK24oYIoEe22-4sQOm0zjQ"/>
+      <visibility xmi:id="_0YpVDoIoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0YpVD4IoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0YpVEIIoEe22-4sQOm0zjQ" name="buildFlowers">
+        <modelElement href="composition.uml#_tK24ooIoEe22-4sQOm0zjQ"/>
+        <cardinality xmi:id="_0YpVEYIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+        <type xmi:id="_0YpVEoIoEe22-4sQOm0zjQ" name="BuildFlowers">
+          <modelElement href="composition.uml#_tF8jcIIoEe22-4sQOm0zjQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0YpVE4IoEe22-4sQOm0zjQ" name="buildFlowers">
+      <modelElement href="composition.uml#_tK24o4IoEe22-4sQOm0zjQ"/>
+      <visibility xmi:id="_0YpVFIIoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0YpVFYIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0YpVFoIoEe22-4sQOm0zjQ">
+        <modelElement href="composition.uml#_tK3fsYIoEe22-4sQOm0zjQ"/>
+        <type xmi:id="_0YpVF4IoEe22-4sQOm0zjQ" name="Flower">
+          <modelElement href="composition.uml#_tGAN0IIoEe22-4sQOm0zjQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0YpVGIIoEe22-4sQOm0zjQ" name="count">
+        <modelElement href="composition.uml#_tK24pIIoEe22-4sQOm0zjQ"/>
+        <cardinality xmi:id="_0YpVGYIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+        <type xmi:id="_0YpVGoIoEe22-4sQOm0zjQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YpVG4IoEe22-4sQOm0zjQ" name="color">
+        <modelElement href="composition.uml#_tK24pYIoEe22-4sQOm0zjQ"/>
+        <cardinality xmi:id="_0YpVHIIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+        <type xmi:id="_0YpVHYIoEe22-4sQOm0zjQ" name="FlowerColor">
+          <modelElement href="composition.uml#_tGCqEIIoEe22-4sQOm0zjQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YpVHoIoEe22-4sQOm0zjQ" name="name">
+        <modelElement href="composition.uml#_tK3fsIIoEe22-4sQOm0zjQ"/>
+        <cardinality xmi:id="_0YpVH4IoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+        <type xmi:id="_0YpVIIIoEe22-4sQOm0zjQ" name="FlowerName">
+          <modelElement href="composition.uml#_tGD4NoIoEe22-4sQOm0zjQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0YHJiYIoEe22-4sQOm0zjQ" name="BuildCompositions" abstractClass="true" associationsIn="_0YJlwIIoEe22-4sQOm0zjQ" associationsOut="_0YHJgIIoEe22-4sQOm0zjQ" subclassedBy="_0YN3MIIoEe22-4sQOm0zjQ">
+    <modelElement href="composition.uml#_tF1OsIIoEe22-4sQOm0zjQ"/>
+    <visualProperties xmi:id="_0YHJioIoEe22-4sQOm0zjQ" position="-293.0,-218.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0YHJi4IoEe22-4sQOm0zjQ" label="+"/>
+    <attributes xmi:id="_0YHJjIIoEe22-4sQOm0zjQ" name="composition">
+      <modelElement href="composition.uml#_tLyswIIoEe22-4sQOm0zjQ"/>
+      <stereotypes xmi:id="_0YHJjYIoEe22-4sQOm0zjQ" name="LegacyStyledElement">
+        <modelElement href="composition.uml#_tLyswYIoEe22-4sQOm0zjQ"/>
+      </stereotypes>
+      <visibility xmi:id="_0YHJjoIoEe22-4sQOm0zjQ" label="~"/>
+      <cardinality xmi:id="_0YHJj4IoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <type xmi:id="_0YHJkIIoEe22-4sQOm0zjQ" name="Composition">
+        <modelElement href="composition.uml#_tF3D4IIoEe22-4sQOm0zjQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_0YHJkYIoEe22-4sQOm0zjQ" name="createComposition">
+      <modelElement href="composition.uml#_tF1OsYIoEe22-4sQOm0zjQ"/>
+      <visibility xmi:id="_0YHJkoIoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0YHJk4IoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0YHJlIIoEe22-4sQOm0zjQ">
+        <modelElement href="composition.uml#_tKynMIIoEe22-4sQOm0zjQ"/>
+        <type xmi:id="_0YHJlYIoEe22-4sQOm0zjQ" name="BuildCompositions">
+          <modelElement href="composition.uml#_tF1OsIIoEe22-4sQOm0zjQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_0YHJloIoEe22-4sQOm0zjQ" name="getComposition">
+      <modelElement href="composition.uml#_tF11wIIoEe22-4sQOm0zjQ"/>
+      <visibility xmi:id="_0YHJl4IoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0YHJmIIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0YHJmYIoEe22-4sQOm0zjQ">
+        <modelElement href="composition.uml#_tKzOQIIoEe22-4sQOm0zjQ"/>
+        <type xmi:id="_0YHJmoIoEe22-4sQOm0zjQ" name="Composition">
+          <modelElement href="composition.uml#_tF3D4IIoEe22-4sQOm0zjQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_0YHJm4IoEe22-4sQOm0zjQ" abstractOperation="true" name="buildFlower">
+      <modelElement href="composition.uml#_tKynMYIoEe22-4sQOm0zjQ"/>
+      <visibility xmi:id="_0YHJnIIoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0YHJnYIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0YHJnoIoEe22-4sQOm0zjQ">
+        <modelElement href="composition.uml#_tKynM4IoEe22-4sQOm0zjQ"/>
+        <type xmi:id="_0YHJn4IoEe22-4sQOm0zjQ" name="BuildCompositions">
+          <modelElement href="composition.uml#_tF1OsIIoEe22-4sQOm0zjQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0YHJoIIoEe22-4sQOm0zjQ" name="flower">
+        <modelElement href="composition.uml#_tKynMoIoEe22-4sQOm0zjQ"/>
+        <cardinality xmi:id="_0YHJoYIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+        <type xmi:id="_0YHJooIoEe22-4sQOm0zjQ" name="Flower">
+          <modelElement href="composition.uml#_tGAN0IIoEe22-4sQOm0zjQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0YHJo4IoEe22-4sQOm0zjQ" abstractOperation="true" name="buildPack">
+      <modelElement href="composition.uml#_tKynNIIoEe22-4sQOm0zjQ"/>
+      <visibility xmi:id="_0YHJpIIoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0YHJpYIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0YHJpoIoEe22-4sQOm0zjQ">
+        <modelElement href="composition.uml#_tKynNoIoEe22-4sQOm0zjQ"/>
+        <type xmi:id="_0YHJp4IoEe22-4sQOm0zjQ" name="BuildCompositions">
+          <modelElement href="composition.uml#_tF1OsIIoEe22-4sQOm0zjQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0YHJqIIoEe22-4sQOm0zjQ" name="pack">
+        <modelElement href="composition.uml#_tKynNYIoEe22-4sQOm0zjQ"/>
+        <cardinality xmi:id="_0YHJqYIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+        <type xmi:id="_0YHJqoIoEe22-4sQOm0zjQ" name="Pack">
+          <modelElement href="composition.uml#_tGKl4IIoEe22-4sQOm0zjQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0Y3-gIIoEe22-4sQOm0zjQ" name="SetPacks" generalizations="_0Y2wYIIoEe22-4sQOm0zjQ">
+    <modelElement href="composition.uml#_tGO3UYIoEe22-4sQOm0zjQ"/>
+    <visualProperties xmi:id="_0Y3-gYIoEe22-4sQOm0zjQ" position="-415.0,-66.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0Y3-goIoEe22-4sQOm0zjQ" label="+"/>
+    <operations xmi:id="_0Y3-g4IoEe22-4sQOm0zjQ" name="buildPackColor">
+      <modelElement href="composition.uml#_tK7xIIIoEe22-4sQOm0zjQ"/>
+      <stereotypes xmi:id="_0Y3-hIIoEe22-4sQOm0zjQ" name="LegacyStyledElement">
+        <modelElement href="composition.uml#_tK7xIoIoEe22-4sQOm0zjQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0Y3-hYIoEe22-4sQOm0zjQ" name="Annotations">
+        <modelElement href="composition.uml#_tK8YMIIoEe22-4sQOm0zjQ"/>
+      </stereotypes>
+      <visibility xmi:id="_0Y3-hoIoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0Y3-h4IoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0Y3-iIIoEe22-4sQOm0zjQ" name="color">
+        <modelElement href="composition.uml#_tK7xIYIoEe22-4sQOm0zjQ"/>
+        <cardinality xmi:id="_0Y3-iYIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+        <type xmi:id="_0Y3-ioIoEe22-4sQOm0zjQ" name="PackColor">
+          <modelElement href="composition.uml#_tGNCIIIoEe22-4sQOm0zjQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0Y3-i4IoEe22-4sQOm0zjQ" name="buildPackType">
+      <modelElement href="composition.uml#_tK8YMoIoEe22-4sQOm0zjQ"/>
+      <stereotypes xmi:id="_0Y3-jIIoEe22-4sQOm0zjQ" name="LegacyStyledElement">
+        <modelElement href="composition.uml#_tK8YNIIoEe22-4sQOm0zjQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0Y3-jYIoEe22-4sQOm0zjQ" name="Annotations">
+        <modelElement href="composition.uml#_tK8_QIIoEe22-4sQOm0zjQ"/>
+      </stereotypes>
+      <visibility xmi:id="_0Y3-joIoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0Y3-j4IoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0Y3-kIIoEe22-4sQOm0zjQ" name="type">
+        <modelElement href="composition.uml#_tK8YM4IoEe22-4sQOm0zjQ"/>
+        <cardinality xmi:id="_0Y3-kYIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+        <type xmi:id="_0Y3-koIoEe22-4sQOm0zjQ" name="PackType">
+          <modelElement href="composition.uml#_tGOQQIIoEe22-4sQOm0zjQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0YLa8IIoEe22-4sQOm0zjQ" name="DirectorCompositions" associationsOut="_0YJlwIIoEe22-4sQOm0zjQ">
+    <modelElement href="composition.uml#_tF6HMIIoEe22-4sQOm0zjQ"/>
+    <visualProperties xmi:id="_0YLa8YIoEe22-4sQOm0zjQ" position="-495.0,176.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0YLa8oIoEe22-4sQOm0zjQ" label="+"/>
+    <attributes xmi:id="_0YLa84IoEe22-4sQOm0zjQ" name="buildCompositions">
+      <modelElement href="composition.uml#_tLz64IIoEe22-4sQOm0zjQ"/>
+      <stereotypes xmi:id="_0YLa9IIoEe22-4sQOm0zjQ" name="LegacyStyledElement">
+        <modelElement href="composition.uml#_tLz64YIoEe22-4sQOm0zjQ"/>
+      </stereotypes>
+      <visibility xmi:id="_0YLa9YIoEe22-4sQOm0zjQ" label="~"/>
+      <cardinality xmi:id="_0YLa9oIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <type xmi:id="_0YLa94IoEe22-4sQOm0zjQ" name="BuildCompositions">
+        <modelElement href="composition.uml#_tF1OsIIoEe22-4sQOm0zjQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_0YLa-IIoEe22-4sQOm0zjQ" name="setBuildCompositions">
+      <modelElement href="composition.uml#_tKz1UYIoEe22-4sQOm0zjQ"/>
+      <visibility xmi:id="_0YLa-YIoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0YLa-oIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0YLa-4IoEe22-4sQOm0zjQ">
+        <modelElement href="composition.uml#_tK0cYIIoEe22-4sQOm0zjQ"/>
+        <type xmi:id="_0YLa_IIoEe22-4sQOm0zjQ" name="DirectorCompositions">
+          <modelElement href="composition.uml#_tF6HMIIoEe22-4sQOm0zjQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0YLa_YIoEe22-4sQOm0zjQ" name="buildCompositions">
+        <modelElement href="composition.uml#_tKz1UoIoEe22-4sQOm0zjQ"/>
+        <cardinality xmi:id="_0YLa_oIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+        <type xmi:id="_0YLa_4IoEe22-4sQOm0zjQ" name="BuildCompositions">
+          <modelElement href="composition.uml#_tF1OsIIoEe22-4sQOm0zjQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0YLbAIIoEe22-4sQOm0zjQ" name="buildCompositions">
+      <modelElement href="composition.uml#_tK0cYYIoEe22-4sQOm0zjQ"/>
+      <visibility xmi:id="_0YLbAYIoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0YLbAoIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0YLbA4IoEe22-4sQOm0zjQ">
+        <modelElement href="composition.uml#_tK0cZIIoEe22-4sQOm0zjQ"/>
+        <type xmi:id="_0YLbBIIoEe22-4sQOm0zjQ" name="Composition">
+          <modelElement href="composition.uml#_tF3D4IIoEe22-4sQOm0zjQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0YLbBYIoEe22-4sQOm0zjQ" name="flower">
+        <modelElement href="composition.uml#_tK0cYoIoEe22-4sQOm0zjQ"/>
+        <cardinality xmi:id="_0YLbBoIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+        <type xmi:id="_0YLbB4IoEe22-4sQOm0zjQ" name="Flower">
+          <modelElement href="composition.uml#_tGAN0IIoEe22-4sQOm0zjQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0YLbCIIoEe22-4sQOm0zjQ" name="pack">
+        <modelElement href="composition.uml#_tK0cY4IoEe22-4sQOm0zjQ"/>
+        <cardinality xmi:id="_0YLbCYIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+        <type xmi:id="_0YLbCoIoEe22-4sQOm0zjQ" name="Pack">
+          <modelElement href="composition.uml#_tGKl4IIoEe22-4sQOm0zjQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0YPFUIIoEe22-4sQOm0zjQ" name="SetCompositions" generalizations="_0YN3MIIoEe22-4sQOm0zjQ">
+    <modelElement href="composition.uml#_tF7VUIIoEe22-4sQOm0zjQ"/>
+    <visualProperties xmi:id="_0YPFUYIoEe22-4sQOm0zjQ" position="120.0,180.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0YPFUoIoEe22-4sQOm0zjQ" label="+"/>
+    <operations xmi:id="_0YPFU4IoEe22-4sQOm0zjQ" name="buildFlower">
+      <modelElement href="composition.uml#_tK1DcIIoEe22-4sQOm0zjQ"/>
+      <stereotypes xmi:id="_0YPFVIIoEe22-4sQOm0zjQ" name="LegacyStyledElement">
+        <modelElement href="composition.uml#_tK1Dc4IoEe22-4sQOm0zjQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0YPFVYIoEe22-4sQOm0zjQ" name="Annotations">
+        <modelElement href="composition.uml#_tK1DdIIoEe22-4sQOm0zjQ"/>
+      </stereotypes>
+      <visibility xmi:id="_0YPFVoIoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0YPFV4IoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0YPFWIIoEe22-4sQOm0zjQ">
+        <modelElement href="composition.uml#_tK1DcoIoEe22-4sQOm0zjQ"/>
+        <type xmi:id="_0YPFWYIoEe22-4sQOm0zjQ" name="SetCompositions">
+          <modelElement href="composition.uml#_tF7VUIIoEe22-4sQOm0zjQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0YPFWoIoEe22-4sQOm0zjQ" name="flower">
+        <modelElement href="composition.uml#_tK1DcYIoEe22-4sQOm0zjQ"/>
+        <cardinality xmi:id="_0YPFW4IoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+        <type xmi:id="_0YPFXIIoEe22-4sQOm0zjQ" name="Flower">
+          <modelElement href="composition.uml#_tGAN0IIoEe22-4sQOm0zjQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0YPFXYIoEe22-4sQOm0zjQ" name="buildPack">
+      <modelElement href="composition.uml#_tK1qgIIoEe22-4sQOm0zjQ"/>
+      <stereotypes xmi:id="_0YPFXoIoEe22-4sQOm0zjQ" name="LegacyStyledElement">
+        <modelElement href="composition.uml#_tK1qg4IoEe22-4sQOm0zjQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0YPFX4IoEe22-4sQOm0zjQ" name="Annotations">
+        <modelElement href="composition.uml#_tK1qhIIoEe22-4sQOm0zjQ"/>
+      </stereotypes>
+      <visibility xmi:id="_0YPFYIIoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0YPFYYIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0YPFYoIoEe22-4sQOm0zjQ">
+        <modelElement href="composition.uml#_tK1qgoIoEe22-4sQOm0zjQ"/>
+        <type xmi:id="_0YPFY4IoEe22-4sQOm0zjQ" name="SetCompositions">
+          <modelElement href="composition.uml#_tF7VUIIoEe22-4sQOm0zjQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0YPFZIIoEe22-4sQOm0zjQ" name="pack">
+        <modelElement href="composition.uml#_tK1qgYIoEe22-4sQOm0zjQ"/>
+        <cardinality xmi:id="_0YPFZYIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+        <type xmi:id="_0YPFZoIoEe22-4sQOm0zjQ" name="Pack">
+          <modelElement href="composition.uml#_tGKl4IIoEe22-4sQOm0zjQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_0YVzAIIoEe22-4sQOm0zjQ" name="FlowerName">
+    <modelElement href="composition.uml#_tGD4NoIoEe22-4sQOm0zjQ"/>
+    <visualProperties xmi:id="_0YVzAYIoEe22-4sQOm0zjQ" position="694.0,-420.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0YVzAoIoEe22-4sQOm0zjQ" label="+"/>
+    <literals xmi:id="_0YVzA4IoEe22-4sQOm0zjQ" name="ROSE">
+      <modelElement href="composition.uml#_tGEfQIIoEe22-4sQOm0zjQ"/>
+    </literals>
+    <literals xmi:id="_0YVzBIIoEe22-4sQOm0zjQ" name="TULIP">
+      <modelElement href="composition.uml#_tGEfQYIoEe22-4sQOm0zjQ"/>
+    </literals>
+    <literals xmi:id="_0YVzBYIoEe22-4sQOm0zjQ" name="CARNATION">
+      <modelElement href="composition.uml#_tGEfQoIoEe22-4sQOm0zjQ"/>
+    </literals>
+    <literals xmi:id="_0YVzBoIoEe22-4sQOm0zjQ" name="DANDELION">
+      <modelElement href="composition.uml#_tGEfQ4IoEe22-4sQOm0zjQ"/>
+    </literals>
+    <literals xmi:id="_0YVzB4IoEe22-4sQOm0zjQ" name="GERANIUM">
+      <modelElement href="composition.uml#_tGEfRIIoEe22-4sQOm0zjQ"/>
+    </literals>
+    <literals xmi:id="_0YVzCIIoEe22-4sQOm0zjQ" name="LILY">
+      <modelElement href="composition.uml#_tGEfRYIoEe22-4sQOm0zjQ"/>
+    </literals>
+    <literals xmi:id="_0YVzCYIoEe22-4sQOm0zjQ" name="IRIS">
+      <modelElement href="composition.uml#_tGEfRoIoEe22-4sQOm0zjQ"/>
+    </literals>
+    <literals xmi:id="_0YVzCoIoEe22-4sQOm0zjQ" name="CHRYSANTHEMUM">
+      <modelElement href="composition.uml#_tGFGUIIoEe22-4sQOm0zjQ"/>
+    </literals>
+    <literals xmi:id="_0YVzC4IoEe22-4sQOm0zjQ" name="VIOLET">
+      <modelElement href="composition.uml#_tGFGUYIoEe22-4sQOm0zjQ"/>
+    </literals>
+    <literals xmi:id="_0YVzDIIoEe22-4sQOm0zjQ" name="PETUNIA">
+      <modelElement href="composition.uml#_tGFGUoIoEe22-4sQOm0zjQ"/>
+    </literals>
+    <literals xmi:id="_0YVzDYIoEe22-4sQOm0zjQ" name="ORCHID">
+      <modelElement href="composition.uml#_tGFGU4IoEe22-4sQOm0zjQ"/>
+    </literals>
+    <literals xmi:id="_0YVzDoIoEe22-4sQOm0zjQ" name="GLADIOLUS">
+      <modelElement href="composition.uml#_tGFGVIIoEe22-4sQOm0zjQ"/>
+    </literals>
+    <literals xmi:id="_0YVzD4IoEe22-4sQOm0zjQ" name="ASTER">
+      <modelElement href="composition.uml#_tGFGVYIoEe22-4sQOm0zjQ"/>
+    </literals>
+    <literals xmi:id="_0YVzEIIoEe22-4sQOm0zjQ" name="LILAC">
+      <modelElement href="composition.uml#_tGFGVoIoEe22-4sQOm0zjQ"/>
+    </literals>
+    <literals xmi:id="_0YVzEYIoEe22-4sQOm0zjQ" name="LILY_OF_THE_VALLEY">
+      <modelElement href="composition.uml#_tGFGV4IoEe22-4sQOm0zjQ"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_0YargIIoEe22-4sQOm0zjQ" name="FlowerColor">
+    <modelElement href="composition.uml#_tGCqEIIoEe22-4sQOm0zjQ"/>
+    <visualProperties xmi:id="_0YargYIoEe22-4sQOm0zjQ" position="894.0,-424.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0YargoIoEe22-4sQOm0zjQ" label="+"/>
+    <literals xmi:id="_0Yarg4IoEe22-4sQOm0zjQ" name="RED">
+      <modelElement href="composition.uml#_tGDRIIIoEe22-4sQOm0zjQ"/>
+    </literals>
+    <literals xmi:id="_0YarhIIoEe22-4sQOm0zjQ" name="ORANGE">
+      <modelElement href="composition.uml#_tGDRIYIoEe22-4sQOm0zjQ"/>
+    </literals>
+    <literals xmi:id="_0YarhYIoEe22-4sQOm0zjQ" name="YELLOW">
+      <modelElement href="composition.uml#_tGDRIoIoEe22-4sQOm0zjQ"/>
+    </literals>
+    <literals xmi:id="_0YarhoIoEe22-4sQOm0zjQ" name="BLUE">
+      <modelElement href="composition.uml#_tGDRI4IoEe22-4sQOm0zjQ"/>
+    </literals>
+    <literals xmi:id="_0Yarh4IoEe22-4sQOm0zjQ" name="INDIGO">
+      <modelElement href="composition.uml#_tGDRJIIoEe22-4sQOm0zjQ"/>
+    </literals>
+    <literals xmi:id="_0YariIIoEe22-4sQOm0zjQ" name="VIOLET">
+      <modelElement href="composition.uml#_tGDRJYIoEe22-4sQOm0zjQ"/>
+    </literals>
+    <literals xmi:id="_0YariYIoEe22-4sQOm0zjQ" name="WHITE">
+      <modelElement href="composition.uml#_tGD4MIIoEe22-4sQOm0zjQ"/>
+    </literals>
+    <literals xmi:id="_0YarioIoEe22-4sQOm0zjQ" name="BLACK">
+      <modelElement href="composition.uml#_tGD4MYIoEe22-4sQOm0zjQ"/>
+    </literals>
+    <literals xmi:id="_0Yari4IoEe22-4sQOm0zjQ" name="BROWN">
+      <modelElement href="composition.uml#_tGD4MoIoEe22-4sQOm0zjQ"/>
+    </literals>
+    <literals xmi:id="_0YarjIIoEe22-4sQOm0zjQ" name="PINK">
+      <modelElement href="composition.uml#_tGD4M4IoEe22-4sQOm0zjQ"/>
+    </literals>
+    <literals xmi:id="_0YarjYIoEe22-4sQOm0zjQ" name="GREY">
+      <modelElement href="composition.uml#_tGD4NIIoEe22-4sQOm0zjQ"/>
+    </literals>
+    <literals xmi:id="_0YarjoIoEe22-4sQOm0zjQ" name="GREEN">
+      <modelElement href="composition.uml#_tGD4NYIoEe22-4sQOm0zjQ"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_0YrKMIIoEe22-4sQOm0zjQ" name="PackType">
+    <modelElement href="composition.uml#_tGOQQIIoEe22-4sQOm0zjQ"/>
+    <visualProperties xmi:id="_0YrKMYIoEe22-4sQOm0zjQ" position="1173.0,-419.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0YrKMoIoEe22-4sQOm0zjQ" label="+"/>
+    <literals xmi:id="_0YrKM4IoEe22-4sQOm0zjQ" name="TRANSPARENT_FILM">
+      <modelElement href="composition.uml#_tGOQQYIoEe22-4sQOm0zjQ"/>
+    </literals>
+    <literals xmi:id="_0YrKNIIoEe22-4sQOm0zjQ" name="ORGANZA">
+      <modelElement href="composition.uml#_tGOQQoIoEe22-4sQOm0zjQ"/>
+    </literals>
+    <literals xmi:id="_0YrKNYIoEe22-4sQOm0zjQ" name="ARTIFICIAL_MESH">
+      <modelElement href="composition.uml#_tGOQQ4IoEe22-4sQOm0zjQ"/>
+    </literals>
+    <literals xmi:id="_0YrKNoIoEe22-4sQOm0zjQ" name="FELT">
+      <modelElement href="composition.uml#_tGOQRIIoEe22-4sQOm0zjQ"/>
+    </literals>
+    <literals xmi:id="_0YrKN4IoEe22-4sQOm0zjQ" name="SISAL">
+      <modelElement href="composition.uml#_tGOQRYIoEe22-4sQOm0zjQ"/>
+    </literals>
+    <literals xmi:id="_0YrKOIIoEe22-4sQOm0zjQ" name="JUTE_MESH_AND_FIBER">
+      <modelElement href="composition.uml#_tGO3UIIoEe22-4sQOm0zjQ"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_0YwCsIIoEe22-4sQOm0zjQ" name="PackColor">
+    <modelElement href="composition.uml#_tGNCIIIoEe22-4sQOm0zjQ"/>
+    <visualProperties xmi:id="_0YwCsYIoEe22-4sQOm0zjQ" position="1028.0,-419.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0YwCsoIoEe22-4sQOm0zjQ" label="+"/>
+    <literals xmi:id="_0YwCs4IoEe22-4sQOm0zjQ" name="RED">
+      <modelElement href="composition.uml#_tGNCIYIoEe22-4sQOm0zjQ"/>
+    </literals>
+    <literals xmi:id="_0YwCtIIoEe22-4sQOm0zjQ" name="ORANGE">
+      <modelElement href="composition.uml#_tGNCIoIoEe22-4sQOm0zjQ"/>
+    </literals>
+    <literals xmi:id="_0YwCtYIoEe22-4sQOm0zjQ" name="YELLOW">
+      <modelElement href="composition.uml#_tGNCI4IoEe22-4sQOm0zjQ"/>
+    </literals>
+    <literals xmi:id="_0YwCtoIoEe22-4sQOm0zjQ" name="BLUE">
+      <modelElement href="composition.uml#_tGNCJIIoEe22-4sQOm0zjQ"/>
+    </literals>
+    <literals xmi:id="_0YwCt4IoEe22-4sQOm0zjQ" name="INDIGO">
+      <modelElement href="composition.uml#_tGNpMIIoEe22-4sQOm0zjQ"/>
+    </literals>
+    <literals xmi:id="_0YwCuIIoEe22-4sQOm0zjQ" name="VIOLET">
+      <modelElement href="composition.uml#_tGNpMYIoEe22-4sQOm0zjQ"/>
+    </literals>
+    <literals xmi:id="_0YwCuYIoEe22-4sQOm0zjQ" name="WHITE">
+      <modelElement href="composition.uml#_tGNpMoIoEe22-4sQOm0zjQ"/>
+    </literals>
+    <literals xmi:id="_0YwCuoIoEe22-4sQOm0zjQ" name="BLACK">
+      <modelElement href="composition.uml#_tGNpM4IoEe22-4sQOm0zjQ"/>
+    </literals>
+    <literals xmi:id="_0YwCu4IoEe22-4sQOm0zjQ" name="BROWN">
+      <modelElement href="composition.uml#_tGNpNIIoEe22-4sQOm0zjQ"/>
+    </literals>
+    <literals xmi:id="_0YwCvIIoEe22-4sQOm0zjQ" name="PINK">
+      <modelElement href="composition.uml#_tGNpNYIoEe22-4sQOm0zjQ"/>
+    </literals>
+    <literals xmi:id="_0YwCvYIoEe22-4sQOm0zjQ" name="GREY">
+      <modelElement href="composition.uml#_tGNpNoIoEe22-4sQOm0zjQ"/>
+    </literals>
+    <literals xmi:id="_0YwCvoIoEe22-4sQOm0zjQ" name="GREEN">
+      <modelElement href="composition.uml#_tGNpN4IoEe22-4sQOm0zjQ"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0YNQIIIoEe22-4sQOm0zjQ" name="CompositionRunner">
+    <modelElement href="composition.uml#_tF45EIIoEe22-4sQOm0zjQ"/>
+    <visualProperties xmi:id="_0YNQIYIoEe22-4sQOm0zjQ" position="642.0,95.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0YNQIoIoEe22-4sQOm0zjQ" label="+"/>
+    <operations xmi:id="_0YNQI4IoEe22-4sQOm0zjQ" name="main" staticOperation="true">
+      <modelElement href="composition.uml#_tF5gIIIoEe22-4sQOm0zjQ"/>
+      <visibility xmi:id="_0YNQJIIoEe22-4sQOm0zjQ" label="+"/>
+      <cardinality xmi:id="_0YNQJYIoEe22-4sQOm0zjQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0YNQJoIoEe22-4sQOm0zjQ" name="args">
+        <modelElement href="composition.uml#_tF5gIYIoEe22-4sQOm0zjQ"/>
+        <cardinality xmi:id="_0YNQJ4IoEe22-4sQOm0zjQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_0YNQKIIoEe22-4sQOm0zjQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

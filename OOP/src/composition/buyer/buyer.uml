@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_TLxL4IKVEe22-4sQOm0zjQ" name="buyer">
+    <eAnnotations xmi:id="_VJSogIKVEe22-4sQOm0zjQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_VJSogYKVEe22-4sQOm0zjQ" source="codegen">
+        <details xmi:id="_VJSogoKVEe22-4sQOm0zjQ" key="codegenDirectory" value="/OOP/src"/>
+        <details xmi:id="_VsCwQYKVEe22-4sQOm0zjQ" key="AssociatedSourceCode" value="/OOP/src/composition/buyer/Buyer.java;2844241932/1;/OOP/src/composition/CompositionRunner.java;3526682035/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_VJTPkIKVEe22-4sQOm0zjQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_VJT2oIKVEe22-4sQOm0zjQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_VJT2oYKVEe22-4sQOm0zjQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_VJT2ooKVEe22-4sQOm0zjQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_VJT2o4KVEe22-4sQOm0zjQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_VJT2pIKVEe22-4sQOm0zjQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_VJT2pYKVEe22-4sQOm0zjQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_VJT2poKVEe22-4sQOm0zjQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_VJUdsIKVEe22-4sQOm0zjQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_VJNI8IKVEe22-4sQOm0zjQ" name="composition">
+      <packagedElement xmi:type="uml:Package" xmi:id="_VJPlMIKVEe22-4sQOm0zjQ" name="buyer">
+        <packagedElement xmi:type="uml:Class" xmi:id="_VJSBcIKVEe22-4sQOm0zjQ" name="Buyer">
+          <ownedAttribute xmi:id="_VJpN0oKVEe22-4sQOm0zjQ" name="buyer" visibility="private" isStatic="true" type="_VJSBcIKVEe22-4sQOm0zjQ" association="_VJqb9YKVEe22-4sQOm0zjQ"/>
+          <ownedAttribute xmi:id="_VJp04YKVEe22-4sQOm0zjQ" name="buyerList" isStatic="true" type="_VJmxkIKVEe22-4sQOm0zjQ" isOrdered="true" association="_VJrDAYKVEe22-4sQOm0zjQ">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VJp044KVEe22-4sQOm0zjQ" value="*"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_VJp05IKVEe22-4sQOm0zjQ" value="new ArrayList&lt;>()"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VJqb8IKVEe22-4sQOm0zjQ" name="getBuyers" specification="_VJVEwIKVEe22-4sQOm0zjQ">
+            <ownedParameter xmi:id="_VJqb8YKVEe22-4sQOm0zjQ" type="_VJSBcIKVEe22-4sQOm0zjQ" direction="return"/>
+            <language>java</language>
+            <body>if(buyer == null) {&#xD;
+			buyer = new Buyer();&#xD;
+		}&#xD;
+		&#xD;
+		return buyer;		&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VJqb8oKVEe22-4sQOm0zjQ" name="addBuyer" specification="_VJpN0IKVEe22-4sQOm0zjQ">
+            <ownedParameter xmi:id="_VJqb84KVEe22-4sQOm0zjQ" name="composition" type="_VJmxkIKVEe22-4sQOm0zjQ"/>
+            <language>java</language>
+            <body>buyerList.add(composition);		&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VJqb9IKVEe22-4sQOm0zjQ" name="showBuyer" specification="_VJW58oKVEe22-4sQOm0zjQ">
+            <language>java</language>
+            <body>System.out.println(buyerList);&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_VJVEwIKVEe22-4sQOm0zjQ" name="getBuyers" isStatic="true" method="_VJqb8IKVEe22-4sQOm0zjQ">
+            <eAnnotations xmi:id="_VJVEwYKVEe22-4sQOm0zjQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_VJVEwoKVEe22-4sQOm0zjQ" key="synchronized"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_VJn_sIKVEe22-4sQOm0zjQ" type="_VJSBcIKVEe22-4sQOm0zjQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_VJVr0YKVEe22-4sQOm0zjQ" name="Buyer" visibility="private">
+            <eAnnotations xmi:id="_VJWS4IKVEe22-4sQOm0zjQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_VJWS4YKVEe22-4sQOm0zjQ" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_VJW58YKVEe22-4sQOm0zjQ" type="_VJSBcIKVEe22-4sQOm0zjQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_VJW58oKVEe22-4sQOm0zjQ" name="showBuyer" method="_VJqb9IKVEe22-4sQOm0zjQ"/>
+          <ownedOperation xmi:id="_VJpN0IKVEe22-4sQOm0zjQ" name="addBuyer" method="_VJqb8oKVEe22-4sQOm0zjQ">
+            <ownedParameter xmi:id="_VJpN0YKVEe22-4sQOm0zjQ" name="composition" type="_VJmxkIKVEe22-4sQOm0zjQ"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_VJqb9YKVEe22-4sQOm0zjQ" name="" memberEnd="_VJqb9oKVEe22-4sQOm0zjQ _VJpN0oKVEe22-4sQOm0zjQ">
+          <ownedEnd xmi:id="_VJqb9oKVEe22-4sQOm0zjQ" name="" type="_VJSBcIKVEe22-4sQOm0zjQ" association="_VJqb9YKVEe22-4sQOm0zjQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_VJrDAYKVEe22-4sQOm0zjQ" name="" memberEnd="_VJrDAoKVEe22-4sQOm0zjQ _VJp04YKVEe22-4sQOm0zjQ">
+          <ownedEnd xmi:id="_VJrDAoKVEe22-4sQOm0zjQ" name="" type="_VJSBcIKVEe22-4sQOm0zjQ" association="_VJrDAYKVEe22-4sQOm0zjQ"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_VJmxkIKVEe22-4sQOm0zjQ" name="Composition"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_aIGE0IKVEe22-4sQOm0zjQ" name="flower">
+        <packagedElement xmi:type="uml:Class" xmi:id="_aIV8cIKVEe22-4sQOm0zjQ" name="DirectorFlowers"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_aIWjgYKVEe22-4sQOm0zjQ" name="Flower"/>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_aIXKkYKVEe22-4sQOm0zjQ" name="FlowerColor"/>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_aIXKk4KVEe22-4sQOm0zjQ" name="FlowerName"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_aIXxoYKVEe22-4sQOm0zjQ" name="SetFlowers"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_aIGr4IKVEe22-4sQOm0zjQ" name="packaging">
+        <packagedElement xmi:type="uml:Class" xmi:id="_aIYYsIKVEe22-4sQOm0zjQ" name="DirectorPacks"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_aIYYsoKVEe22-4sQOm0zjQ" name="Pack"/>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_aIY_wYKVEe22-4sQOm0zjQ" name="PackColor"/>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_aIY_w4KVEe22-4sQOm0zjQ" name="PackType"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_aIZm0YKVEe22-4sQOm0zjQ" name="SetPacks"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_VJNwAIKVEe22-4sQOm0zjQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_VJNwAYKVEe22-4sQOm0zjQ" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_VJkVUIKVEe22-4sQOm0zjQ" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_VJljcYKVEe22-4sQOm0zjQ" name="List"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_VJSBcYKVEe22-4sQOm0zjQ">
+      <eAnnotations xmi:id="_VJSBcoKVEe22-4sQOm0zjQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VJVr0IKVEe22-4sQOm0zjQ" base_Element="_VJVEwIKVEe22-4sQOm0zjQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VJW58IKVEe22-4sQOm0zjQ" base_Element="_VJVr0YKVEe22-4sQOm0zjQ"/>
+  <UMLLabProfile:Reference xmi:id="_VJljcIKVEe22-4sQOm0zjQ" base_Element="_VJkVUIKVEe22-4sQOm0zjQ"/>
+  <UMLLabProfile:Reference xmi:id="_VJmKgIKVEe22-4sQOm0zjQ" base_Element="_VJljcYKVEe22-4sQOm0zjQ"/>
+  <UMLLabProfile:Reference xmi:id="_VJnYoIKVEe22-4sQOm0zjQ" base_Element="_VJmxkIKVEe22-4sQOm0zjQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VJp04IKVEe22-4sQOm0zjQ" base_Element="_VJpN0oKVEe22-4sQOm0zjQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VJp04oKVEe22-4sQOm0zjQ" base_Element="_VJp04YKVEe22-4sQOm0zjQ"/>
+  <UMLLabProfile:Reference xmi:id="_VJrDAIKVEe22-4sQOm0zjQ" base_Element="_VJqb9YKVEe22-4sQOm0zjQ"/>
+  <UMLLabProfile:Reference xmi:id="_VJrqEIKVEe22-4sQOm0zjQ" base_Element="_VJrDAYKVEe22-4sQOm0zjQ"/>
+  <UMLLabProfile:Patch xmi:id="_VsCwQIKVEe22-4sQOm0zjQ" base_Element="_VJSBcIKVEe22-4sQOm0zjQ" patchText="@@ -165,22 +165,24 @@&#xA; buyer;%0D%0A&#xA;-public&#xA;+%09private&#xA;  static &#xA;" conflicting="false"/>
+  <UMLLabProfile:Reference xmi:id="_aIWjgIKVEe22-4sQOm0zjQ" base_Element="_aIV8cIKVEe22-4sQOm0zjQ"/>
+  <UMLLabProfile:Reference xmi:id="_aIXKkIKVEe22-4sQOm0zjQ" base_Element="_aIWjgYKVEe22-4sQOm0zjQ"/>
+  <UMLLabProfile:Reference xmi:id="_aIXKkoKVEe22-4sQOm0zjQ" base_Element="_aIXKkYKVEe22-4sQOm0zjQ"/>
+  <UMLLabProfile:Reference xmi:id="_aIXxoIKVEe22-4sQOm0zjQ" base_Element="_aIXKk4KVEe22-4sQOm0zjQ"/>
+  <UMLLabProfile:Reference xmi:id="_aIXxooKVEe22-4sQOm0zjQ" base_Element="_aIXxoYKVEe22-4sQOm0zjQ"/>
+  <UMLLabProfile:Reference xmi:id="_aIYYsYKVEe22-4sQOm0zjQ" base_Element="_aIYYsIKVEe22-4sQOm0zjQ"/>
+  <UMLLabProfile:Reference xmi:id="_aIY_wIKVEe22-4sQOm0zjQ" base_Element="_aIYYsoKVEe22-4sQOm0zjQ"/>
+  <UMLLabProfile:Reference xmi:id="_aIY_woKVEe22-4sQOm0zjQ" base_Element="_aIY_wYKVEe22-4sQOm0zjQ"/>
+  <UMLLabProfile:Reference xmi:id="_aIZm0IKVEe22-4sQOm0zjQ" base_Element="_aIY_w4KVEe22-4sQOm0zjQ"/>
+  <UMLLabProfile:Reference xmi:id="_aIZm0oKVEe22-4sQOm0zjQ" base_Element="_aIZm0YKVEe22-4sQOm0zjQ"/>
+</xmi:XMI>
