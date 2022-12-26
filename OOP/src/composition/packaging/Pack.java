@@ -30,12 +30,7 @@ public class Pack {
 		if (getClass() != obj.getClass())
 			return false;
 		Pack other = (Pack) obj;
-		if(!this.color.equals(other.color)) return false;
-		if(!this.type.equals(other.type)) return false;		
-		return color == other.color || other.color!=null && type == other.type || other.type!=null;
+		if(!(color == other.color || other.color!=null && this.color.equals(other.color))) return false;			
+		return type == other.type || other.type!=null && this.type.equals(other.type);
 	}
-			
-	
-	
-	
 }
