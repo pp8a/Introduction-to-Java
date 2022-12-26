@@ -34,7 +34,7 @@
 
 ### Дополнительные методы: static int input() - ввод чисел, double scale(double point) - для округления числа до 3-х чисел после запятой.
 
-## [Циклы](https://github.com/pp8a/Introduction-to-Java/blob/main/Basics/src/Cycles.java)
+## [Циклы](https://github.com/pp8a/Introduction-to-Java/blob/main/Basics/src/Cycles.java) Class Cycles.
 1. void taskOne() - Напишите программу, где пользователь вводит любое целое положительное число. А программа суммирует 
 все числа от 1 до введенного пользователем числа.
 2. void taskTwo() - Вычислить значения функции на отрезке [а,b] c шагом h: y= x, x>2 = -x, x<=2.
