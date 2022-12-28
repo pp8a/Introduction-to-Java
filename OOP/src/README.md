@@ -2,16 +2,12 @@
 
 # 5. Basics of OOP
 
-## Задача 1. [MyFile](https://github.com/pp8a/Introduction-to-Java/tree/main/OOP/src/MyFile)
-
-Создать объект класса Текстовый файл, используя классы Файл, Директория. Методы: создать, переименовать, 
-вывести на консоль содержимое, дополнить, удалить.
-
+## Задача 1. [MyFile](https://github.com/pp8a/Introduction-to-Java/tree/main/OOP/src/MyFile).
+Создать объект класса [Текстовый файл](https://github.com/pp8a/Introduction-to-Java/blob/main/OOP/src/MyFile/MyText.java), используя классы [Файл](https://github.com/pp8a/Introduction-to-Java/blob/main/OOP/src/MyFile/MyFile.java), [Директория](https://github.com/pp8a/Introduction-to-Java/blob/main/OOP/src/MyFile/MyDirectory.java). Методы: создать, переименовать, вывести на консоль содержимое, дополнить, удалить.
+    * [Run main](https://github.com/pp8a/Introduction-to-Java/blob/main/OOP/src/MyFile/main.java).
 ## Задача 2. [Payment](https://github.com/pp8a/Introduction-to-Java/tree/main/OOP/src/Payment)
-
-Создать класс Payment с внутренним классом, с помощью объектов которого можно сформировать покупку из 
-нескольких товаров.
-
+Создать класс Payment с внутренним классом ([Bank](https://github.com/pp8a/Introduction-to-Java/blob/main/OOP/src/Payment/Bank.java), [Provider](https://github.com/pp8a/Introduction-to-Java/blob/main/OOP/src/Payment/Provider.java)), с помощью объектов которого можно сформировать покупку из нескольких товаров.
+    * [Run main](https://github.com/pp8a/Introduction-to-Java/blob/main/OOP/src/Payment/main.java).
 ## Задача 3. [Calendar](https://github.com/pp8a/Introduction-to-Java/tree/main/OOP/src/Calendar)
 
 Создать класс Календарь с внутренним классом, с помощью объектов которого можно хранить информацию о 
