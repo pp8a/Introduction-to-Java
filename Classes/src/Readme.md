@@ -43,9 +43,9 @@
     * список рейсов для заданного дня недели, время вылета для которых больше заданного.
     
     * Используется: [AirlineData](https://github.com/pp8a/Introduction-to-Java/blob/main/Classes/src/AirlineData.java), [AircraftType](https://github.com/pp8a/Introduction-to-Java/blob/main/Classes/src/AircraftType.java).
-# Агрегация и композиция
-1. Создать объект класса Текст, используя классы Предложение, Слово. Методы: дополнить текст, вывести на
-консоль текст, заголовок текста.
+# [Агрегация и композиция](https://github.com/pp8a/Introduction-to-Java/tree/main/Classes/src/AggregationComposition)
+1. [Package Text](https://github.com/pp8a/Introduction-to-Java/tree/main/Classes/src/AggregationComposition/Text). Создать объект класса [Текст](https://github.com/pp8a/Introduction-to-Java/blob/main/Classes/src/AggregationComposition/Text/Text.java), используя классы [Предложение](https://github.com/pp8a/Introduction-to-Java/blob/main/Classes/src/AggregationComposition/Text/Sentence.java), [Слово](https://github.com/pp8a/Introduction-to-Java/blob/main/Classes/src/AggregationComposition/Text/Word.java). Методы: дополнить текст, вывести на консоль текст, заголовок текста.
+    * [Run main](https://github.com/pp8a/Introduction-to-Java/blob/main/Classes/src/AggregationComposition/Text/main.java).
 2. Создать объект класса Автомобиль, используя классы Колесо, Двигатель. Методы: ехать, заправляться,
 менять колесо, вывести на консоль марку автомобиля.
 3. Создать объект класса Государство, используя классы Область, Район, Город. Методы: вывести на консоль
