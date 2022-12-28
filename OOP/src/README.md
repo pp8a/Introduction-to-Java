@@ -1,7 +1,6 @@
 Скачать файл заданий: [Practice (tasks) (5).pdf](https://github.com/pp8a/Introduction-to-Java/files/10300529/Practice.tasks.5.pdf)
 
 # 5. Basics of OOP
-Для закрепления навыков по данной теме решите следующие задачи. 
 
 ## Задача 1. [MyFile](https://github.com/pp8a/Introduction-to-Java/tree/main/OOP/src/MyFile)
 
