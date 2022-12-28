@@ -85,23 +85,26 @@ static int binarySearch(int[] array, int first, int last, int item)
 ## [Декомпозиция с использованием методов (подпрограммы)](https://github.com/pp8a/Introduction-to-Java/blob/main/Algorithmization/src/Decomposition.java) Class Decomposition.
 ### Дополнительные методы: static int input() - ввод целых чисел
 1. void taskOne() - Написать метод(методы) для нахождения наибольшего общего делителя и наименьшего общего кратного двух натуральных чисел: (НОК(A,B)=A*B/НОД(A,B). 
-	1.1 [Fraction](https://github.com/pp8a/Introduction-to-Java/blob/main/Algorithmization/src/Fraction.java) Class Fraction. - для вычисления НОД и НОК.
+[Fraction](https://github.com/pp8a/Introduction-to-Java/blob/main/Algorithmization/src/Fraction.java) Class Fraction. - для вычисления НОД и НОК.
 2. void taskTwo() - Написать метод(методы) для нахождения наибольшего общего делителя четырех натуральных чисел. 
-	1.2 [Fraction](https://github.com/pp8a/Introduction-to-Java/blob/main/Algorithmization/src/Fraction.java) Class Fraction. - для вычисления НОД и НОК.
+[Fraction](https://github.com/pp8a/Introduction-to-Java/blob/main/Algorithmization/src/Fraction.java) Class Fraction. - для вычисления НОД и НОК.
 3. void taskThree() - Вычислить площадь правильного шестиугольника со стороной а, используя метод вычисления площади треугольника.
 4. void taskFour() - На плоскости заданы своими координатами n точек. Написать метод(методы), определяющие, между какими из пар точек самое большое расстояние. Указание. Координаты точек занести в массив.
 [Coordinate](https://github.com/pp8a/Introduction-to-Java/blob/main/Algorithmization/src/Coordinate.java) Class Coordinate - для вычисления координат точек.
-5. Составить программу, которая в массиве A[N] находит второе по величине число (вывести на печать число, 
-которое меньше максимального элемента массива, но больше всех других элементов).
-6. Написать метод(методы), проверяющий, являются ли данные три числа взаимно простыми.
-7. Написать метод(методы) для вычисления суммы факториалов всех нечетных чисел от 1 до 9.
-8. Задан массив D. Определить следующие суммы: D[l] + D[2] + D[3]; D[3] + D[4] + D[5]; D[4] +D[5] +D[6].
-Пояснение. Составить метод(методы) для вычисления суммы трех последовательно расположенных элементов 
-массива с номерами от k до m.
-9. Даны числа X, Y, Z, Т — длины сторон четырехугольника. Написать метод(методы) вычисления его площади, 
-если угол между сторонами длиной X и Y— прямой.
-10. Дано натуральное число N. Написать метод(методы) для формирования массива, элементами которого 
-являются цифры числа N.
+5. void taskFive() - Составить программу, которая в массиве A[N] находит второе по величине число (вывести на печать число, которое меньше максимального элемента массива, но больше всех других элементов). 
+6. void taskSix() - Написать метод(методы), проверяющий, являются ли данные три числа взаимно простыми.
+[Fraction](https://github.com/pp8a/Introduction-to-Java/blob/main/Algorithmization/src/Fraction.java) Class Fraction. - для вычисления НОД и НОК.
+7. void taskSeven() - Написать метод(методы) для вычисления суммы факториалов всех нечетных чисел от 1 до 9.
+8. void taskEight() - Задан массив D. Определить следующие суммы: D[l] + D[2] + D[3]; D[3] + D[4] + D[5]; D[4] +D[5] +D[6]. Пояснение. Составить метод(методы) для вычисления суммы трех последовательно расположенных элементов массива с номерами от k до m: static int calculate(int[] array, int n).
+9. void taskNine() - Даны числа X, Y, Z, Т — длины сторон четырехугольника. Написать метод(методы) вычисления его площади, 
+если угол между сторонами длиной X и Y— прямой. 
+Hypotenuse: static double hypotenuse(double x, double y). 
+The square of rectangular triangle: static double rightTriangle(double c, double x). 
+The square of triangle: static double triangle(double c, double z, double t). 
+The square of quadrangle: public static double scale(double point).
+10. void taskTen() - Дано натуральное число N. Написать метод(методы) для формирования массива, элементами которого являются цифры числа N.
+Определение количества цифр в числе, размер массива: public static int sizeArray(int N).	
+Создание массива: public static int[] creatingArray(int size, int N).
 11. Написать метод(методы), определяющий, в каком из данных двух чисел больше цифр.
 12. Даны натуральные числа К и N. Написать метод(методы) формирования массива А, элементами которого 
 являются числа, сумма цифр которых равна К и которые не большее N.
