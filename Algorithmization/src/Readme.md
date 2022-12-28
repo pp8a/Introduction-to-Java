@@ -2,7 +2,7 @@
 
 # 2. Algorithmization
 Класс [MAIN](https://github.com/pp8a/Introduction-to-Java/blob/main/Algorithmization/src/main.java) для запуска меню и выбора задач описанных ниже. Путем выбора номера задачи. 
-## [Одномерные массивы](https://github.com/pp8a/Introduction-to-Java/blob/main/Algorithmization/src/OneDimensionalArrays.java)
+## [Одномерные массивы](https://github.com/pp8a/Introduction-to-Java/blob/main/Algorithmization/src/OneDimensionalArrays.java) Class OneDimensionalArrays.
 ### Дополнительные методы: void arrayOfRealNumbers() - creating an array of real numbers, void arrayOfIntegerNumbers() - creating an array of real numbers
 1. void taskOne() - В массив A [N] занесены натуральные числа. Найти сумму тех элементов, которые кратны данному К.
 2. void taskTwo() - Дана последовательность действительных чисел а1 ,а2 ,..., ап. Заменить все ее члены, большие данного Z, этим числом. Подсчитать количество замен.
@@ -15,7 +15,7 @@
 9. void taskNine() - В массиве целых чисел с количеством элементов n найти наиболее часто встречающееся число. Если таких 
 чисел несколько, то определить наименьшее из них.
 10. void taskTen() - Дан целочисленный массив с количеством элементов п. Сжать массив, выбросив из него каждый второй элемент (освободившиеся элементы заполнить нулями). Примечание. Дополнительный массив не использовать.
-## [Задачи. Массивы массивов](https://github.com/pp8a/Introduction-to-Java/blob/main/Algorithmization/src/ArraysOfArrays.java)
+## [Задачи. Массивы массивов](https://github.com/pp8a/Introduction-to-Java/blob/main/Algorithmization/src/ArraysOfArrays.java) Class ArraysOfArrays.
 ### Дополнительные методы: void createMatrix() - creating a matrix of numbers, the dimensions are set by the user
 1. void taskOne() - Дана матрица. Вывести на экран все нечетные столбцы, у которых первый элемент больше последнего.
 2. void taskTwo() - Дана квадратная матрица. Вывести на экран элементы, стоящие на диагонали.
@@ -70,7 +70,7 @@
 	7	5	3
 	
 	2	9	4
-## [Одномерные массивы. Сортировки](https://github.com/pp8a/Introduction-to-Java/blob/main/Algorithmization/src/OneArraysSort.java)
+## [Одномерные массивы. Сортировки](https://github.com/pp8a/Introduction-to-Java/blob/main/Algorithmization/src/OneArraysSort.java) Class OneArraysSort.
 ### Дополнительные методы: static int input() - ввод целых чисел
 1. void taskOne() - Заданы два одномерных массива с различным количеством элементов и натуральное число k. Объединить их в один массив, включив второй массив между k-м и (k+1) - м элементами первого, при этом не используя дополнительный массив.
 2. void taskTwo() - Даны две последовательности a1 <= a2 <=...<= an и b1 <= b2 <=...<= bm. Образовать из них новую последовательность чисел так, чтобы она тоже была неубывающей. Примечание. Дополнительный массив не использовать.
