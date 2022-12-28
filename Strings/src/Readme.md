@@ -1,4 +1,4 @@
-[Practice (tasks) (3).pdf](https://github.com/pp8a/Introduction-to-Java/files/10314486/Practice.tasks.3.pdf)
+Скачать файл заданий: [Practice (tasks) (3).pdf](https://github.com/pp8a/Introduction-to-Java/files/10314486/Practice.tasks.3.pdf)
 # 3. Strings and basics of text processing
 Класс [MAIN](https://github.com/pp8a/Introduction-to-Java/blob/main/Algorithmization/src/main.java) для запуска меню и выбора задач описанных ниже. Путем выбора номера задачи.
 ## [Работа со строкой как с массивом символов](https://github.com/pp8a/Introduction-to-Java/blob/main/Strings/src/ArraysSymbol.java) Class ArraysSymbol.
