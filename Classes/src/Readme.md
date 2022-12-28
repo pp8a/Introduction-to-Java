@@ -1,6 +1,7 @@
 Скачать файл с заданиями: [Practice (tasks) (4).pdf](https://github.com/pp8a/Introduction-to-Java/files/10314747/Practice.tasks.4.pdf)
 # 4. Programming with classes
 Класс [Classes](https://github.com/pp8a/Introduction-to-Java/blob/main/Classes/src/Classes.java) для запуска меню и выбора задач описанных ниже. Путем выбора номера задачи. 
+
 Простейшие классы и объекты.
 1. Создайте класс [Test1](https://github.com/pp8a/Introduction-to-Java/blob/main/Classes/src/Test1.java) с двумя переменными. Добавьте метод вывода на экран и методы изменения этих переменных. Добавьте метод, который находит сумму значений этих переменных, и метод, который находит наибольшее значение из этих двух переменных.
 2. Создйте класс [Test2](https://github.com/pp8a/Introduction-to-Java/blob/main/Classes/src/Test2.java) двумя переменными. Добавьте конструктор с входными параметрами. Добавьте конструктор, инициализирующий члены класса по умолчанию. Добавьте set- и get- методы для полей экземпляра класса.
