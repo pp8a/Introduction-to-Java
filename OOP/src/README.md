@@ -26,7 +26,7 @@
 
     * Консольное меню должно быть минимальным. 
 
-    * Для хранения данных можно использовать [файлы](https://github.com/pp8a/Introduction-to-Java/blob/main/OOP/src/Treasures/treasures.txt).
+    * Для хранения данных можно использовать файлы.
 
 Дракон и его [сокровища](https://github.com/pp8a/Introduction-to-Java/blob/main/OOP/src/Treasures/Treasures.java). Создать программу, позволяющую обрабатывать сведения о 100 сокровищах в [пещере дракона](https://github.com/pp8a/Introduction-to-Java/blob/main/OOP/src/Treasures/Cave.java). Реализовать возможность просмотра сокровищ, выбора самого дорогого по стоимости сокровища и выбора сокровищ на заданную сумму.
     * [Run main](https://github.com/pp8a/Introduction-to-Java/blob/main/OOP/src/Treasures/main.java).
