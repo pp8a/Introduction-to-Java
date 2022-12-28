@@ -17,21 +17,23 @@
     * Используется: [TimeEnum](https://github.com/pp8a/Introduction-to-Java/blob/main/Classes/src/TimeEnum.java).
 7. ```void taskSeven()``` Описать класс [Triangle](https://github.com/pp8a/Introduction-to-Java/blob/main/Classes/src/Triangle.java), представляющий треугольник. Предусмотреть методы для создания объектов, вычисления площади, периметра и точки пересечения медиан.
     * Используется: [Point](https://github.com/pp8a/Introduction-to-Java/blob/main/Classes/src/Point.java), [Calculation](https://github.com/pp8a/Introduction-to-Java/blob/main/Classes/src/Calculation.java).
-8. ```void taskEight()``` Создать класс Customer, спецификация которого приведена ниже. Определить конструкторы, set- и get- методы
-и метод toString(). Создать второй класс, агрегирующий массив типа Customer, с подходящими конструкторами
+8. ```void taskEight()``` Создать класс [Customer](https://github.com/pp8a/Introduction-to-Java/blob/main/Classes/src/Customer.java), спецификация которого приведена ниже. Определить конструкторы, set- и get- методы и метод toString(). Создать второй класс, агрегирующий массив типа Customer, с подходящими конструкторами
 и методами. Задать критерии выбора данных и вывести эти данные на консоль.
-Класс Customer: id, фамилия, имя, отчество, адрес, номер кредитной карточки, номер банковского счета.
+Класс [Customer](https://github.com/pp8a/Introduction-to-Java/blob/main/Classes/src/Customer.java): id, фамилия, имя, отчество, адрес, номер кредитной карточки, номер банковского счета.
 Найти и вывести:
-    a) список покупателей в алфавитном порядке;
-    b) список покупателей, у которых номер кредитной карточки находится в заданном интервале
-9. ```void taskNine()``` Создать класс Book, спецификация которого приведена ниже. Определить конструкторы, set- и get- методы и
-метод toString(). Создать второй класс, агрегирующий массив типа Book, с подходящими конструкторами и
+    * список покупателей в алфавитном порядке;
+    * список покупателей, у которых номер кредитной карточки находится в заданном интервале.
+    
+    * Используется: [CustomerData](https://github.com/pp8a/Introduction-to-Java/blob/main/Classes/src/CustomerData.java)
+9. ```void taskNine()``` Создать класс [Book](https://github.com/pp8a/Introduction-to-Java/blob/main/Classes/src/Book.java), спецификация которого приведена ниже. Определить конструкторы, set- и get- методы и метод toString(). Создать второй класс, агрегирующий массив типа Book, с подходящими конструкторами и
 методами. Задать критерии выбора данных и вывести эти данные на консоль.
-Book: id, название, автор(ы), издательство, год издания, количество страниц, цена, тип переплета.
+[Book](https://github.com/pp8a/Introduction-to-Java/blob/main/Classes/src/Book.java): id, название, автор(ы), издательство, год издания, количество страниц, цена, тип переплета.
 Найти и вывести:
-    a) список книг заданного автора;
-    b) список книг, выпущенных заданным издательством;
-c) список книг, выпущенных после заданного года.
+    * список книг заданного автора;
+    * список книг, выпущенных заданным издательством;
+    * список книг, выпущенных после заданного года.
+    
+    * Используется: [BookData](https://github.com/pp8a/Introduction-to-Java/blob/main/Classes/src/BookData.java), [BookType](https://github.com/pp8a/Introduction-to-Java/blob/main/Classes/src/BookType.java).
 10. ```void taskTen()``` Создать класс Airline, спецификация которого приведена ниже. Определить конструкторы, set- и get- методы
 и метод toString(). Создать второй класс, агрегирующий массив типа Airline, с подходящими конструкторами и
 методами. Задать критерии выбора данных и вывести эти данные на консоль.
