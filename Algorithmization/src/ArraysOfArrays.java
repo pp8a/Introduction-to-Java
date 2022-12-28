@@ -765,9 +765,9 @@ public class ArraysOfArrays extends TaskSelection {
 		@SuppressWarnings("resource")
 		Scanner in = new Scanner(System.in);
 			do {
-				System.out.print("Input the dimension of the matrix: ");
+				System.out.print("Input the dimension of the matrix 3 or 4: ");
 				n = in.nextInt();
-			} while(n <= 0);
+			} while(n <= 2 || n>4);
 		
 		while(true) {
 			boolean flag = true;
