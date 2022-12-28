@@ -85,12 +85,12 @@ static int binarySearch(int[] array, int first, int last, int item)
 ## [Декомпозиция с использованием методов (подпрограммы)](https://github.com/pp8a/Introduction-to-Java/blob/main/Algorithmization/src/Decomposition.java) Class Decomposition.
 ### Дополнительные методы: static int input() - ввод целых чисел
 1. void taskOne() - Написать метод(методы) для нахождения наибольшего общего делителя и наименьшего общего кратного двух натуральных чисел: (НОК(A,B)=A*B/НОД(A,B). 
-[Fraction](https://github.com/pp8a/Introduction-to-Java/blob/main/Algorithmization/src/Fraction.java)
-2. Написать метод(методы) для нахождения наибольшего общего делителя четырех натуральных чисел.
-3. Вычислить площадь правильного шестиугольника со стороной а, используя метод вычисления площади 
-треугольника.
-4. На плоскости заданы своими координатами n точек. Написать метод(методы), определяющие, между какими 
-из пар точек самое большое расстояние. Указание. Координаты точек занести в массив.
+[Fraction](https://github.com/pp8a/Introduction-to-Java/blob/main/Algorithmization/src/Fraction.java) Class Fraction. - для вычисления НОД и НОК.
+2. void taskTwo() - Написать метод(методы) для нахождения наибольшего общего делителя четырех натуральных чисел. 
+[Fraction](https://github.com/pp8a/Introduction-to-Java/blob/main/Algorithmization/src/Fraction.java) Class Fraction. - для вычисления НОД и НОК.
+3. void taskThree() - Вычислить площадь правильного шестиугольника со стороной а, используя метод вычисления площади треугольника.
+4. void taskFour() - На плоскости заданы своими координатами n точек. Написать метод(методы), определяющие, между какими из пар точек самое большое расстояние. Указание. Координаты точек занести в массив.
+[Coordinate](https://github.com/pp8a/Introduction-to-Java/blob/main/Algorithmization/src/Coordinate.java) Class Coordinate - для вычисления координат точек.
 5. Составить программу, которая в массиве A[N] находит второе по величине число (вывести на печать число, 
 которое меньше максимального элемента массива, но больше всех других элементов).
 6. Написать метод(методы), проверяющий, являются ли данные три числа взаимно простыми.
