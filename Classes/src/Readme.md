@@ -34,14 +34,15 @@
     * список книг, выпущенных после заданного года.
     
     * Используется: [BookData](https://github.com/pp8a/Introduction-to-Java/blob/main/Classes/src/BookData.java), [BookType](https://github.com/pp8a/Introduction-to-Java/blob/main/Classes/src/BookType.java).
-10. ```void taskTen()``` Создать класс Airline, спецификация которого приведена ниже. Определить конструкторы, set- и get- методы
-и метод toString(). Создать второй класс, агрегирующий массив типа Airline, с подходящими конструкторами и
+10. ```void taskTen()``` Создать класс [Airline](https://github.com/pp8a/Introduction-to-Java/blob/main/Classes/src/Airline.java), спецификация которого приведена ниже. Определить конструкторы, set- и get- методы и метод toString(). Создать второй класс, агрегирующий массив типа Airline, с подходящими конструкторами и
 методами. Задать критерии выбора данных и вывести эти данные на консоль.
-Airline: пункт назначения, номер рейса, тип самолета, время вылета, дни недели.
+[Airline](https://github.com/pp8a/Introduction-to-Java/blob/main/Classes/src/Airline.java): пункт назначения, номер рейса, тип самолета, время вылета, дни недели.
 Найти и вывести:
-    a) список рейсов для заданного пункта назначения;
-    b) список рейсов для заданного дня недели;
-    c) список рейсов для заданного дня недели, время вылета для которых больше заданного.
+    * список рейсов для заданного пункта назначения;
+    * список рейсов для заданного дня недели;
+    * список рейсов для заданного дня недели, время вылета для которых больше заданного.
+    
+    * Используется: [AirlineData](https://github.com/pp8a/Introduction-to-Java/blob/main/Classes/src/AirlineData.java), [AircraftType](https://github.com/pp8a/Introduction-to-Java/blob/main/Classes/src/AircraftType.java).
 # Агрегация и композиция
 1. Создать объект класса Текст, используя классы Предложение, Слово. Методы: дополнить текст, вывести на
 консоль текст, заголовок текста.
