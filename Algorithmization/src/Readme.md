@@ -1,8 +1,9 @@
 Скачать файл заданий: [Practice (tasks) (2).pdf](https://github.com/pp8a/Introduction-to-Java/files/10313975/Practice.tasks.2.pdf)
 
 # 2. Algorithmization
-Класс [MAIN](https://github.com/pp8a/Introduction-to-Java/blob/main/Algorithmization/src/main.java) для запуска меню и выбора задач описанных ниже. Путем выбора номера задачи.
+Класс [MAIN](https://github.com/pp8a/Introduction-to-Java/blob/main/Algorithmization/src/main.java) для запуска меню и выбора задач описанных ниже. Путем выбора номера задачи. 
 ## [Одномерные массивы](https://github.com/pp8a/Introduction-to-Java/blob/main/Algorithmization/src/OneDimensionalArrays.java)
+### Дополнительные методы: void arrayOfRealNumbers() - creating an array of real numbers, void arrayOfIntegerNumbers() - Creating an array of real numbers
 1. void taskOne() - В массив A [N] занесены натуральные числа. Найти сумму тех элементов, которые кратны данному К.
 2. void taskTwo() - Дана последовательность действительных чисел а1 ,а2 ,..., ап. Заменить все ее члены, большие данного Z, этим числом. Подсчитать количество замен.
 3. void taskThree() - Дан массив действительных чисел, размерность которого N. Подсчитать, сколько в нем отрицательных, положительных и нулевых элементов.
@@ -14,4 +15,28 @@
 9. void taskNine() - В массиве целых чисел с количеством элементов n найти наиболее часто встречающееся число. Если таких 
 чисел несколько, то определить наименьшее из них.
 10. void taskTen() - Дан целочисленный массив с количеством элементов п. Сжать массив, выбросив из него каждый второй элемент (освободившиеся элементы заполнить нулями). Примечание. Дополнительный массив не использовать.
-### Дополнительные методы: void arrayOfRealNumbers() - creating an array of real numbers, void arrayOfIntegerNumbers() - Creating an array of real numbers
+## [Задачи. Массивы массивов](https://github.com/pp8a/Introduction-to-Java/blob/main/Algorithmization/src/ArraysOfArrays.java)
+### Дополнительные методы: void createMatrix() - creating a matrix of numbers, the dimensions are set by the user
+1. void taskOne() - Дана матрица. Вывести на экран все нечетные столбцы, у которых первый элемент больше последнего.
+2. void taskTwo() - Дана квадратная матрица. Вывести на экран элементы, стоящие на диагонали.
+3. void taskThree() - Дана матрица. Вывести k-ю строку и p-й столбец матрицы.
+4. void taskFour() - Сформировать квадратную матрицу порядка n по заданному образцу(n - четное):
+		 *  1	2	3	...	n
+		 *  n-1	n-2	n-3	...	1 
+     *  1	2	3	...	n
+		 *  n-1	n-2	n-3	...	1 
+5. void taskFive() - Сформировать квадратную матрицу порядка n по заданному образцу(n - четное):
+		 *  1	1	1	...	1
+		 *  2	2	2	...	0
+		 *  3	3	0	...	0
+		 *  n-1	n-1	0	...	0
+		 *  n	0	0	...	0  
+6. void taskSix() - Сформировать квадратную матрицу порядка n по заданному образцу(n - четное):
+		 *  1	1	1	...	1
+		 *  0	1	1	...	0
+		 *  0	0	1	...	0
+		 *  0	1	1	...	0
+		 *  1	1	1	...	1 
+ 7. void taskSeven() Сформировать квадратную матрицу порядка N по правилу: A[I,J]=sin((I^2-J^2)/N) и подсчитать количество положительных элементов в ней.
+
+
