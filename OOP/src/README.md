@@ -5,7 +5,7 @@
 Создать объект класса [Текстовый файл](https://github.com/pp8a/Introduction-to-Java/blob/main/OOP/src/MyFile/MyText.java), используя классы [Файл](https://github.com/pp8a/Introduction-to-Java/blob/main/OOP/src/MyFile/MyFile.java), [Директория](https://github.com/pp8a/Introduction-to-Java/blob/main/OOP/src/MyFile/MyDirectory.java). Методы: создать, переименовать, вывести на консоль содержимое, дополнить, удалить.    
     * [Run main](https://github.com/pp8a/Introduction-to-Java/blob/main/OOP/src/MyFile/main.java).    
 ## Задача 2. Package [Payment](https://github.com/pp8a/Introduction-to-Java/tree/main/OOP/src/Payment).
-Создать класс Payment с внутренним классом ([Bank](https://github.com/pp8a/Introduction-to-Java/blob/main/OOP/src/Payment/Bank.java), [Provider](https://github.com/pp8a/Introduction-to-Java/blob/main/OOP/src/Payment/Provider.java)), с помощью объектов которого можно сформировать покупку из нескольких товаров.
+Создать класс Payment ([Bank](https://github.com/pp8a/Introduction-to-Java/blob/main/OOP/src/Payment/Bank.java), [Provider](https://github.com/pp8a/Introduction-to-Java/blob/main/OOP/src/Payment/Provider.java)) с внутренним классом, с помощью объектов которого можно сформировать покупку из нескольких товаров.
     * [Run main](https://github.com/pp8a/Introduction-to-Java/blob/main/OOP/src/Payment/main.java).    
 ## Задача 3. Package [Calendar](https://github.com/pp8a/Introduction-to-Java/tree/main/OOP/src/Calendar).
 Создать класс [Календарь](https://github.com/pp8a/Introduction-to-Java/blob/main/OOP/src/Calendar/Calendar.java) с внутренним классом, с помощью объектов которого можно хранить информацию о выходных и праздничных днях.
