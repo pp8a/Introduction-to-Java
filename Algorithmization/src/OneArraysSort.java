@@ -3,27 +3,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class OneArraysSort extends TaskSelection {
-	
-	
-	public static int input() {		
-		int number;
-		@SuppressWarnings("resource")
-		Scanner in = new Scanner(System.in);	
 		
-		do {				
-		    while (!in.hasNextInt()) {
-		        System.err.println("It's not an integer number! ... Input:");
-		        in.next(); 
-		    }
-		    number = in.nextInt();
-		    if(number<=0) {
-		    	System.out.println("Input only positive number! ... Input:");
-		    }
-		} while (number <= 0);
-		
-		return number;
-	}
-	
 	@Override	
 	public void taskOne() {
 		/*
@@ -573,5 +553,22 @@ public class OneArraysSort extends TaskSelection {
 		
 	}
 	
-	
+	public static int input() {		
+		int number;
+		@SuppressWarnings("resource")
+		Scanner in = new Scanner(System.in);	
+		
+		do {				
+		    while (!in.hasNextInt()) {
+		        System.err.println("It's not an integer number! ... Input:");
+		        in.next(); 
+		    }
+		    number = in.nextInt();
+		    if(number<=0) {
+		    	System.out.println("Input only positive number! ... Input:");
+		    }
+		} while (number <= 0);
+		
+		return number;
+	}
 }
