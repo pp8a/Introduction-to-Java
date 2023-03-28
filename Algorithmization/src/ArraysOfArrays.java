@@ -6,30 +6,7 @@ public class ArraysOfArrays extends TaskSelection {
 	static int height; // matrix height
 	static int width; // matrix width
 	static int [][] matrix;
-	
-
-	public void createMatrix() {
-		/**
-		 * Creating a matrix of numbers
-		 * @param height
-		 * @param width
-		 */
 		
-		@SuppressWarnings("resource")
-		Scanner in = new Scanner(System.in);
-			do {
-				System.out.print("Input the height of the matrix: ");
-				height = in.nextInt();
-			} while(height <= 0);
-			
-			do {
-				System.out.print("Input the width of the matrix: ");
-				width = in.nextInt();
-			} while(width <= 0);			
-			
-		matrix = new int[height][width]; // create matrix
-	}
-	
 	@Override
 	public void taskOne() {
 		/*
@@ -854,6 +831,28 @@ public class ArraysOfArrays extends TaskSelection {
 	        }
 		}        
 		
+	}
+	
+	public void createMatrix() {
+		/**
+		 * Creating a matrix of numbers
+		 * @param height
+		 * @param width
+		 */
+		
+		@SuppressWarnings("resource")
+		Scanner in = new Scanner(System.in);
+			do {
+				System.out.print("Input the height of the matrix: ");
+				height = in.nextInt();
+			} while(height <= 0);
+			
+			do {
+				System.out.print("Input the width of the matrix: ");
+				width = in.nextInt();
+			} while(width <= 0);			
+			
+		matrix = new int[height][width]; // create matrix
 	}
 	
 	
