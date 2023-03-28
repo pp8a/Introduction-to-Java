@@ -7,59 +7,6 @@ public class OneDimensionalArrays extends TaskSelection {
 	static int [] arrInteger; // array a1, a2... an
 	static int n; // dimension of the array
 		
-	public void arrayOfRealNumbers() {
-		/**
-		 * Creating an array of real numbers
-		 * @param double [] arrDouble - array a1, a2... an
-		 * @param int n - dimension of the array
-		 */				
-		
-		@SuppressWarnings("resource")
-		Scanner in = new Scanner(System.in);
-			do {
-				System.out.print("Input the dimension of the array: ");
-			    n = in.nextInt();
-			} while(n <= 0);
-			
-		
-			arrDouble = new double [n];
-				
-		for(int i=0; i<arrDouble.length; i++)
-		{
-			arrDouble[i] = (Math.random()*100)-30; // random numbers			
-		}
-		
-		System.out.println("Source Array: " + Arrays.toString(arrDouble));		
-		
-	}
-	
-	public void arrayOfIntegerNumbers() {
-		/**
-		 * Creating an array of real numbers
-		 * @param int [] arrInteger - array a1, a2... an
-		 * @param int n - dimension of the array
-		 */				
-		
-		@SuppressWarnings("resource")
-		Scanner in = new Scanner(System.in);
-			do {
-				System.out.print("Input the dimension of the array: ");
-			    n = in.nextInt();
-			} while(n <= 0);
-			
-		
-			arrInteger = new int [n];
-				
-		for(int i=0; i<arrInteger.length; i++)
-		{
-			arrInteger[i] = (int)(Math.random()*100)-30; // random numbers			
-		}
-		
-		System.out.println("Source Array: " + Arrays.toString(arrInteger));		
-		
-	}
-	
-	
 	@Override	
 	public void taskOne() {
 		/*
@@ -431,5 +378,57 @@ public class OneDimensionalArrays extends TaskSelection {
 		 arrInteger = Arrays.copyOf(arrInteger, count);
 
 		 System.out.print("Compress the array, throw every second element away: "+ Arrays.toString(arrInteger));
+	}
+	
+	public void arrayOfRealNumbers() {
+		/**
+		 * Creating an array of real numbers
+		 * @param double [] arrDouble - array a1, a2... an
+		 * @param int n - dimension of the array
+		 */				
+		
+		@SuppressWarnings("resource")
+		Scanner in = new Scanner(System.in);
+			do {
+				System.out.print("Input the dimension of the array: ");
+			    n = in.nextInt();
+			} while(n <= 0);
+			
+		
+			arrDouble = new double [n];
+				
+		for(int i=0; i<arrDouble.length; i++)
+		{
+			arrDouble[i] = (Math.random()*100)-30; // random numbers			
+		}
+		
+		System.out.println("Source Array: " + Arrays.toString(arrDouble));		
+		
+	}
+	
+	public void arrayOfIntegerNumbers() {
+		/**
+		 * Creating an array of real numbers
+		 * @param int [] arrInteger - array a1, a2... an
+		 * @param int n - dimension of the array
+		 */				
+		
+		@SuppressWarnings("resource")
+		Scanner in = new Scanner(System.in);
+			do {
+				System.out.print("Input the dimension of the array: ");
+			    n = in.nextInt();
+			} while(n <= 0);
+			
+		
+			arrInteger = new int [n];
+				
+		for(int i=0; i<arrInteger.length; i++)
+		{
+			arrInteger[i] = (int)(Math.random()*100)-30; // random numbers			
+		}
+		
+		System.out.println("Source Array: " + Arrays.toString(arrInteger));		
+		
 	}
 }
