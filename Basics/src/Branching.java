@@ -1,25 +1,7 @@
 import java.util.Scanner;
 
-public class Branching extends TaskSelection{
-	
-	public static int input() {		
-		int number;
-		@SuppressWarnings("resource")
-		Scanner in = new Scanner(System.in);	
+public class Branching extends TaskSelection{	
 		
-					
-		while (!in.hasNextInt()) {
-			System.err.println("It's not an integer number! ... Input:");
-			in.next(); 
-		}
-		number = in.nextInt();
-		if(number<=0) {
-			System.out.println("Input only positive number! ... Input:");
-		}		
-		
-		return number;
-	}
-	
 	@Override	
 	public void taskOne() {
 		/*
@@ -184,5 +166,23 @@ public class Branching extends TaskSelection{
 		double result = Math.ceil(f * scale) / scale;
 		
 		return result;
+	}
+	
+	public static int input() {		
+		int number;
+		@SuppressWarnings("resource")
+		Scanner in = new Scanner(System.in);	
+		
+					
+		while (!in.hasNextInt()) {
+			System.err.println("It's not an integer number! ... Input:");
+			in.next(); 
+		}
+		number = in.nextInt();
+		if(number<=0) {
+			System.out.println("Input only positive number! ... Input:");
+		}		
+		
+		return number;
 	}
 }
