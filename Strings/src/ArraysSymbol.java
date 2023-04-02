@@ -5,7 +5,7 @@ public class ArraysSymbol extends TaskSelection{
 	@Override
 	public void taskOne() {
 		/*
-		 * Дан массив названий переменных в camelCase. Преобразовать названия в snake_case.
+		 * Р”Р°РЅ РјР°СЃСЃРёРІ РЅР°Р·РІР°РЅРёР№ РїРµСЂРµРјРµРЅРЅС‹С… РІ camelCase. РџСЂРµРѕР±СЂР°Р·РѕРІР°С‚СЊ РЅР°Р·РІР°РЅРёСЏ РІ snake_case.
 		 */
 		String[] array = {"systemEpam", "worldWorld", "noWar", "aleksMikhalchuk"};
 		System.out.println("Array of data: "+Arrays.toString(array));
@@ -13,17 +13,17 @@ public class ArraysSymbol extends TaskSelection{
 		for(int i = 0; i<=array.length-1; i++) {
 			int j = 0;
 			while(j!=array[i].length()) {
-				if(Character.isUpperCase(array[i].charAt(j))) {//если символ в строке в верхнем регистре
-					StringBuilder sb = new StringBuilder(array[i]);//берем строку
-					sb.insert(j, "_");//вставляем символ подчеркивания
+				if(Character.isUpperCase(array[i].charAt(j))) {//РµСЃР»Рё СЃРёРјРІРѕР» РІ СЃС‚СЂРѕРєРµ РІ РІРµСЂС…РЅРµРј СЂРµРіРёСЃС‚СЂРµ
+					StringBuilder sb = new StringBuilder(array[i]);//Р±РµСЂРµРј СЃС‚СЂРѕРєСѓ
+					sb.insert(j, "_");//РІСЃС‚Р°РІР»СЏРµРј СЃРёРјРІРѕР» РїРѕРґС‡РµСЂРєРёРІР°РЅРёСЏ
 					
-					//String str = String.valueOf(array[i].charAt(j));//преобразуем данный символ в строку
-					//sb.replace(j+1, j+2, str.toLowerCase());//вставляем его на тоже место преобразовав в нижний регистр
+					//String str = String.valueOf(array[i].charAt(j));//РїСЂРµРѕР±СЂР°Р·СѓРµРј РґР°РЅРЅС‹Р№ СЃРёРјРІРѕР» РІ СЃС‚СЂРѕРєСѓ
+					//sb.replace(j+1, j+2, str.toLowerCase());//РІСЃС‚Р°РІР»СЏРµРј РµРіРѕ РЅР° С‚РѕР¶Рµ РјРµСЃС‚Рѕ РїСЂРµРѕР±СЂР°Р·РѕРІР°РІ РІ РЅРёР¶РЅРёР№ СЂРµРіРёСЃС‚СЂ
 					//OR
-					String str = Character.toString(Character.toLowerCase(array[i].charAt(j)));//преобразуем символ в нижний регистр и в строку						
-					sb.replace(j+1, j+2, str);//заменяем символ в верхнем регистре на тот же символ в нижнем регистре
+					String str = Character.toString(Character.toLowerCase(array[i].charAt(j)));//РїСЂРµРѕР±СЂР°Р·СѓРµРј СЃРёРјРІРѕР» РІ РЅРёР¶РЅРёР№ СЂРµРіРёСЃС‚СЂ Рё РІ СЃС‚СЂРѕРєСѓ						
+					sb.replace(j+1, j+2, str);//Р·Р°РјРµРЅСЏРµРј СЃРёРјРІРѕР» РІ РІРµСЂС…РЅРµРј СЂРµРіРёСЃС‚СЂРµ РЅР° С‚РѕС‚ Р¶Рµ СЃРёРјРІРѕР» РІ РЅРёР¶РЅРµРј СЂРµРіРёСЃС‚СЂРµ
 					
-					array[i] = sb.toString();//преобразовываем StringBuilder обратно в строку
+					array[i] = sb.toString();//РїСЂРµРѕР±СЂР°Р·РѕРІС‹РІР°РµРј StringBuilder РѕР±СЂР°С‚РЅРѕ РІ СЃС‚СЂРѕРєСѓ
 				}
 				j++;
 			}
@@ -34,7 +34,7 @@ public class ArraysSymbol extends TaskSelection{
 	@Override
 	public void taskTwo() {
 		/*
-		 * Замените в строке все вхождения 'word' на 'letter'.
+		 * Р—Р°РјРµРЅРёС‚Рµ РІ СЃС‚СЂРѕРєРµ РІСЃРµ РІС…РѕР¶РґРµРЅРёСЏ 'word' РЅР° 'letter'.
 		 */
 		String str = "What is wordcounter? Apart from counting words and characters, our online editor can help you to improve word choice and writing style, "
 				+ "\nand, optionally, help you to detect grammar mistakes and plagiarism. To check word count, simply place your cursor "
@@ -45,25 +45,25 @@ public class ArraysSymbol extends TaskSelection{
 		
 		//System.out.println(str.replaceAll("word", "letter"));
 		
-		String word = "word";//искомое слово
-		String letter = "letter";//меняем на данное слово
-		int n = word.length();//количество символов		
+		String word = "word";//РёСЃРєРѕРјРѕРµ СЃР»РѕРІРѕ
+		String letter = "letter";//РјРµРЅСЏРµРј РЅР° РґР°РЅРЅРѕРµ СЃР»РѕРІРѕ
+		int n = word.length();//РєРѕР»РёС‡РµСЃС‚РІРѕ СЃРёРјРІРѕР»РѕРІ		
 		
-		for(int i=0; i<str.length(); i++) {//проходим по строке
-			if(str.charAt(i)==word.charAt(0)) { //находим 1-й символ				
-				char[] chars = new char[n];//массив символов 
+		for(int i=0; i<str.length(); i++) {//РїСЂРѕС…РѕРґРёРј РїРѕ СЃС‚СЂРѕРєРµ
+			if(str.charAt(i)==word.charAt(0)) { //РЅР°С…РѕРґРёРј 1-Р№ СЃРёРјРІРѕР»				
+				char[] chars = new char[n];//РјР°СЃСЃРёРІ СЃРёРјРІРѕР»РѕРІ 
 				try {
-					str.getChars(i, i+n, chars, 0);	//берем слово 				
-					String strW = new String(chars);//возвращаем в строку для сравнения
-					if(strW.equals(word)) {//сравниваем найденное слово
-						StringBuilder sb = new StringBuilder(str);//для изменения строки
+					str.getChars(i, i+n, chars, 0);	//Р±РµСЂРµРј СЃР»РѕРІРѕ 				
+					String strW = new String(chars);//РІРѕР·РІСЂР°С‰Р°РµРј РІ СЃС‚СЂРѕРєСѓ РґР»СЏ СЃСЂР°РІРЅРµРЅРёСЏ
+					if(strW.equals(word)) {//СЃСЂР°РІРЅРёРІР°РµРј РЅР°Р№РґРµРЅРЅРѕРµ СЃР»РѕРІРѕ
+						StringBuilder sb = new StringBuilder(str);//РґР»СЏ РёР·РјРµРЅРµРЅРёСЏ СЃС‚СЂРѕРєРё
 						sb.delete(i, i+n);
 						sb.insert(i, letter);
-						str = sb.toString();//обратно в строку
+						str = sb.toString();//РѕР±СЂР°С‚РЅРѕ РІ СЃС‚СЂРѕРєСѓ
 					}
 					
 				} catch (Exception ex) {
-			        System.out.println("Возникает исключение...");
+			        System.out.println("Р’РѕР·РЅРёРєР°РµС‚ РёСЃРєР»СЋС‡РµРЅРёРµ...");
 			    }
 			}
 		}
@@ -74,11 +74,11 @@ public class ArraysSymbol extends TaskSelection{
 	@Override
 	public void taskThree() {
 		/*
-		 * В строке найти количество цифр.
+		 * Р’ СЃС‚СЂРѕРєРµ РЅР°Р№С‚Рё РєРѕР»РёС‡РµСЃС‚РІРѕ С†РёС„СЂ.
 		 */
 		
-		String str = "8 02ИН Л37НИЙ 23НЬ Я Н46ЛЮ24Л Н4 ПЛЯЖ3, К4К 283 2380ЧКИ ИГ94ЛИ Н4 П3СК3, "
-				+ "\n0НИ 20ЛГ0 79У2ИЛИСЬ, С790Я П3СЧ4НЫЙ 34М0К С 64ШНЯМИ, СК9Ы7ЫМИ П90Х024МИ И М0С74МИ.";		
+		String str = "8 02РРќ Р›37РќРР™ 23РќР¬ РЇ Рќ46Р›Р®24Р› Рќ4 РџР›РЇР–3, Рљ4Рљ 283 2380Р§РљР РР“94Р›Р Рќ4 Рџ3РЎРљ3, "
+				+ "\n0РќР 20Р›Р“0 79РЈ2РР›РРЎР¬, РЎ790РЇ Рџ3РЎР§4РќР«Р™ 34Рњ0Рљ РЎ 64РЁРќРЇРњР, РЎРљ9Р«7Р«РњР Рџ90РҐ024РњР Р Рњ0РЎ74РњР.";		
 		System.out.println("The data:\n"+str);
 		
 		int count_s = 0;
@@ -101,17 +101,17 @@ public class ArraysSymbol extends TaskSelection{
 	@Override
 	public void taskFour() {
 		/*
-		 * В строке найти количество чисел.
+		 * Р’ СЃС‚СЂРѕРєРµ РЅР°Р№С‚Рё РєРѕР»РёС‡РµСЃС‚РІРѕ С‡РёСЃРµР».
 		 */
 		
-		String str = "8 02ИН Л37НИЙ 23НЬ Я Н46ЛЮ24Л Н4 ПЛЯЖ3, К4К 283 2380ЧКИ ИГ94ЛИ Н4 П3СК3, "
-				+ "\n0НИ 20ЛГ0 79У2ИЛИСЬ, С790Я П3СЧ4НЫЙ 34М0К С 64ШНЯМИ, СК9Ы7ЫМИ П90Х024МИ И М0С74МИ.";		
+		String str = "8 02РРќ Р›37РќРР™ 23РќР¬ РЇ Рќ46Р›Р®24Р› Рќ4 РџР›РЇР–3, Рљ4Рљ 283 2380Р§РљР РР“94Р›Р Рќ4 Рџ3РЎРљ3, "
+				+ "\n0РќР 20Р›Р“0 79РЈ2РР›РРЎР¬, РЎ790РЇ Рџ3РЎР§4РќР«Р™ 34Рњ0Рљ РЎ 64РЁРќРЇРњР, РЎРљ9Р«7Р«РњР Рџ90РҐ024РњР Р Рњ0РЎ74РњР.";		
 		System.out.println("The data:\n"+str);
 		
 		int count = 0;
 		for(int i=0; i<str.length(); i++) {			
 			if(Character.isDigit(str.charAt(i))) {
-				while(Character.isDigit(str.charAt(i))) {//пока цифры...					
+				while(Character.isDigit(str.charAt(i))) {//РїРѕРєР° С†РёС„СЂС‹...					
 					i++;													
 				}
 				count++;
@@ -124,24 +124,24 @@ public class ArraysSymbol extends TaskSelection{
 	@Override
 	public void taskFive() {
 		/*
-		 * Удалить в строке все лишние пробелы, 
-		 * то есть серии подряд идущих пробелов заменить на одиночные пробелы. Крайние пробелы в строке удалить.
+		 * РЈРґР°Р»РёС‚СЊ РІ СЃС‚СЂРѕРєРµ РІСЃРµ Р»РёС€РЅРёРµ РїСЂРѕР±РµР»С‹, 
+		 * С‚Рѕ РµСЃС‚СЊ СЃРµСЂРёРё РїРѕРґСЂСЏРґ РёРґСѓС‰РёС… РїСЂРѕР±РµР»РѕРІ Р·Р°РјРµРЅРёС‚СЊ РЅР° РѕРґРёРЅРѕС‡РЅС‹Рµ РїСЂРѕР±РµР»С‹. РљСЂР°Р№РЅРёРµ РїСЂРѕР±РµР»С‹ РІ СЃС‚СЂРѕРєРµ СѓРґР°Р»РёС‚СЊ.
 		 */
 		
-		String str = " 8 02ИН Л37НИЙ 23НЬ Я Н46ЛЮ24Л Н4 ПЛЯЖ3, К4К 283 2380ЧКИ ИГ94ЛИ Н4 П3СК3, "
-				+ "\n0НИ 20ЛГ0 79У2ИЛИСЬ, С790Я  2пробела    4пробела С 64ШНЯМИ, СК9Ы7ЫМИ П90Х024МИ И М0С74МИ. "; 
+		String str = " 8 02РРќ Р›37РќРР™ 23РќР¬ РЇ Рќ46Р›Р®24Р› Рќ4 РџР›РЇР–3, Рљ4Рљ 283 2380Р§РљР РР“94Р›Р Рќ4 Рџ3РЎРљ3, "
+				+ "\n0РќР 20Р›Р“0 79РЈ2РР›РРЎР¬, РЎ790РЇ  2РїСЂРѕР±РµР»Р°    4РїСЂРѕР±РµР»Р° РЎ 64РЁРќРЇРњР, РЎРљ9Р«7Р«РњР Рџ90РҐ024РњР Р Рњ0РЎ74РњР. "; 
 		System.out.println("The data:\n"+str);		
 		
 		char[] chars = str.toCharArray();
 		for (int i = 0; i < chars.length-1; i++) {
 			if(Character.isWhitespace(chars[i])) {				
-				StringBuilder sb = new StringBuilder(new String(chars));//массив char в string
+				StringBuilder sb = new StringBuilder(new String(chars));//РјР°СЃСЃРёРІ char РІ string
 				sb.deleteCharAt(i);
-				chars = sb.toString().toCharArray();//обратно  в char				
+				chars = sb.toString().toCharArray();//РѕР±СЂР°С‚РЅРѕ  РІ char				
 			}	
 		}
 		
-		str = new String(chars);//для вывода обратно в строку!
+		str = new String(chars);//РґР»СЏ РІС‹РІРѕРґР° РѕР±СЂР°С‚РЅРѕ РІ СЃС‚СЂРѕРєСѓ!
 		System.out.println("No space: \n"+str);		
 	}
 
