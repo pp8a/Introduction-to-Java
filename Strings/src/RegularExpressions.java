@@ -1,3 +1,4 @@
+RegularExpressions.java
 import java.util.Arrays;
 import java.util.Scanner;
 import java.util.regex.Matcher;
@@ -9,36 +10,36 @@ public class RegularExpressions extends TaskSelection{
 	public void taskOne() {
 		/*
 		 * (Pattern, Matcher)
-		 * Cоздать приложение, разбирающее текст (текст хранится в строке) и позволяющее выполнять с текстом три различных операции: 
-		 * отсортировать абзацы по количеству предложений; 
-		 * в каждом предложении отсортировать слова по длине; 
-		 * отсортировать лексемы в предложении по убыванию количества вхождений заданного символа, а в случае равенства – по алфавиту.
+		 * CРѕР·РґР°С‚СЊ РїСЂРёР»РѕР¶РµРЅРёРµ, СЂР°Р·Р±РёСЂР°СЋС‰РµРµ С‚РµРєСЃС‚ (С‚РµРєСЃС‚ С…СЂР°РЅРёС‚СЃСЏ РІ СЃС‚СЂРѕРєРµ) Рё РїРѕР·РІРѕР»СЏСЋС‰РµРµ РІС‹РїРѕР»РЅСЏС‚СЊ СЃ С‚РµРєСЃС‚РѕРј С‚СЂРё СЂР°Р·Р»РёС‡РЅС‹С… РѕРїРµСЂР°С†РёРё: 
+		 * РѕС‚СЃРѕСЂС‚РёСЂРѕРІР°С‚СЊ Р°Р±Р·Р°С†С‹ РїРѕ РєРѕР»РёС‡РµСЃС‚РІСѓ РїСЂРµРґР»РѕР¶РµРЅРёР№; 
+		 * РІ РєР°Р¶РґРѕРј РїСЂРµРґР»РѕР¶РµРЅРёРё РѕС‚СЃРѕСЂС‚РёСЂРѕРІР°С‚СЊ СЃР»РѕРІР° РїРѕ РґР»РёРЅРµ; 
+		 * РѕС‚СЃРѕСЂС‚РёСЂРѕРІР°С‚СЊ Р»РµРєСЃРµРјС‹ РІ РїСЂРµРґР»РѕР¶РµРЅРёРё РїРѕ СѓР±С‹РІР°РЅРёСЋ РєРѕР»РёС‡РµСЃС‚РІР° РІС…РѕР¶РґРµРЅРёР№ Р·Р°РґР°РЅРЅРѕРіРѕ СЃРёРјРІРѕР»Р°, Р° РІ СЃР»СѓС‡Р°Рµ СЂР°РІРµРЅСЃС‚РІР° вЂ“ РїРѕ Р°Р»С„Р°РІРёС‚Сѓ.
 		 */
 			
 		
 		int number;
 		do {
-			String str=pText();//текст на экран
+			String str=pText();//С‚РµРєСЃС‚ РЅР° СЌРєСЂР°РЅ
 			
-			System.out.print("Введите номер операции от 1 до 4: ");
+			System.out.print("Р’РІРµРґРёС‚Рµ РЅРѕРјРµСЂ РѕРїРµСЂР°С†РёРё РѕС‚ 1 РґРѕ 4: ");
 			number = input();
 			
 			switch(number) {	
 			case 1:
-				System.out.println("Cортировка абзацев по количеству предложений:\n"
+				System.out.println("CРѕСЂС‚РёСЂРѕРІРєР° Р°Р±Р·Р°С†РµРІ РїРѕ РєРѕР»РёС‡РµСЃС‚РІСѓ РїСЂРµРґР»РѕР¶РµРЅРёР№:\n"
 						+sorted(paragraph(str)));			
 				break;
 			case 2:				
-				System.out.println("Cортировка слов по длине в каждом предложении:\n"
+				System.out.println("CРѕСЂС‚РёСЂРѕРІРєР° СЃР»РѕРІ РїРѕ РґР»РёРЅРµ РІ РєР°Р¶РґРѕРј РїСЂРµРґР»РѕР¶РµРЅРёРё:\n"
 						+word(str));	
 				break;
 			case 3:				
-				char ch = 'а';
-				System.out.println("Сортировка лексем в предложении по убыванию количества вхождений символа '"+ch+"' (в случае равенства – по алфавиту):\n"
+				char ch = 'Р°';
+				System.out.println("РЎРѕСЂС‚РёСЂРѕРІРєР° Р»РµРєСЃРµРј РІ РїСЂРµРґР»РѕР¶РµРЅРёРё РїРѕ СѓР±С‹РІР°РЅРёСЋ РєРѕР»РёС‡РµСЃС‚РІР° РІС…РѕР¶РґРµРЅРёР№ СЃРёРјРІРѕР»Р° '"+ch+"' (РІ СЃР»СѓС‡Р°Рµ СЂР°РІРµРЅСЃС‚РІР° вЂ“ РїРѕ Р°Р»С„Р°РІРёС‚Сѓ):\n"
 						+lexeme(str, ch));	
 				break;
 			case 0:	
-				System.out.println("Вы вышли из приложения :(");
+				System.out.println("Р’С‹ РІС‹С€Р»Рё РёР· РїСЂРёР»РѕР¶РµРЅРёСЏ :(");
 				System.exit(0);
 			default:
 	            System.err.println("Operation " +number+" not found.");
@@ -66,26 +67,26 @@ public class RegularExpressions extends TaskSelection{
 	}
 	
 	public static String pText() {
-		String str = "\tРегулярные выражения — (вар, дар, бар), тема, которую программисты, даже опытные, откладывают зачастую на потом. "
-				+ "Однако большинству Java-разработчиков рано или поздно придётся столкнуться с обработкой текстовой информации. "
-				+ "Чаще всего — с операциями поиска в тексте и редактированием. 4 предложения норма!\n"
-				+ "\tБез регулярных выражений продуктивный и компактный программный код, связанный с обработкой текстов, "
-				+ "попросту немыслим. Так что хватит откладывать, разберёмся с «регулярками» прямо сейчас. "
-				+ "Это не такая уж и сложная задача. Какой-то текст. 5 предложений есть!\n \tЧто такое регулярное выражение RegEx? Сейчас разберем?\r\n"
-				+ "\tНа самом деле регулярное выражение (RegEx) – это шаблон для поиска строки в тексте. "
-				+ "В Java исходным представлением этого шаблона всегда является строка. То есть объект класса String. "
-				+ "Однако не любая строка может быть скомпилирована в регулярное выражение. Только та, "
-				+ "которая соответствует правилам написания регулярного выражения – синтаксису, определенному в спецификации языка. 6 предложений много!\r\n"
-				+ "\tДля написания регулярного выражения используются буквенные и цифровые символы! А также метасимволы – символы, "
-				+ "имеющие специальное значение в синтаксисе регулярных выражений. Парарам пампам 3 предложения и так далее!\n";
+		String str = "\tР РµРіСѓР»СЏСЂРЅС‹Рµ РІС‹СЂР°Р¶РµРЅРёСЏ вЂ” (РІР°СЂ, РґР°СЂ, Р±Р°СЂ), С‚РµРјР°, РєРѕС‚РѕСЂСѓСЋ РїСЂРѕРіСЂР°РјРјРёСЃС‚С‹, РґР°Р¶Рµ РѕРїС‹С‚РЅС‹Рµ, РѕС‚РєР»Р°РґС‹РІР°СЋС‚ Р·Р°С‡Р°СЃС‚СѓСЋ РЅР° РїРѕС‚РѕРј. "
+				+ "РћРґРЅР°РєРѕ Р±РѕР»СЊС€РёРЅСЃС‚РІСѓ Java-СЂР°Р·СЂР°Р±РѕС‚С‡РёРєРѕРІ СЂР°РЅРѕ РёР»Рё РїРѕР·РґРЅРѕ РїСЂРёРґС‘С‚СЃСЏ СЃС‚РѕР»РєРЅСѓС‚СЊСЃСЏ СЃ РѕР±СЂР°Р±РѕС‚РєРѕР№ С‚РµРєСЃС‚РѕРІРѕР№ РёРЅС„РѕСЂРјР°С†РёРё. "
+				+ "Р§Р°С‰Рµ РІСЃРµРіРѕ вЂ” СЃ РѕРїРµСЂР°С†РёСЏРјРё РїРѕРёСЃРєР° РІ С‚РµРєСЃС‚Рµ Рё СЂРµРґР°РєС‚РёСЂРѕРІР°РЅРёРµРј. 4 РїСЂРµРґР»РѕР¶РµРЅРёСЏ РЅРѕСЂРјР°!\n"
+				+ "\tР‘РµР· СЂРµРіСѓР»СЏСЂРЅС‹С… РІС‹СЂР°Р¶РµРЅРёР№ РїСЂРѕРґСѓРєС‚РёРІРЅС‹Р№ Рё РєРѕРјРїР°РєС‚РЅС‹Р№ РїСЂРѕРіСЂР°РјРјРЅС‹Р№ РєРѕРґ, СЃРІСЏР·Р°РЅРЅС‹Р№ СЃ РѕР±СЂР°Р±РѕС‚РєРѕР№ С‚РµРєСЃС‚РѕРІ, "
+				+ "РїРѕРїСЂРѕСЃС‚Сѓ РЅРµРјС‹СЃР»РёРј. РўР°Рє С‡С‚Рѕ С…РІР°С‚РёС‚ РѕС‚РєР»Р°РґС‹РІР°С‚СЊ, СЂР°Р·Р±РµСЂС‘РјСЃСЏ СЃ В«СЂРµРіСѓР»СЏСЂРєР°РјРёВ» РїСЂСЏРјРѕ СЃРµР№С‡Р°СЃ. "
+				+ "Р­С‚Рѕ РЅРµ С‚Р°РєР°СЏ СѓР¶ Рё СЃР»РѕР¶РЅР°СЏ Р·Р°РґР°С‡Р°. РљР°РєРѕР№-С‚Рѕ С‚РµРєСЃС‚. 5 РїСЂРµРґР»РѕР¶РµРЅРёР№ РµСЃС‚СЊ!\n \tР§С‚Рѕ С‚Р°РєРѕРµ СЂРµРіСѓР»СЏСЂРЅРѕРµ РІС‹СЂР°Р¶РµРЅРёРµ RegEx? РЎРµР№С‡Р°СЃ СЂР°Р·Р±РµСЂРµРј?\r\n"
+				+ "\tРќР° СЃР°РјРѕРј РґРµР»Рµ СЂРµРіСѓР»СЏСЂРЅРѕРµ РІС‹СЂР°Р¶РµРЅРёРµ (RegEx) вЂ“ СЌС‚Рѕ С€Р°Р±Р»РѕРЅ РґР»СЏ РїРѕРёСЃРєР° СЃС‚СЂРѕРєРё РІ С‚РµРєСЃС‚Рµ. "
+				+ "Р’ Java РёСЃС…РѕРґРЅС‹Рј РїСЂРµРґСЃС‚Р°РІР»РµРЅРёРµРј СЌС‚РѕРіРѕ С€Р°Р±Р»РѕРЅР° РІСЃРµРіРґР° СЏРІР»СЏРµС‚СЃСЏ СЃС‚СЂРѕРєР°. РўРѕ РµСЃС‚СЊ РѕР±СЉРµРєС‚ РєР»Р°СЃСЃР° String. "
+				+ "РћРґРЅР°РєРѕ РЅРµ Р»СЋР±Р°СЏ СЃС‚СЂРѕРєР° РјРѕР¶РµС‚ Р±С‹С‚СЊ СЃРєРѕРјРїРёР»РёСЂРѕРІР°РЅР° РІ СЂРµРіСѓР»СЏСЂРЅРѕРµ РІС‹СЂР°Р¶РµРЅРёРµ. РўРѕР»СЊРєРѕ С‚Р°, "
+				+ "РєРѕС‚РѕСЂР°СЏ СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓРµС‚ РїСЂР°РІРёР»Р°Рј РЅР°РїРёСЃР°РЅРёСЏ СЂРµРіСѓР»СЏСЂРЅРѕРіРѕ РІС‹СЂР°Р¶РµРЅРёСЏ вЂ“ СЃРёРЅС‚Р°РєСЃРёСЃСѓ, РѕРїСЂРµРґРµР»РµРЅРЅРѕРјСѓ РІ СЃРїРµС†РёС„РёРєР°С†РёРё СЏР·С‹РєР°. 6 РїСЂРµРґР»РѕР¶РµРЅРёР№ РјРЅРѕРіРѕ!\r\n"
+				+ "\tР”Р»СЏ РЅР°РїРёСЃР°РЅРёСЏ СЂРµРіСѓР»СЏСЂРЅРѕРіРѕ РІС‹СЂР°Р¶РµРЅРёСЏ РёСЃРїРѕР»СЊР·СѓСЋС‚СЃСЏ Р±СѓРєРІРµРЅРЅС‹Рµ Рё С†РёС„СЂРѕРІС‹Рµ СЃРёРјРІРѕР»С‹! Рђ С‚Р°РєР¶Рµ РјРµС‚Р°СЃРёРјРІРѕР»С‹ вЂ“ СЃРёРјРІРѕР»С‹, "
+				+ "РёРјРµСЋС‰РёРµ СЃРїРµС†РёР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ РІ СЃРёРЅС‚Р°РєСЃРёСЃРµ СЂРµРіСѓР»СЏСЂРЅС‹С… РІС‹СЂР°Р¶РµРЅРёР№. РџР°СЂР°СЂР°Рј РїР°РјРїР°Рј 3 РїСЂРµРґР»РѕР¶РµРЅРёСЏ Рё С‚Р°Рє РґР°Р»РµРµ!\n";
 		
-		System.out.println("1. Отсортировать абзацы по количеству предложений.");			
-		System.out.println("2. В каждом предложении отсортировать слова по длине.");		
-		System.out.println("3. Отсортировать лексемы в предложении по убыванию количества вхождений заданного символа, "
-				+ "а в случае равенства – по алфавиту.");
-		System.out.println("0. Выйти из приложения.");
+		System.out.println("1. РћС‚СЃРѕСЂС‚РёСЂРѕРІР°С‚СЊ Р°Р±Р·Р°С†С‹ РїРѕ РєРѕР»РёС‡РµСЃС‚РІСѓ РїСЂРµРґР»РѕР¶РµРЅРёР№.");			
+		System.out.println("2. Р’ РєР°Р¶РґРѕРј РїСЂРµРґР»РѕР¶РµРЅРёРё РѕС‚СЃРѕСЂС‚РёСЂРѕРІР°С‚СЊ СЃР»РѕРІР° РїРѕ РґР»РёРЅРµ.");		
+		System.out.println("3. РћС‚СЃРѕСЂС‚РёСЂРѕРІР°С‚СЊ Р»РµРєСЃРµРјС‹ РІ РїСЂРµРґР»РѕР¶РµРЅРёРё РїРѕ СѓР±С‹РІР°РЅРёСЋ РєРѕР»РёС‡РµСЃС‚РІР° РІС…РѕР¶РґРµРЅРёР№ Р·Р°РґР°РЅРЅРѕРіРѕ СЃРёРјРІРѕР»Р°, "
+				+ "Р° РІ СЃР»СѓС‡Р°Рµ СЂР°РІРµРЅСЃС‚РІР° вЂ“ РїРѕ Р°Р»С„Р°РІРёС‚Сѓ.");
+		System.out.println("0. Р’С‹Р№С‚Рё РёР· РїСЂРёР»РѕР¶РµРЅРёСЏ.");
 		
-		System.out.println("Дан текст:\n"+str);
+		System.out.println("Р”Р°РЅ С‚РµРєСЃС‚:\n"+str);
 		
 		return str;
 	}
@@ -112,7 +113,7 @@ public class RegularExpressions extends TaskSelection{
 	
 	private static Matcher splitWord(String sentence) {
 		
-		final String WORD = "[a-zA-Zа-яА-Я0-9-ёЁ]+";
+		final String WORD = "[a-zA-ZР°-СЏРђ-РЇ0-9-С‘РЃ]+";
 		
 		Pattern pWord = Pattern.compile(WORD);		
 		Matcher mWord = pWord.matcher(sentence);
@@ -136,7 +137,7 @@ public class RegularExpressions extends TaskSelection{
 		
 		String result="";		
 		for(int i=0; i<matrix.length; i++) {
-			result+=(matrix[i][0]+" ");//(matrix[i][0]+"\r\n") - если сортировать по \t
+			result+=(matrix[i][0]+" ");//(matrix[i][0]+"\r\n") - РµСЃР»Рё СЃРѕСЂС‚РёСЂРѕРІР°С‚СЊ РїРѕ \t
 		}
 		
 		return result;
@@ -146,14 +147,14 @@ public class RegularExpressions extends TaskSelection{
 	public static String[][] paragraph(String str) {			
 		/**
 		 * get matrix [paragraph][count of sentence in a paragraph]
-		 * mParagraph - условие отбора абзаца
+		 * mParagraph - СѓСЃР»РѕРІРёРµ РѕС‚Р±РѕСЂР° Р°Р±Р·Р°С†Р°
 		 * str - text
 		 * pCount - count of paragraph
 		 */
 		
 		Matcher mParagraph = splitParagraph(str);
 		
-		int pCount = paragraphCount(str);//количество абзацев
+		int pCount = paragraphCount(str);//РєРѕР»РёС‡РµСЃС‚РІРѕ Р°Р±Р·Р°С†РµРІ
 		
 		String [][] matrix = new String[pCount][2];
 		
@@ -163,10 +164,10 @@ public class RegularExpressions extends TaskSelection{
 	        int end=mParagraph.end();	        
 	        
 	        String paragraph = str.substring(start,end);
-	        //System.out.println("Абзац: " + paragraph);
-	        int sCount = sentenceCount(paragraph);//количество предложений в абзаце
+	        //System.out.println("РђР±Р·Р°С†: " + paragraph);
+	        int sCount = sentenceCount(paragraph);//РєРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРµРґР»РѕР¶РµРЅРёР№ РІ Р°Р±Р·Р°С†Рµ
 	        
-	        //заполняем матрицу абзац + количество предложений в нем
+	        //Р·Р°РїРѕР»РЅСЏРµРј РјР°С‚СЂРёС†Сѓ Р°Р±Р·Р°С† + РєРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРµРґР»РѕР¶РµРЅРёР№ РІ РЅРµРј
 	        int j = 0;
 	        matrix[i][j++]=paragraph;	        
 	        matrix[i++][j]=String.valueOf(sCount);	 	        
@@ -185,7 +186,7 @@ public class RegularExpressions extends TaskSelection{
 		while(mParagraph.find()) {				        
 	        pCount++;
 		}
-		//System.out.println("Количество абзацев: " + pCount);
+		//System.out.println("РљРѕР»РёС‡РµСЃС‚РІРѕ Р°Р±Р·Р°С†РµРІ: " + pCount);
 		
 		return pCount;
 	}	
@@ -199,7 +200,7 @@ public class RegularExpressions extends TaskSelection{
         int count = 0;
         while(mSentence.find()) {
         	count++;
-        	//System.out.println("Количество предложений: " + count);
+        	//System.out.println("РљРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРµРґР»РѕР¶РµРЅРёР№: " + count);
         }
 		
 		return count;
@@ -216,7 +217,7 @@ public class RegularExpressions extends TaskSelection{
 			int start=mSentence.start();
 	        int end=mSentence.end();
 	        String sentence = str.substring(start,end);
-	        //System.out.println("Предложение: " + sentence);
+	        //System.out.println("РџСЂРµРґР»РѕР¶РµРЅРёРµ: " + sentence);
 	        int wCount = wordCount(sentence);//count of words in a sentence
 	       
 	        String[][] matrix = charCount(sentence, wCount);//matrix[word][count chars]
@@ -238,7 +239,7 @@ public class RegularExpressions extends TaskSelection{
 		while(mWord.find()) {
 			wCount++;
 		}
-		//System.out.println("Количество слов: " + count);
+		//System.out.println("РљРѕР»РёС‡РµСЃС‚РІРѕ СЃР»РѕРІ: " + count);
 		
 		return wCount;
 	}
@@ -259,8 +260,8 @@ public class RegularExpressions extends TaskSelection{
 	        
 	        String word = sentence.substring(start,end);
 	        
-	        int cChar = 0;//количество символов
-	        for(int с=0; с<word.length(); с++) {
+	        int cChar = 0;//РєРѕР»РёС‡РµСЃС‚РІРѕ СЃРёРјРІРѕР»РѕРІ
+	        for(int СЃ=0; СЃ<word.length(); СЃ++) {
 	        	cChar++;
 	        }
 	        
@@ -275,8 +276,8 @@ public class RegularExpressions extends TaskSelection{
 	
 	public static String lexeme(String str, char ch) {
 		
-		//int sCount = sentenceCount(str);//количество предложений
-		//System.out.println("Количество предложений: " + sCount);
+		//int sCount = sentenceCount(str);//РєРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРµРґР»РѕР¶РµРЅРёР№
+		//System.out.println("РљРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРµРґР»РѕР¶РµРЅРёР№: " + sCount);
 		
 		Matcher mSentence = splitSentence(str);		
 		String sStr= "";
@@ -285,11 +286,11 @@ public class RegularExpressions extends TaskSelection{
 			int start=mSentence.start();
 	        int end=mSentence.end();
 	        String sentence = str.substring(start,end);
-	        //System.out.println("Предложение: " + sentence);
+	        //System.out.println("РџСЂРµРґР»РѕР¶РµРЅРёРµ: " + sentence);
 	        
-	        wCount = wordCount(sentence);//количество слов
+	        wCount = wordCount(sentence);//РєРѕР»РёС‡РµСЃС‚РІРѕ СЃР»РѕРІ
 	        String [][] matrix = new String[wCount][2];
-			//System.out.println("Количество слов: " + wCount);	        
+			//System.out.println("РљРѕР»РёС‡РµСЃС‚РІРѕ СЃР»РѕРІ: " + wCount);	        
 	        
 	        Matcher mWord = splitWord(sentence);
 	        int i=0;
@@ -298,7 +299,7 @@ public class RegularExpressions extends TaskSelection{
 		        
 		        String word = sentence.substring(mWord.start(),mWord.end());		        
 		        
-		        int cChar = 0;//количество символов
+		        int cChar = 0;//РєРѕР»РёС‡РµСЃС‚РІРѕ СЃРёРјРІРѕР»РѕРІ
 		        for(int c=0; c<word.length(); c++) {
 		        	if(word.charAt(c)==ch||word.charAt(c)=='a') {
 		        		cChar++;
@@ -331,28 +332,28 @@ public class RegularExpressions extends TaskSelection{
 			};			
 		}	
 		
-		String [] lArrays = new String [wCount];//создаем для сортировки одного предложения	[count word]		
+		String [] lArrays = new String [wCount];//СЃРѕР·РґР°РµРј РґР»СЏ СЃРѕСЂС‚РёСЂРѕРІРєРё РѕРґРЅРѕРіРѕ РїСЂРµРґР»РѕР¶РµРЅРёСЏ	[count word]		
 		
 		for (int i = 0; i<matrix.length-1; i++) {
 			
 			int x = Integer.valueOf(matrix[i][1]);
 			int y = Integer.valueOf(matrix[i+1][1]);
 			if(x==y) {
-				int j=i;//для сбора слов с однинаковым количеством искомого символа
-				while(j<wCount && Integer.valueOf(matrix[j][1])==x) {//пока не конец предложения и количество заданного символа одинаково
-					lArrays[j]=matrix[j][0];//заполняем слова с символом					
+				int j=i;//РґР»СЏ СЃР±РѕСЂР° СЃР»РѕРІ СЃ РѕРґРЅРёРЅР°РєРѕРІС‹Рј РєРѕР»РёС‡РµСЃС‚РІРѕРј РёСЃРєРѕРјРѕРіРѕ СЃРёРјРІРѕР»Р°
+				while(j<wCount && Integer.valueOf(matrix[j][1])==x) {//РїРѕРєР° РЅРµ РєРѕРЅРµС† РїСЂРµРґР»РѕР¶РµРЅРёСЏ Рё РєРѕР»РёС‡РµСЃС‚РІРѕ Р·Р°РґР°РЅРЅРѕРіРѕ СЃРёРјРІРѕР»Р° РѕРґРёРЅР°РєРѕРІРѕ
+					lArrays[j]=matrix[j][0];//Р·Р°РїРѕР»РЅСЏРµРј СЃР»РѕРІР° СЃ СЃРёРјРІРѕР»РѕРј					
 					j++;
 				}
-				String [] copy = new String [j-i];//создаем массив равным количеству найденных слов с символом
-				System.arraycopy(lArrays, i, copy, 0, j-i);//только найденные лексемы копируем в массив copy
+				String [] copy = new String [j-i];//СЃРѕР·РґР°РµРј РјР°СЃСЃРёРІ СЂР°РІРЅС‹Рј РєРѕР»РёС‡РµСЃС‚РІСѓ РЅР°Р№РґРµРЅРЅС‹С… СЃР»РѕРІ СЃ СЃРёРјРІРѕР»РѕРј
+				System.arraycopy(lArrays, i, copy, 0, j-i);//С‚РѕР»СЊРєРѕ РЅР°Р№РґРµРЅРЅС‹Рµ Р»РµРєСЃРµРјС‹ РєРѕРїРёСЂСѓРµРј РІ РјР°СЃСЃРёРІ copy
 								
-				Arrays.sort(copy);//сортируем лексемы
+				Arrays.sort(copy);//СЃРѕСЂС‚РёСЂСѓРµРј Р»РµРєСЃРµРјС‹
 				
-				System.arraycopy(copy, 0, lArrays, i, copy.length);//копируем отсортированные лексемы обратно
+				System.arraycopy(copy, 0, lArrays, i, copy.length);//РєРѕРїРёСЂСѓРµРј РѕС‚СЃРѕСЂС‚РёСЂРѕРІР°РЅРЅС‹Рµ Р»РµРєСЃРµРјС‹ РѕР±СЂР°С‚РЅРѕ
 				
 				i=j-1;
 				
-			}else {//если такая лексема в единственном числе
+			}else {//РµСЃР»Рё С‚Р°РєР°СЏ Р»РµРєСЃРµРјР° РІ РµРґРёРЅСЃС‚РІРµРЅРЅРѕРј С‡РёСЃР»Рµ
 				lArrays[i]=matrix[i][0];
 			}
 		}
@@ -370,28 +371,28 @@ public class RegularExpressions extends TaskSelection{
 	@Override
 	public void taskTwo() {
 		/*
-		 * Дана строка, содержащая следующий текст (xml-документ):
-		 * Напишите анализатор, позволяющий последовательно возвращать содержимое узлов xml-документа 
-		 * и его тип (открывающий тег, закрывающий тег, содержимое тега, тег без тела). 
-		 * Пользоваться готовыми парсерами XML для решения данной задачи нельзя.
+		 * Р”Р°РЅР° СЃС‚СЂРѕРєР°, СЃРѕРґРµСЂР¶Р°С‰Р°СЏ СЃР»РµРґСѓСЋС‰РёР№ С‚РµРєСЃС‚ (xml-РґРѕРєСѓРјРµРЅС‚):
+		 * РќР°РїРёС€РёС‚Рµ Р°РЅР°Р»РёР·Р°С‚РѕСЂ, РїРѕР·РІРѕР»СЏСЋС‰РёР№ РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕ РІРѕР·РІСЂР°С‰Р°С‚СЊ СЃРѕРґРµСЂР¶РёРјРѕРµ СѓР·Р»РѕРІ xml-РґРѕРєСѓРјРµРЅС‚Р° 
+		 * Рё РµРіРѕ С‚РёРї (РѕС‚РєСЂС‹РІР°СЋС‰РёР№ С‚РµРі, Р·Р°РєСЂС‹РІР°СЋС‰РёР№ С‚РµРі, СЃРѕРґРµСЂР¶РёРјРѕРµ С‚РµРіР°, С‚РµРі Р±РµР· С‚РµР»Р°). 
+		 * РџРѕР»СЊР·РѕРІР°С‚СЊСЃСЏ РіРѕС‚РѕРІС‹РјРё РїР°СЂСЃРµСЂР°РјРё XML РґР»СЏ СЂРµС€РµРЅРёСЏ РґР°РЅРЅРѕР№ Р·Р°РґР°С‡Рё РЅРµР»СЊР·СЏ.
 		 */
 		
 		String xml = "<notes>\r\n"
 				+ " <note id = \"1\">\r\n"
-				+ " <to>Вася</to>\r\n"
-				+ " <from>Света</from>\r\n"
-				+ " <heading>Напоминание</heading>\r\n"
-				+ " <body>Позвони мне завтра!</body>\r\n"
+				+ " <to>Р’Р°СЃСЏ</to>\r\n"
+				+ " <from>РЎРІРµС‚Р°</from>\r\n"
+				+ " <heading>РќР°РїРѕРјРёРЅР°РЅРёРµ</heading>\r\n"
+				+ " <body>РџРѕР·РІРѕРЅРё РјРЅРµ Р·Р°РІС‚СЂР°!</body>\r\n"
 				+ " </note>\r\n"
 				+ " <note id = \"2\">\r\n"
-				+ " <to>Петя</to>\r\n"
-				+ " <from>Маша</from>\r\n"
-				+ " <heading>Важное напоминание</heading>\r\n"
+				+ " <to>РџРµС‚СЏ</to>\r\n"
+				+ " <from>РњР°С€Р°</from>\r\n"
+				+ " <heading>Р’Р°Р¶РЅРѕРµ РЅР°РїРѕРјРёРЅР°РЅРёРµ</heading>\r\n"
 				+ " <body/>\r\n"
 				+ " </note>\r\n"
 				+ "</notes>\r\n";	
 		
-		System.out.println("Дана строка, содержащая следующий текст (xml-документ):\n"+xml);
+		System.out.println("Р”Р°РЅР° СЃС‚СЂРѕРєР°, СЃРѕРґРµСЂР¶Р°С‰Р°СЏ СЃР»РµРґСѓСЋС‰РёР№ С‚РµРєСЃС‚ (xml-РґРѕРєСѓРјРµРЅС‚):\n"+xml);
 		parseXML(xml);
 		
 	}
@@ -408,9 +409,9 @@ public class RegularExpressions extends TaskSelection{
 	    Pattern pContent = Pattern.compile(CONTENTTAG);
 	    Pattern pWithOutCont = Pattern.compile(WITHOUTCONTENTTAG);
 	    
-	    Pattern pattern = Pattern.compile("\\r\\n");//разбиваем по строчно
+	    Pattern pattern = Pattern.compile("\\r\\n");//СЂР°Р·Р±РёРІР°РµРј РїРѕ СЃС‚СЂРѕС‡РЅРѕ
 	    String[] strings = pattern.split(xml);
-	    for (String s : strings) {//перебираем каждую строку и даем ей тип
+	    for (String s : strings) {//РїРµСЂРµР±РёСЂР°РµРј РєР°Р¶РґСѓСЋ СЃС‚СЂРѕРєСѓ Рё РґР°РµРј РµР№ С‚РёРї
 	    	
 		    Matcher mOpen = pOpen.matcher(s);
 		    Matcher mClose = pClose.matcher(s);
@@ -423,24 +424,24 @@ public class RegularExpressions extends TaskSelection{
 	        if (mWithOutCont.find()) {
 		    	start=mWithOutCont.start();
 		        end=mWithOutCont.end();
-		        System.out.println(s.substring(start, end)+" - тег без тела");
+		        System.out.println(s.substring(start, end)+" - С‚РµРі Р±РµР· С‚РµР»Р°");
 		    }	        
 	        else if (mOpen.find()) {
 		        start=mOpen.start();
 		        end=mOpen.end();
-		        System.out.println(s.substring(start,end)+" - открывающийся тег");
+		        System.out.println(s.substring(start,end)+" - РѕС‚РєСЂС‹РІР°СЋС‰РёР№СЃСЏ С‚РµРі");
 		    }
 		    
 		    if (mContent.find()) {
 		    	start=mContent.start(2);
 		        end=mContent.end(2);	  
-		    	System.out.println(s.substring(start, end)+" - содержимое тега");
+		    	System.out.println(s.substring(start, end)+" - СЃРѕРґРµСЂР¶РёРјРѕРµ С‚РµРіР°");
 		    }
 		    
 		    if (mClose.find()) {
 		    	start=mClose.start();
 		        end=mClose.end();
-		        System.out.println(s.substring(start, end)+" - закрывающийся тег");
+		        System.out.println(s.substring(start, end)+" - Р·Р°РєСЂС‹РІР°СЋС‰РёР№СЃСЏ С‚РµРі");
 		    }	
 	    }        
 	}
